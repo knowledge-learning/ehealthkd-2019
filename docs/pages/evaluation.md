@@ -3,6 +3,8 @@ title: Evaluation
 permalink: /evaluation
 ---
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
 # Submission details
 
 The challenge will be graded on Codalab (exact details will be provided when the train data is released). However, a fully working evaluation script will be provided to participants, that exactly matches the evaluation formulas used in Codalab. This way participants will have the possibility to evaluate their systems offline and perform hyper-parameter tuning with respect to the same evaluation metrics as used in the competition.
@@ -18,9 +20,15 @@ This challenge proposes a main evaluation scenario (Scenario 1) where both subta
 
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
-The exact definition of Correct, Missing, Spurious, Partial and Incorrect is presented in the following sections for each subtask. Then, a standard F1 is computed.
+$$Rec_{ABC} & = & \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + S_A + S_C} $$
 
-F1 will determine the ranking of Scenario 1 and consequently of the eHealthKD challenge.
+$$Prec_{ABC} & = & \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + M_A + M_C} $$
+
+$$F_{1ABC} & = & 2 \cdot \frac{Prec_{ABC} \cdot Rec_{ABC}}{Prec_{ABC} + Rec_{ABC}} $$
+
+> F1 will determine the ranking of Scenario 1 and consequently of the eHealthKD challenge.
+
+The exact definition of Correct, Missing, Spurious, Partial and Incorrect is presented in the following sections for each subtask.
 
 ## Optional Subtask A (Scenario 2)
 
