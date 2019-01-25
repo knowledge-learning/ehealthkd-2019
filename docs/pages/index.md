@@ -40,7 +40,7 @@ The ID is a numerical identifier that will be used in Subtask B to link key phra
 The TEXT portion simply reproduces the full text of the key phrase. This portion will be ignored in the evaluation, so participants are free not to produce it, but it will be provided in all training documents, and we recommend participants to also produce it, since it simplifies manual inspection during development.
 LABEL is one of the previous four categories defined. In this example, a possible output file is the following:
 
-
+<script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/pages/sample_output_a.txt?footer=minimal"></script>
 
 ## Subtask B: Detection of semantic relations
 
