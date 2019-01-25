@@ -20,11 +20,11 @@ This challenge proposes a main evaluation scenario (Scenario 1) where both subta
 
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
-$$Rec_{ABC} & = & \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + S_A + S_C} $$
+$$Rec_{ABC} = \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + S_A + S_C} $$
 
-$$Prec_{ABC} & = & \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + M_A + M_C} $$
+$$Prec_{ABC} = \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + M_A + M_C} $$
 
-$$F_{1ABC} & = & 2 \cdot \frac{Prec_{ABC} \cdot Rec_{ABC}}{Prec_{ABC} + Rec_{ABC}} $$
+$$F_{1ABC} = 2 \cdot \frac{Prec_{ABC} \cdot Rec_{ABC}}{Prec_{ABC} + Rec_{ABC}} $$
 
 > F1 will determine the ranking of Scenario 1 and consequently of the eHealthKD challenge.
 
