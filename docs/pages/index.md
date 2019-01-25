@@ -19,22 +19,21 @@ This challenge can be of interest for experts in the field of natural language p
 
 To simplify the evaluation process, two subtasks are presented:
 
-1. [Identification and classification of phrases](tasks/#identification-and-classification-of-phrases)
-2. [Detection of semantic relations](tasks/#detection-of-semantic-relations)
+1. [Identification and classification of phrases](tasks#identification-and-classification-of-phrases)
+2. [Detection of semantic relations](tasks#detection-of-semantic-relations)
 
 ## Submissions and evaluation
 
 The challenge will be graded in Codalab. [Details about submissions are provided here](evaluation).
 
 There are three evaluation scenarios:
-1. [A main scenario covering both tasks](evaluation/#main-evaluation-scenario-1)
-2. [An optional scenario evaluating subtask A](evaluation/#optional-subtask-a-scenario-2)
+1. [A main scenario covering both tasks](evaluation#main-evaluation-scenario-1)
+2. [An optional scenario evaluating subtask A](evaluation#optional-subtask-a-scenario-2)
 3. [An optional scenario evaluation subtask B](evaluation#optional-subtask-b-scenario-3)
 
 ## Resources
 
 All the data will be made available to participants in due time. This includes training, development and test data, as well as evaluation scripts and sample submissions. [More details are provided here](resources).
-
 
 ## Schedule
 
