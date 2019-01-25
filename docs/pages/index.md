@@ -37,12 +37,21 @@ There are four categories or classes for key phrases:
 * **Reference:** A textual element that refers to a concept --of the same sentence or of different one--, which can be indicated by textual clues such as esta, aquel, etc.
 
 Subtask A input is a text document with a sentence per line. All sentences have been tokenized at the word level (i.e., punctuation signs, parenthesis, etc, are separated from the surrounding text). The output consists of a plain text file, where each line represents a key phrase. Each line has the following format:
+
+```
 ID \tab START END ; START END \tab LABEL \tab TEXT
+```
+
+> **NOTE**: It doesn't really matter how many tabs exist between each column, but at least one tab must exist between columns.
+
+
 The ID is a numerical identifier that will be used in Subtask B to link key phrases with their  relations. The START and END indicate the starting and ending character of the text span. Multi-word phrases such as vías respiratorias where all the words are continuous can either be indicated by a single START / END pair or by several START / END (one for each word) separated by semicolons (;). Multi-word phrases where the words are not continuous must use semicolons to separate the different portions of the phrase. In the training documents we will always represent multi-word phrases separately for consistency.
 The TEXT portion simply reproduces the full text of the key phrase. This portion will be ignored in the evaluation, so participants are free not to produce it, but it will be provided in all training documents, and we recommend participants to also produce it, since it simplifies manual inspection during development.
 LABEL is one of the previous four categories defined. In this example, a possible output file is the following:
 
 <script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/pages/sample_output_a.txt?footer=minimal"></script>
+
+> **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
 
 ## Subtask B: Detection of semantic relations
 
@@ -59,7 +68,7 @@ IMAGEN
 
 The semantic relations are divided in different categories:
 
-**General relations (6):** general-purpose relations between two concepts (it involves Concept, Action, Predicate, and Reference) that have a specific semantic. When any of these relations applies, it is preferred over a domain relation --tagging a key phrase as a link between two information units--, since their 
+**General relations (6):** general-purpose relations between two concepts (it involves Concept, Action, Predicate, and Reference) that have a specific semantic. When any of these relations applies, it is preferred over a domain relation --tagging a key phrase as a link between two information units--, since their
 semantic is independent of any textual label:
 
 * **is-a:** indicates that one concept is a subtype, instance, or member of the class identified by the other.
@@ -100,11 +109,11 @@ The LABEL (i.e. column 1) is one of the previously defined, and the IDs correspo
 
 > **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
 
-### Evaluation measures and submission
+## Evaluation measures and submission
 
 This challenge proposes a main evaluation scenario (Scenario 1) where both subtasks previously described are performed in sequence. The submission that obtains the highest F1 score for the Scenario 1 will be considered the best overall performing system of the challenge. Additionally, participants will have the opportunity to address specific subtasks by submitting to two optional scenarios, once for each subtask. Scoring tables will be published also for each optional scenario.
 
-## Main Evaluation (Scenario 1)
+### Main Evaluation (Scenario 1)
 
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
@@ -181,7 +190,7 @@ Additional resources:
 Participants may freely use any additional resources they consider necessary to improve their systems, from other corpora (annotated or not), to external knowledge either explicitly (i.e., using knowledge bases) or implicitly (i.e., captured in word embeddings). For the purpose of sharing the results we expect participants to fully disclose everything they use.
 However, participants may not manually annotate the test set, since doing so would be in violation of the ethics of the competition. Furthermore, we expect participants to perform all the fine tuning using only the training and development, and then perform one single run in the test set for submission, so that no accidental overfitting occurs in the test set.
 
-## Schedule 
+## Schedule
 
 |Date|Event|
 |---|---|
@@ -195,11 +204,11 @@ However, participants may not manually annotate the test set, since doing so wou
 | **14 Jun 2019** | Paper reviews due |
 | **17 Jun 2019** | Author notifications |
 | **24 Jun 2019** | Camera ready submissions due |
-	
+
 ## Organization committee
 
 | Name |	Email |	Institution |
-|-|-|-| 
+|-|-|-|
 | Yoan Gutiérrez Vázquez | ygutierrez@dlsi.ua.es | University of Alicante, Spain |
 | Suilan Estévez Velarde | sestevez@matcom.uh.cu | University of Havana, Cuba |
 | Yudivián Almeida Cruz | yudy@matcom.uh.cu | University of Havana, Cuba |
@@ -207,16 +216,21 @@ However, participants may not manually annotate the test set, since doing so wou
 | Andrés Montoyo Guijarro | montoyo@dlsi.ua.es | University of Alicante, Spain |
 | Rafael Muñoz Guillena | rafael@dlsi.ua.es | University of Alicante, Spain |
 
-## Discussion group
+### Discussion group
+
 A Google Group will be set up for this “eHealth Shared Task” where announcements will be made. Do send your questions and feedback to (ehealth-kd@googlegroups.com).
 
-## Chairs group
+### Chairs group
+
 A Google Group will be set up for this “eHealth Shared Task” where announcements will be made. Do send your questions and feedback to (chairs_ehealth-kd@googlegroups.com).
 
-## Funding
+### Funding
+
 This research has been supported by a Carolina Foundation grant in agreement with University of Alicante and University of Havana, sponsoring to Suilan Estevez-Velarde. Moreover, it has also been partially funded by both aforementioned universities, Generalitat Valenciana, Spanish Government, Ministerio de Educación, Cultura y Deporte through the projects, TIN2015- 65100-R, TIN2015-65136-C2-2-R and PROMETEU/2018/089.
-Contact
-Yoan Gutiérrez Vázquez (ygutierrez@dlsi.ua.es)
+
+### Contact
+
+Yoan Gutiérrez Vázquez ([ygutierrez@dlsi.ua.es]())
 
 
 ## References
@@ -225,7 +239,4 @@ Yoan Gutiérrez Vázquez (ygutierrez@dlsi.ua.es)
 
 **[2]**   Giunchiglia, F., & Fumagalli, M. (2017, November). Teleologies: Objects, Actions and Functions. In International Conference on Conceptual Modeling (pp. 520-534). Springer, Cham.
 
-**[3]**   MedlinePlus [Internet]. Bethesda (MD): National Library of Medicine (US). Available from: https://medlineplus.gov/.
-________________
-[1] http://alt.qcri.org/semeval2017/task10/
-[2] http://www.sepln.org/workshops/tass/2018/task-3/
+**[3]**   MedlinePlus (Internet). Bethesda (MD): National Library of Medicine (US). Available from: [https://medlineplus.gov/]().
