@@ -57,7 +57,8 @@ ID   START/END        LABEL            TEXT (optional)
 15   192 194;195 199        Concept          60 años
 
 
-Subtask B: Detection of semantic relations
+##Subtask B: Detection of semantic relations
+
 Subtask B continues from the output of Subtask B, by linking the key phrases detected and labelled in each document. The purpose of this subtask is to recognize all relevant semantic relationships between the entities recognized. Eight of the thirteen semantic relations defined for this challenge can be identified in the following example:
 
 IMAGEN
@@ -70,25 +71,37 @@ IMAGEN
 
 
 The semantic relations are divided in different categories:
-General relations (6): general-purpose relations between two concepts (it involves Concept, Action, Predicate, and Reference) that have a specific semantic. When any of these relations applies, it is preferred over a domain relation --tagging a key phrase as a link between two information units--, since their semantic is independent of any textual label:
-* is-a: indicates that one concept is a subtype, instance, or member of the class identified by the other.
-* same-as; indicates that two concepts are semantically the same.
-* has-property: indicates that one concept has a given property or characteristic.
-* part-of: indicates that a concept is a constituent part of another.
-* causes: indicates that one concept provoques the existence or occurrence of another.
-* entails: indicates that the existence of one concept implies the existence or occurrence of another.
-Contextual relations (3): allow to refine a concept (it involves Concept, Action, Predicate, and Reference) by attaching modifiers. These are:
-* in-time: to indicate that something exists, occurs or is confined to a time-frame, such as in exposición in-time verano.
-* in-place: to indicate that something exists, occurs or is confined to a place or location.
-* in-context: to indicate a general context in which something happens, like a mode, manner, or state, such as exposición in-context prolongada.
-Action roles (2): indicate which role plays the concepts related to an Action:
-* subject: indicates who performs the action, such as in [el] asma afecta [...].
-* target: indicates who receives the effect of the action, such as in [...] afecta [las] vías respiratorias.
+
+General relations (6): general-purpose relations between two concepts (it involves Concept, Action, Predicate, and Reference) that have a specific semantic. When any of these relations applies, it is preferred over a domain relation --tagging a key phrase as a link between two information units--, since their 
+
+semantic is independent of any textual label:
+
+* **is-a:** indicates that one concept is a subtype, instance, or member of the class identified by the other.
+* **same-as:** indicates that two concepts are semantically the same.
+* *has-property:* indicates that one concept has a given property or characteristic.
+* **part-of:** indicates that a concept is a constituent part of another.
+* **causes:** indicates that one concept provoques the existence or occurrence of another.
+* **entails:** indicates that the existence of one concept implies the existence or occurrence of another.
+
+**Contextual relations (3):** allow to refine a concept (it involves Concept, Action, Predicate, and Reference) by attaching modifiers. These are:
+
+* **in-time:** to indicate that something exists, occurs or is confined to a time-frame, such as in exposición in-time verano.
+* **in-place:** to indicate that something exists, occurs or is confined to a place or location.
+* **in-context:8* to indicate a general context in which something happens, like a mode, manner, or state, such as exposición in-context prolongada.
+
+**Action roles (2):** indicate which role plays the concepts related to an Action:
+
+* **subject:** indicates who performs the action, such as in [el] asma afecta [...].
+* **target:** indicates who receives the effect of the action, such as in [...] afecta [las] vías respiratorias.
 Actions can have several subjects and targets, in which case the semantic interpreted is that the union of the subjects performs the action over each of the targets.
-Predicate roles (2): indicate which role plays the concepts related to a Predicate:
-* domain: indicates the main concept on which the predicate applies.
-* arg: indicates an additional concept that specifies a value for the predicate to make sense. The exact semantic of this argument depends on the semantic of the predicate label, such as in mayores [de] 60 años, where the predicate label mayores indicates that 60 años is a quantity, that restricts the minimum age for the predicate to be true.
+
+**Predicate roles (2):** indicate which role plays the concepts related to a Predicate:
+
+* **domain:** indicates the main concept on which the predicate applies.
+* **arg:** indicates an additional concept that specifies a value for the predicate to make sense. The exact semantic of this argument depends on the semantic of the predicate label, such as in mayores [de] 60 años, where the predicate label mayores indicates that 60 años is a quantity, that restricts the minimum age for the predicate to be true.
+
 The output for Subtask B is a plain text file where each line corresponds to a semantic relation between two key phrases, in the format:
+
 LABEL \tab SOURCE-ID \tab DEST-ID
 The LABEL (i.e. column 1) is one of the previously defined, and the IDs correspond to the participants in the relation. Note that every relation is directed, hence the SOURCE-ID (i.e. column 2) and the DEST-ID (i.e column 3) must match the right direction, except for same-as which is symmetric, so both directions are equivalent. For the previous example the output is:
 LABEL           ID      ID
@@ -106,24 +119,29 @@ domain          14      13
 arg             14      15
 
 
-Evaluation measures and submission
+###Evaluation measures and submission
+
 This challenge proposes a main evaluation scenario (Scenario 1) where both subtasks previously described are performed in sequence. The submission that obtains the highest F1 score for the Scenario 1 will be considered the best overall performing system of the challenge. Additionally, participants will have the opportunity to address specific subtasks by submitting to two optional scenarios, once for each subtask. Scoring tables will be published also for each optional scenario.
-Main Evaluation (Scenario 1)
+
+##Main Evaluation (Scenario 1)
+
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
 
 The exact definition of Correct, Missing, Spurious, Partial and Incorrect is presented in the following sections for each subtask. Then, a standard F1 is computed.
 
 F1 will determine the ranking of Scenario 1 and consequently of the eHealthKD challenge.
-Optional Subtask A (Scenario 2)
+
+###Optional Subtask A (Scenario 2)
+
 This scenario only evaluates Subtask A. The input is a plain text with several sentences and the output is as described in Subtask A. To compute the scores we define correct, partial, missing, incorrect and spurious matches. The expected and actual output files do not need to agree on the ID for each phrase, nor on their order. The evaluator matches are based on the START and END values and LABEL. A brief description about the metrics follows:
 
 
-* Correct matches are reported when a text in the dev file matches exactly with a corresponding text span in the gold file in START and END values, and also LABEL. Only one correct match per entry in the gold file can be matched. Hence, duplicated entries will count as Spurious.
-* Incorrect matches are reported when START and END values match, but not the LABEL.
-* Partial matches are reported when two intervals [START, END] have a non-empty intersection, such as the case of “vías respiratorias” and “respiratorias” in the previous example (and matching LABEL). Notice that a partial phrase will only be matched against a single correct phrase. For example, “tipo de cáncer” could be a partial match for both “tipo” and “cáncer”, but it is only counted once as a partial match with the word “tipo”. The word “cancer” is counted then as Missing. This aims to discourage a few large text spans that cover most of the document from getting a very high score.
-* Missing matches are those that appear in the gold file but not in the dev file.
-* Spurious matches are those that appear in the dev file but not in the gold file.
+* **Correct matches** are reported when a text in the dev file matches exactly with a corresponding text span in the gold file in START and END values, and also LABEL. Only one correct match per entry in the gold file can be matched. Hence, duplicated entries will count as Spurious.
+* **Incorrect matches** are reported when START and END values match, but not the LABEL.
+* **Partial matches** are reported when two intervals [START, END] have a non-empty intersection, such as the case of “vías respiratorias” and “respiratorias” in the previous example (and matching LABEL). Notice that a partial phrase will only be matched against a single correct phrase. For example, “tipo de cáncer” could be a partial match for both “tipo” and “cáncer”, but it is only counted once as a partial match with the word “tipo”. The word “cancer” is counted then as Missing. This aims to discourage a few large text spans that cover most of the document from getting a very high score.
+* **Missing matches** are those that appear in the gold file but not in the dev file.
+* **Spurious matches** are those that appear in the dev file but not in the gold file.
 
 
 From these definitions, we compute precision, recall, and a standard F1 measure as follows:
