@@ -1,4 +1,4 @@
-LABEL		ID-FROM		ID-TO
+LABEL		SOURCE-ID	DEST-ID
 subject		3		1
 target		3		4
 in-context	5		6
