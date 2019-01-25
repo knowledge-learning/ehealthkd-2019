@@ -26,7 +26,7 @@ To simplify the evaluation process, two subtasks are presented:
 
 Given a list of eHealth documents written in Spanish, the goal of this subtask is to identify all the key phrases per document and their classes. These key phrases are all the relevant terms (single word or multiple words) that represent semantically important elements in a sentence. The following figure shows the relevant key phrases that appear in the example sentences shown in the previous section.
 
-IMAGEN
+![](/img/task_a.png)
 
 Note that some key phrases (vías respiratorias and 60 años) span more than one word. Key phrases will always consist of one or more complete words (i.e., not a prefix or a suffix of a word), and will never include any surrounding punctuation symbols.
 There are four categories or classes for key phrases:
@@ -49,7 +49,7 @@ The ID is a numerical identifier that will be used in Subtask B to link key phra
 The TEXT portion simply reproduces the full text of the key phrase. This portion will be ignored in the evaluation, so participants are free not to produce it, but it will be provided in all training documents, and we recommend participants to also produce it, since it simplifies manual inspection during development.
 LABEL is one of the previous four categories defined. In this example, a possible output file is the following:
 
-<script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/pages/sample_output_a.txt?footer=minimal"></script>
+<script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/sample_output_a.txt?footer=minimal"></script>
 
 > **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
 
@@ -57,14 +57,7 @@ LABEL is one of the previous four categories defined. In this example, a possibl
 
 Subtask B continues from the output of Subtask B, by linking the key phrases detected and labelled in each document. The purpose of this subtask is to recognize all relevant semantic relationships between the entities recognized. Eight of the thirteen semantic relations defined for this challenge can be identified in the following example:
 
-IMAGEN
-
-
-
-
-
-
-
+![](/img/task_b.png)
 
 The semantic relations are divided in different categories:
 
@@ -105,7 +98,7 @@ LABEL \tab SOURCE-ID \tab DEST-ID
 
 The LABEL (i.e. column 1) is one of the previously defined, and the IDs correspond to the participants in the relation. Note that every relation is directed, hence the SOURCE-ID (i.e. column 2) and the DEST-ID (i.e column 3) must match the right direction, except for same-as which is symmetric, so both directions are equivalent. For the previous example the output is:
 
-<script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/pages/sample_output_b.txt?footer=minimal"></script>
+<script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/sample_output_b.txt?footer=minimal"></script>
 
 > **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
 
@@ -164,7 +157,7 @@ We define standard precision, recall and F1 metrics as follows:
 
 
 NOTE: The Scenario 1 is more complex than solving each optional scenario separately, since errors in subtask A will necessary translate to errors in subtask B. For this reason it is considered the main evaluation metric. Additionally, this scenario also provides the possibility for integrated end-to-end solutions that solve both subtask simultaneously.
-	
+
 ## Submissions and evaluation
 The challenge will be graded on Codalab (exact details will be provided in the official announcement). However, a fully working evaluation script will be provided to participants, that exactly matches the evaluation formulas used in Codalab. This way participants will have the possibility to evaluate their systems offline and perform hyper-parameter tuning with respect to the same evaluation metrics as used in the competition.
 The corpus will be divided into three sections. Training and development sets will be published along with baseline implementations, for participants to train and fine-tune their systems. These files will consist of both plain text input and the expected outputs for both subtasks. Afterward, a small test set will be released, with plain text only, further divided into 3 sub-sets, one for each scenario. Participants are expected to submit the corresponding output files to Codalab.
