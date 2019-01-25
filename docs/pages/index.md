@@ -19,8 +19,8 @@ This challenge can be of interest for experts in the field of natural language p
 
 To simplify the evaluation process, two subtasks are presented:
 
-1. [Identification and classification of phrases](tasks#identification-and-classification-of-phrases)
-2. [Detection of semantic relations](tasks#detection-of-semantic-relations)
+1. [Identification and classification of phrases](tasks#subtask-a-identification-and-classification-of-phrases)
+2. [Detection of semantic relations](tasks#subtask-b-detection-of-semantic-relations)
 
 ## Submissions and evaluation
 
