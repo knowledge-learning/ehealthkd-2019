@@ -42,7 +42,7 @@ LABEL is one of the previous four categories defined. In this example, a possibl
 
 
 
-##Subtask B: Detection of semantic relations
+## Subtask B: Detection of semantic relations
 
 Subtask B continues from the output of Subtask B, by linking the key phrases detected and labelled in each document. The purpose of this subtask is to recognize all relevant semantic relationships between the entities recognized. Eight of the thirteen semantic relations defined for this challenge can be identified in the following example:
 
@@ -92,11 +92,11 @@ The LABEL (i.e. column 1) is one of the previously defined, and the IDs correspo
 
 
 
-###Evaluation measures and submission
+### Evaluation measures and submission
 
 This challenge proposes a main evaluation scenario (Scenario 1) where both subtasks previously described are performed in sequence. The submission that obtains the highest F1 score for the Scenario 1 will be considered the best overall performing system of the challenge. Additionally, participants will have the opportunity to address specific subtasks by submitting to two optional scenarios, once for each subtask. Scoring tables will be published also for each optional scenario.
 
-##Main Evaluation (Scenario 1)
+## Main Evaluation (Scenario 1)
 
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
@@ -105,7 +105,7 @@ The exact definition of Correct, Missing, Spurious, Partial and Incorrect is pre
 
 F1 will determine the ranking of Scenario 1 and consequently of the eHealthKD challenge.
 
-###Optional Subtask A (Scenario 2)
+### Optional Subtask A (Scenario 2)
 
 This scenario only evaluates Subtask A. The input is a plain text with several sentences and the output is as described in Subtask A. To compute the scores we define correct, partial, missing, incorrect and spurious matches. The expected and actual output files do not need to agree on the ID for each phrase, nor on their order. The evaluator matches are based on the START and END values and LABEL. A brief description about the metrics follows:
 
@@ -127,11 +127,14 @@ From these definitions, we compute precision, recall, and a standard F1 measure 
 
 
 F1 will determine the ranking of Scenario 2.
-Optional Subtask B (Scenario 3)
+
+### Optional Subtask B (Scenario 3)
+
 This scenario only evaluates Subtask B. The input is plain text and the correct outputs from Subtask A. The expected output is as described in Subtask C. Similarly to previous scenarios, we define the correct, missing and spurious items, defined as follows:
-* Correct: relationships that matched exactly to the gold file, including the LABEL and the corresponding IDs for each of the participants.
-* Missing: relationships that are in the gold file but not in the dev file, either because the LABEL is wrong, or because one of the IDs didn’t match.
-* Spurious: relationships that are in the dev file but not in the gold file, either because the LABEL is wrong, or because one of the IDs didn’t match.
+
+* **Correct:** relationships that matched exactly to the gold file, including the LABEL and the corresponding IDs for each of the participants.
+* **Missing:** relationships that are in the gold file but not in the dev file, either because the LABEL is wrong, or because one of the IDs didn’t match.
+* **Spurious:** relationships that are in the dev file but not in the gold file, either because the LABEL is wrong, or because one of the IDs didn’t match.
 
 
 We define standard precision, recall and F1 metrics as follows:
