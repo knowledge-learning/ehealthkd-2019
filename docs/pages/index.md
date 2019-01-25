@@ -214,9 +214,11 @@ Yoan Gutiérrez Vázquez (ygutierrez@dlsi.ua.es)
 
 ## References
 
-[1] Gonzalez-Hernandez, G. and Sarker, A. and O’Connor, K. and Savova, G. Capturing the Patient’s Perspective: a Review of Advances in Natural Language Processing of Health-Related Text. Yearbook of medical informatics; 26(01), p 214--227. 2017
-[2]   Giunchiglia, F., & Fumagalli, M. (2017, November). Teleologies: Objects, Actions and Functions. In International Conference on Conceptual Modeling (pp. 520-534). Springer, Cham.
-[3]   MedlinePlus [Internet]. Bethesda (MD): National Library of Medicine (US). Available from: https://medlineplus.gov/.
+**[1]** Gonzalez-Hernandez, G. and Sarker, A. and O’Connor, K. and Savova, G. Capturing the Patient’s Perspective: a Review of Advances in Natural Language Processing of Health-Related Text. Yearbook of medical informatics; 26(01), p 214--227. 2017
+
+**[2]**   Giunchiglia, F., & Fumagalli, M. (2017, November). Teleologies: Objects, Actions and Functions. In International Conference on Conceptual Modeling (pp. 520-534). Springer, Cham.
+
+**[3]**   MedlinePlus [Internet]. Bethesda (MD): National Library of Medicine (US). Available from: https://medlineplus.gov/.
 ________________
 [1] http://alt.qcri.org/semeval2017/task10/
 [2] http://www.sepln.org/workshops/tass/2018/task-3/
