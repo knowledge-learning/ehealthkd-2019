@@ -64,27 +64,27 @@ semantic is independent of any textual label:
 
 * **is-a:** indicates that one concept is a subtype, instance, or member of the class identified by the other.
 * **same-as:** indicates that two concepts are semantically the same.
-* *has-property:* indicates that one concept has a given property or characteristic.
+* **has-property:** indicates that one concept has a given property or characteristic.
 * **part-of:** indicates that a concept is a constituent part of another.
 * **causes:** indicates that one concept provoques the existence or occurrence of another.
 * **entails:** indicates that the existence of one concept implies the existence or occurrence of another.
 
 **Contextual relations (3):** allow to refine a concept (it involves Concept, Action, Predicate, and Reference) by attaching modifiers. These are:
 
-* **in-time:** to indicate that something exists, occurs or is confined to a time-frame, such as in exposición in-time verano.
+* **in-time:** to indicate that something exists, occurs or is confined to a time-frame, such as in “exposición” in-time “verano”.
 * **in-place:** to indicate that something exists, occurs or is confined to a place or location.
-* **in-context:8* to indicate a general context in which something happens, like a mode, manner, or state, such as exposición in-context prolongada.
+* **in-context:** to indicate a general context in which something happens, like a mode, manner, or state, such as “exposición” in-context “prolongada”.
 
 **Action roles (2):** indicate which role plays the concepts related to an Action:
 
-* **subject:** indicates who performs the action, such as in [el] asma afecta [...].
-* **target:** indicates who receives the effect of the action, such as in [...] afecta [las] vías respiratorias.
+* **subject:** indicates who performs the action, such as in “[el] asma afecta [...]”.
+* **target:** indicates who receives the effect of the action, such as in “[...] afecta [las] vías respiratorias”.
 Actions can have several subjects and targets, in which case the semantic interpreted is that the union of the subjects performs the action over each of the targets.
 
 **Predicate roles (2):** indicate which role plays the concepts related to a Predicate:
 
 * **domain:** indicates the main concept on which the predicate applies.
-* **arg:** indicates an additional concept that specifies a value for the predicate to make sense. The exact semantic of this argument depends on the semantic of the predicate label, such as in mayores [de] 60 años, where the predicate label mayores indicates that 60 años is a quantity, that restricts the minimum age for the predicate to be true.
+* **arg:** indicates an additional concept that specifies a value for the predicate to make sense. The exact semantic of this argument depends on the semantic of the predicate label, such as in “mayores [de]60 años”, where the predicate label “mayores” indicates that “60 años” is a quantity, that restricts the minimum age for the predicate to be true.
 
 The output for Subtask B is a plain text file where each line corresponds to a semantic relation between two key phrases, in the format:
 
@@ -148,7 +148,8 @@ We define standard precision, recall and F1 metrics as follows:
 
 
 NOTE: The Scenario 1 is more complex than solving each optional scenario separately, since errors in subtask A will necessary translate to errors in subtask B. For this reason it is considered the main evaluation metric. Additionally, this scenario also provides the possibility for integrated end-to-end solutions that solve both subtask simultaneously.
-	Submissions and evaluation
+	
+## Submissions and evaluation
 The challenge will be graded on Codalab (exact details will be provided in the official announcement). However, a fully working evaluation script will be provided to participants, that exactly matches the evaluation formulas used in Codalab. This way participants will have the possibility to evaluate their systems offline and perform hyper-parameter tuning with respect to the same evaluation metrics as used in the competition.
 The corpus will be divided into three sections. Training and development sets will be published along with baseline implementations, for participants to train and fine-tune their systems. These files will consist of both plain text input and the expected outputs for both subtasks. Afterward, a small test set will be released, with plain text only, further divided into 3 sub-sets, one for each scenario. Participants are expected to submit the corresponding output files to Codalab.
 
