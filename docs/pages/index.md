@@ -42,7 +42,7 @@ LABEL is one of the previous four categories defined. In this example, a possibl
 
 
 
-##Subtask B: Detection of semantic relations
+## Subtask B: Detection of semantic relations
 
 Subtask B continues from the output of Subtask B, by linking the key phrases detected and labelled in each document. The purpose of this subtask is to recognize all relevant semantic relationships between the entities recognized. Eight of the thirteen semantic relations defined for this challenge can be identified in the following example:
 
@@ -57,7 +57,7 @@ IMAGEN
 
 The semantic relations are divided in different categories:
 
-General relations (6): general-purpose relations between two concepts (it involves Concept, Action, Predicate, and Reference) that have a specific semantic. When any of these relations applies, it is preferred over a domain relation --tagging a key phrase as a link between two information units--, since their 
+General relations (6): general-purpose relations between two concepts (it involves Concept, Action, Predicate, and Reference) that have a specific semantic. When any of these relations applies, it is preferred over a domain relation --tagging a key phrase as a link between two information units--, since their
 
 semantic is independent of any textual label:
 
@@ -92,11 +92,11 @@ The LABEL (i.e. column 1) is one of the previously defined, and the IDs correspo
 
 
 
-###Evaluation measures and submission
+### Evaluation measures and submission
 
 This challenge proposes a main evaluation scenario (Scenario 1) where both subtasks previously described are performed in sequence. The submission that obtains the highest F1 score for the Scenario 1 will be considered the best overall performing system of the challenge. Additionally, participants will have the opportunity to address specific subtasks by submitting to two optional scenarios, once for each subtask. Scoring tables will be published also for each optional scenario.
 
-##Main Evaluation (Scenario 1)
+## Main Evaluation (Scenario 1)
 
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
@@ -105,7 +105,7 @@ The exact definition of Correct, Missing, Spurious, Partial and Incorrect is pre
 
 F1 will determine the ranking of Scenario 1 and consequently of the eHealthKD challenge.
 
-###Optional Subtask A (Scenario 2)
+### Optional Subtask A (Scenario 2)
 
 This scenario only evaluates Subtask A. The input is a plain text with several sentences and the output is as described in Subtask A. To compute the scores we define correct, partial, missing, incorrect and spurious matches. The expected and actual output files do not need to agree on the ID for each phrase, nor on their order. The evaluator matches are based on the START and END values and LABEL. A brief description about the metrics follows:
 
