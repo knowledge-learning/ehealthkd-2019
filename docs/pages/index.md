@@ -39,22 +39,7 @@ ID \tab START END ; START END \tab LABEL \tab TEXT
 The ID is a numerical identifier that will be used in Subtask B to link key phrases with their  relations. The START and END indicate the starting and ending character of the text span. Multi-word phrases such as vías respiratorias where all the words are continuous can either be indicated by a single START / END pair or by several START / END (one for each word) separated by semicolons (;). Multi-word phrases where the words are not continuous must use semicolons to separate the different portions of the phrase. In the training documents we will always represent multi-word phrases separately for consistency.
 The TEXT portion simply reproduces the full text of the key phrase. This portion will be ignored in the evaluation, so participants are free not to produce it, but it will be provided in all training documents, and we recommend participants to also produce it, since it simplifies manual inspection during development.
 LABEL is one of the previous four categories defined. In this example, a possible output file is the following:
-ID   START/END        LABEL            TEXT (optional)
-	1    3 7               Concept          asma
-2    15 25               Concept          enfermedad
-3    30 36               Action           afecta
-4    41 45;46 59        Concept          vías respiratorias
-5    65 75               Action           exposición
-6    76 86               Concept          prolongada
-7    90 93               Concept          sol
-8    97 103               Concept          verano
-9    120 125               Action           daños
-10   132 136               Concept          piel
-11   139 143               Reference        Esta
-12   144 150               Action           afecta
-13   172 180               Concept          personas
-14   181 188               Predicate        mayores
-15   192 194;195 199        Concept          60 años
+
 
 
 Subtask B: Detection of semantic relations
@@ -91,19 +76,7 @@ Predicate roles (2): indicate which role plays the concepts related to a Predica
 The output for Subtask B is a plain text file where each line corresponds to a semantic relation between two key phrases, in the format:
 LABEL \tab SOURCE-ID \tab DEST-ID
 The LABEL (i.e. column 1) is one of the previously defined, and the IDs correspond to the participants in the relation. Note that every relation is directed, hence the SOURCE-ID (i.e. column 2) and the DEST-ID (i.e column 3) must match the right direction, except for same-as which is symmetric, so both directions are equivalent. For the previous example the output is:
-LABEL           ID      ID
-	subject         3       1
-target          3       4
-in-context      5       6
-target          5       7
-in-time         5       8
-target          9       10
-is-a            1       2
-causes          5       9
-subject         12      11
-target          12      14
-domain          14      13
-arg             14      15
+
 
 
 Evaluation measures and submission
