@@ -20,11 +20,11 @@ This challenge proposes a main evaluation scenario (Scenario 1) where both subta
 
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
-$$Rec_{ABC} = \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + S_A + S_C} $$
+$$Rec_{AB} = \frac{C_A + C_B + \frac{1}{2} P_A}{C_A + I_A + C_B + P_A + S_A + S_B} $$
 
-$$Prec_{ABC} = \frac{C_A + I_A + C_C + \frac{1}{2} P_A}{C_A + I_A + C_C + P_A + M_A + M_C} $$
+$$Prec_{AB} = \frac{C_A + C_B + \frac{1}{2} P_A}{C_A + I_A + C_B + P_A + M_A + M_B} $$
 
-$$F_{1ABC} = 2 \cdot \frac{Prec_{ABC} \cdot Rec_{ABC}}{Prec_{ABC} + Rec_{ABC}} $$
+$$F_{1AB} = 2 \cdot \frac{Prec_{AB} \cdot Rec_{AB}}{Prec_{AB} + Rec_{AB}} $$
 
 > F1 will determine the ranking of Scenario 1 and consequently of the eHealthKD challenge.
 
@@ -42,6 +42,12 @@ This scenario only evaluates Subtask A. The input is a plain text with several s
 
 From these definitions, we compute precision, recall, and a standard F1 measure as follows:
 
+$$Rec_{A} = \frac{C_A + \frac{1}{2} P_A}{C_A + I_A + P_A + S_A} $$
+
+$$Prec_{A} = \frac{C_A + \frac{1}{2} P_A}{C_A + I_A + P_A + M_A} $$
+
+$$F_{1A} = 2 \cdot \frac{Prec_{A} \cdot Rec_{A}}{Prec_{A} + Rec_{A}} $$
+
 > A higher precision means that the number of spurious identifications is smaller compared to the number of missing identifications, and a higher recall means the opposite. Partial matches are given half the score of correct matches, while missing and spurious identifications are given no score.
 
 > F1 will determine the ranking of Scenario 2.
@@ -55,6 +61,12 @@ This scenario only evaluates Subtask B. The input is plain text and the correct 
 * **Spurious:** relationships that are in the dev file but not in the gold file, either because the LABEL is wrong, or because one of the IDs didn’t match.
 
 We define standard precision, recall and F1 metrics as follows:
+
+$$Rec_{B} = \frac{C_B}{C_B + S_B} $$
+
+$$Prec_{B} = \frac{C_B}{C_B + M_B} $$
+
+$$F_{1B} = 2 \cdot \frac{Prec_{B} \cdot Rec_{B}}{Prec_{B} + Rec_{B}} $$
 
 > F1 will determine the ranking of Scenario 3.
 
