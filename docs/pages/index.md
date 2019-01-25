@@ -127,11 +127,14 @@ From these definitions, we compute precision, recall, and a standard F1 measure 
 
 
 F1 will determine the ranking of Scenario 2.
-Optional Subtask B (Scenario 3)
+
+### Optional Subtask B (Scenario 3)
+
 This scenario only evaluates Subtask B. The input is plain text and the correct outputs from Subtask A. The expected output is as described in Subtask C. Similarly to previous scenarios, we define the correct, missing and spurious items, defined as follows:
-* Correct: relationships that matched exactly to the gold file, including the LABEL and the corresponding IDs for each of the participants.
-* Missing: relationships that are in the gold file but not in the dev file, either because the LABEL is wrong, or because one of the IDs didn’t match.
-* Spurious: relationships that are in the dev file but not in the gold file, either because the LABEL is wrong, or because one of the IDs didn’t match.
+
+* **Correct:** relationships that matched exactly to the gold file, including the LABEL and the corresponding IDs for each of the participants.
+* **Missing:** relationships that are in the gold file but not in the dev file, either because the LABEL is wrong, or because one of the IDs didn’t match.
+* **Spurious:** relationships that are in the dev file but not in the gold file, either because the LABEL is wrong, or because one of the IDs didn’t match.
 
 
 We define standard precision, recall and F1 metrics as follows:
