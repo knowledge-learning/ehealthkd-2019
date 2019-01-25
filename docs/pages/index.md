@@ -1,5 +1,6 @@
 ---
 title: index
+permalink: /
 ---
 
 # IberLEF eHealth-KD 2019: eHealth Knowledge Discovery
