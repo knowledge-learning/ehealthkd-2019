@@ -26,7 +26,7 @@ To simplify the evaluation process, two subtasks are presented:
 
 Given a list of eHealth documents written in Spanish, the goal of this subtask is to identify all the key phrases per document and their classes. These key phrases are all the relevant terms (single word or multiple words) that represent semantically important elements in a sentence. The following figure shows the relevant key phrases that appear in the example sentences shown in the previous section.
 
-![](/img/task_a.png)
+![](img/task_a.png)
 
 Note that some key phrases (vías respiratorias and 60 años) span more than one word. Key phrases will always consist of one or more complete words (i.e., not a prefix or a suffix of a word), and will never include any surrounding punctuation symbols.
 There are four categories or classes for key phrases:
@@ -57,7 +57,7 @@ LABEL is one of the previous four categories defined. In this example, a possibl
 
 Subtask B continues from the output of Subtask B, by linking the key phrases detected and labelled in each document. The purpose of this subtask is to recognize all relevant semantic relationships between the entities recognized. Eight of the thirteen semantic relations defined for this challenge can be identified in the following example:
 
-![](/img/task_b.png)
+![](img/task_b.png)
 
 The semantic relations are divided in different categories:
 
