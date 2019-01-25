@@ -87,10 +87,17 @@ Actions can have several subjects and targets, in which case the semantic interp
 
 The output for Subtask B is a plain text file where each line corresponds to a semantic relation between two key phrases, in the format:
 
+```
 LABEL \tab SOURCE-ID \tab DEST-ID
+```
+
+> **NOTE**: It doesn't really matter how many tabs exist between each column, but at least one tab must exist between columns.
+
 The LABEL (i.e. column 1) is one of the previously defined, and the IDs correspond to the participants in the relation. Note that every relation is directed, hence the SOURCE-ID (i.e. column 2) and the DEST-ID (i.e column 3) must match the right direction, except for same-as which is symmetric, so both directions are equivalent. For the previous example the output is:
 
+<script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/pages/sample_output_b.txt?footer=minimal"></script>
 
+> **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
 
 ### Evaluation measures and submission
 
