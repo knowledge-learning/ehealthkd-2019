@@ -11,7 +11,9 @@ Over the years many eHealth challenges have taken place, which have attempted to
 
 Inspired by previous NLP shared tasks like [Semeval-2017 Task 10: ScienceIE](http://alt.qcri.org/semeval2017/task10/) and research lines like Teleologies [2],both not specifically focussed on the health area, and related previous TASS challenges, eHealth-KD 2019 proposes --as the previous edition [eHealth-KD 2018](http://www.sepln.org/workshops/tass/2018/task-3/)--  modeling the human language in a scenario in which Spanish electronic health documents could be machine readable from a semantic point of view. With this task, we expect to encourage the development of software technologies to automatically extract a large variety of knowledge from eHealth documents written in the Spanish Language.
 
-Even though this challenge is oriented to the health domain, the structure of the knowledge to be extracted is general-purpose. An example is provided in the following. The semantic structure proposed models four types of information units. Each one represents a specific semantic interpretation, and they make use of thirteen semantic relations among them. The following sections provide a detailed presentation of each unit and relation type.
+Even though this challenge is oriented to the health domain, the structure of the knowledge to be extracted is general-purpose. The semantic structure proposed models four types of information units. Each one represents a specific semantic interpretation, and they make use of thirteen semantic relations among them. The following sections provide a detailed presentation of each unit and relation type. An example is provided in the following picture.
+
+![](img/task_b.png)
 
 This challenge can be of interest for experts in the field of natural language processing, specifically for those working on automatic knowledge extraction and discovery. It is not a requirement to have expertise in health texts processing for dealing with the eHealth-KD task, due to the general purpose of the semantic schema defined. Nevertheless, eHealth researchers could find interesting this challenge to evaluate their technologies that rely on health domain knowledge.
 
@@ -52,35 +54,29 @@ All the data will be made available to participants in due time. This includes t
 
 ## Organization committee
 
-| Name |	Email |	Institution |
-|-|-|-|
-| Yoan Gutiérrez Vázquez | ygutierrez@dlsi.ua.es | University of Alicante, Spain |
-| Suilan Estévez Velarde | sestevez@matcom.uh.cu | University of Havana, Cuba |
-| Yudivián Almeida Cruz | yudy@matcom.uh.cu | University of Havana, Cuba |
-| Alejandro Piad Morffis | apiad@matcom.uh.cu | University of Havana, Cuba |
-| Andrés Montoyo Guijarro | montoyo@dlsi.ua.es | University of Alicante, Spain |
-| Rafael Muñoz Guillena | rafael@dlsi.ua.es | University of Alicante, Spain |
+| Name                     | Email                                                 | Institution                   |
+|--------------------------|-------------------------------------------------------|-------------------------------|
+| Yoan Gutiérrez Vázquez   | [ygutierrez@dlsi.ua.es](mailto:ygutierrez@dlsi.ua.es) | University of Alicante, Spain |
+| Suilan Estévez Velarde   | [sestevez@matcom.uh.cu](mailto:sestevez@matcom.uh.cu) | University of Havana, Cuba    |
+| Alejandro Piad Morffis   | [apiad@matcom.uh.cu](mailto:apiad@matcom.uh.cu)       | University of Havana, Cuba    |
+| Yudivián Almeida Cruz    | [yudy@matcom.uh.cu](mailto:yudy@matcom.uh.cu)         | University of Havana, Cuba    |
+| Andrés Montoyo Guijarro  | [montoyo@dlsi.ua.es](mailto:montoyo@dlsi.ua.es)       | University of Alicante, Spain |
+| Rafael Muñoz Guillena    | [rafael@dlsi.ua.es](mailto:rafael@dlsi.ua.es)         | University of Alicante, Spain |
 
 ### Discussion group
 
-A Google Group will be set up for this “eHealth Shared Task” where announcements will be made. Do send your questions and feedback to (ehealth-kd@googlegroups.com).
-
-### Chairs group
-
-A Google Group will be set up for this “eHealth Shared Task” where announcements will be made. Do send your questions and feedback to (chairs_ehealth-kd@googlegroups.com).
+A Google Group will be set up for this “eHealth Shared Task” where announcements will be made.
+Feel free to send your questions and feedback to [ehealth-kd@googlegroups.com](mailto:ehealth-kd@googlegroups.com).
+General issues and feedback should be posted on our [Issues Page](https://github.com/knowledge-learning/ehealthkd-v2/issues) in Github.
 
 ### Previous version of the task
 
 The eHealth-KD 2019 challenge is an enhanced version of the [TASS 2018 Task 3: eHealth Knowledge Discovery challenge](http://www.sepln.org/workshops/tass/2018/task-3/). In this new version, additional semantic types for key phrases and relations have been included, to cover a larger portion of the semantics of a sentence. These modifications increase the complexity of the task since a larger number of classes need to be predicted. However, we believe that these modifications provided higher semantic coverage.
-Inspired by the successful participation of 6 teams in the previous version, and the insightful recommendations that many of the participants provided, we have redesigned this year’s task to be both more challenging and more objectively evaluated. Hence, we divided the evaluation scenarios so that each specific Subtask is evaluated independently, and also provide a scenario for evaluating the complete pipeline.
+Inspired by the successful participation of 6 teams in the previous version, and the insightful recommendations that many of the participants provided, we have redesigned this year’s task to be both more challenging and more objectively evaluated. Hence, we divided the evaluation scenarios so that each specific Subtask is evaluated independently, and also provide a scenario for evaluating the complete pipeline. We also merged previous year's Subtasks A and B since they are very similar in nature and complexity.
 
 ### Funding
 
-This research has been supported by a Carolina Foundation grant in agreement with University of Alicante and University of Havana, sponsoring to Suilan Estevez-Velarde. Moreover, it has also been partially funded by both aforementioned universities, Generalitat Valenciana, Spanish Government, Ministerio de Educación, Cultura y Deporte through the projects, TIN2015- 65100-R, TIN2015-65136-C2-2-R and PROMETEU/2018/089.
-
-### Contact
-
-Yoan Gutiérrez Vázquez ([ygutierrez@dlsi.ua.es]())
+This research has been supported by a Carolina Foundation grant in agreement with University of Alicante and University of Havana, sponsoring to Suilan Estévez Velarde. Moreover, it has also been partially funded by both aforementioned universities, Generalitat Valenciana, Spanish Government, Ministerio de Educación, Cultura y Deporte through the projects, TIN2015- 65100-R, TIN2015-65136-C2-2-R and PROMETEU/2018/089.
 
 ## References
 
