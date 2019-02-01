@@ -23,8 +23,6 @@ Subtask A input is a text document with a sentence per line. All sentences have 
 ID \tab START END ; START END \tab LABEL \tab TEXT
 ```
 
-> **NOTE**: It doesn't really matter how many tabs exist between each column, but at least one tab must exist between columns.
-
 The **ID** is a numerical identifier that will be used in Subtask B to link key phrases with their relations. The **START** and **END** indicate the starting and ending character of the text span. Multi-word phrases such as vías respiratorias where all the words are continuous can either be indicated by a single **START / END** pair or by several **START / END** (one for each word) separated by semicolons (;). Multi-word phrases where the words are not continuous must use semicolons to separate the different portions of the phrase. In the training documents we will always represent multi-word phrases separately for consistency.
 The **TEXT** portion simply reproduces the full text of the key phrase. This portion will be ignored in the evaluation, so participants are free not to produce it, but it will be provided in all training documents, and we recommend participants to also produce it, since it simplifies manual inspection during development.
 **LABEL** is one of the previous four categories defined. In this example, a possible output file is the following:
@@ -32,6 +30,8 @@ The **TEXT** portion simply reproduces the full text of the key phrase. This por
 <script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/sample_output_a.txt?footer=minimal"></script>
 
 > **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
+
+> **Recap:** Columns are separated by _one or more_ **TAB** characters. The two numbers inside each **START/END** pair are separated by _one_ **SPACE** character. The different **START/END** pairs for each multi-word are separated by _one_ **SEMICOLON** ( **;** ) character.
 
 ## Subtask B: Detection of semantic relations
 
@@ -74,10 +74,10 @@ The output for Subtask B is a plain text file where each line corresponds to a s
 LABEL \tab SOURCE-ID \tab DEST-ID
 ```
 
-> **NOTE**: It doesn't really matter how many tabs exist between each column, but at least one tab must exist between columns.
-
 The **LABEL** (i.e. column 1) is one of the previously defined, and the **ID**s correspond to the participants in the relation. Note that every relation is directed, hence the **SOURCE-ID** (i.e. column 2) and the **DEST-ID** (i.e column 3) must match the right direction, except for **same-as** which is symmetric, so both directions are equivalent. For the previous example the output is:
 
 <script class="sample" src="https://gist-it.appspot.com/github/knowledge-learning/ehealthkd-v2/blob/master/docs/sample_output_b.txt?footer=minimal"></script>
 
 > **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
+
+> **Recap:** Columns are separated by _one or more_ **TAB** characters.
