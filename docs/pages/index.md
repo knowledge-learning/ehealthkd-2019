@@ -1,6 +1,7 @@
 ---
 title: Home
 permalink: /
+nav_order: 0
 ---
 
 # IberLEF eHealth-KD 2019: eHealth Knowledge Discovery
@@ -76,7 +77,7 @@ Inspired by the successful participation of 6 teams in the previous version, and
 
 ### Funding
 
-This research has been supported by a Carolina Foundation grant in agreement with University of Alicante and University of Havana, sponsoring to Suilan Estévez Velarde. Moreover, it has also been partially funded by both aforementioned universities, Generalitat Valenciana, Spanish Government, Ministerio de Educación, Cultura y Deporte through the projects, TIN2015- 65100-R, TIN2015-65136-C2-2-R and PROMETEU/2018/089.
+This research has been supported by a Carolina Foundation grant in agreement with University of Alicante and University of Havana, sponsoring to Suilan Estévez Velarde. Moreover, it has also been partially funded by both aforementioned universities, Generalitat Valenciana, Spanish Government, Ministerio de Educación, Cultura y Deporte through the project PROMETEU/2018/089.
 
 ## References
 
