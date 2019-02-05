@@ -1,6 +1,7 @@
 ---
 title: Tasks
 permalink: /tasks
+nav_order: 2
 ---
 
 ## Subtask A: Identification and classification of phrases
