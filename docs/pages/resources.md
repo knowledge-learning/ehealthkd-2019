@@ -1,6 +1,7 @@
 ---
 title: Resources
 permalink: /resources
+nav_order: 5
 ---
 
 # Linguistic resources
