@@ -2,6 +2,7 @@
 layout: default
 title: Schedule
 nav_order: 7
+permalink: /schedule
 ---
 
 # Schedule
