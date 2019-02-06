@@ -40,18 +40,18 @@ All the data will be made available to participants in due time. This includes t
 
 ## Schedule
 
-|Date|Event|
-|---|---|
-| **11 Feb 2018** | Trial data ready (**to be announced...**)| 
-| **01 Apr 2019** | Training and development data ready (**to be announced...**)|
-| **29 Apr 2019** | Registration deadline due by 23:59 GMT -12:00 |
-| **30 Apr 2019** | Evaluation start* - Test data released (**to be announced...**)|
-| **06 May 2019** | Evaluation end* - due by 23:59 GMT -12:00 |
-| **13 May 2019** | Results posted (**to be announced...**)|
-| **03 Jun 2019** | System description paper submissions due by 23:59 GMT -12:00 |
-| **14 Jun 2019** | Paper reviews due |
-| **17 Jun 2019** | Author notifications |
-| **24 Jun 2019** | Camera ready submissions due |
+|Date|Event|Link|
+|---|---|---|
+| **11 Feb 2018** | Trial data ready                              | (**to be announced...**) |
+| **01 Apr 2019** | Training and development data ready           | (**to be announced...**) |
+| **29 Apr 2019** | Registration deadline due by 23:59 GMT -12:00 |                          |
+| **30 Apr 2019** | Evaluation start* - Test data released        | (**to be announced...**) |
+| **06 May 2019** | Evaluation end* - due by 23:59 GMT -12:00     |                          |
+| **13 May 2019** | Results posted                                | (**to be announced...**) |
+| **03 Jun 2019** | System description paper submissions due by 23:59 GMT -12:00 ||
+| **14 Jun 2019** | Paper reviews due ||
+| **17 Jun 2019** | Author notifications ||
+| **24 Jun 2019** | Camera ready submissions due ||
 
 ## Organization committee
 
@@ -69,11 +69,6 @@ All the data will be made available to participants in due time. This includes t
 A Google Group will be set up for this “eHealth Shared Task” where announcements will be made.
 Feel free to send your questions and feedback to [ehealth-kd@googlegroups.com](mailto:ehealth-kd@googlegroups.com).
 General issues and feedback should be posted on our [Issues Page](https://github.com/knowledge-learning/ehealthkd-v2/issues) in Github.
-
-### Previous version of the task
-
-The eHealth-KD 2019 challenge is an enhanced version of the [TASS 2018 Task 3: eHealth Knowledge Discovery challenge](http://www.sepln.org/workshops/tass/2018/task-3/). In this new version, additional semantic types for key phrases and relations have been included, to cover a larger portion of the semantics of a sentence. These modifications increase the complexity of the task since a larger number of classes need to be predicted. However, we believe that these modifications provided higher semantic coverage.
-Inspired by the successful participation of 6 teams in the previous version, and the insightful recommendations that many of the participants provided, we have redesigned this year’s task to be both more challenging and more objectively evaluated. Hence, we divided the evaluation scenarios so that each specific Subtask is evaluated independently, and also provide a scenario for evaluating the complete pipeline. We also merged previous year's Subtasks A and B since they are very similar in nature and complexity.
 
 ### Funding
 
