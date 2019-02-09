@@ -4,7 +4,7 @@ permalink: /tasks
 nav_order: 2
 ---
 
-## Subtask A: Identification and classification of phrases
+## Subtask A: Identification and classification of key phrases
 
 Given a list of eHealth documents written in Spanish, the goal of this subtask is to identify all the key phrases per document and their classes. These key phrases are all the relevant terms (single word or multiple words) that represent semantically important elements in a sentence. The following figure shows the relevant key phrases that appear in the example sentences shown in the previous section.
 
