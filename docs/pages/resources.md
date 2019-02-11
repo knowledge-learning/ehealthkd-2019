@@ -19,7 +19,9 @@ These files contain several entries related to health and medicine topics and ha
 
 The corpus will be divided into three sections. Training and development sets will be published along with baseline implementations, for participants to train and fine-tune their systems. These files will consist of both plain text input and the expected outputs for both subtasks. Afterward, a small test set will be released, with plain text only, further divided into 3 sub-sets, one for each scenario. Participants are expected to submit the corresponding output files to Codalab.
 
-### **Download links: (to be announced...)**
+### **Download links**:
+
+* ### **Trial data**: Trial data is available for download from Github [here]((https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial)).
 
 In no case, participants will be able to access the correct output files for the test set before the challenge ends. Afterward, the full corpus, including Brat-annotated files will be freely available under a suitable license for the research community.
 
