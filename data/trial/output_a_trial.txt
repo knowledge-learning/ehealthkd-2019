@@ -71,236 +71,236 @@
 70	Action	1051 1057	corren
 68	Concept	1058 1065	riesgos
 69	Concept	1066 1076	especiales
-78	Concept	1155 1161;1162 1168	equipo médico
-84	Concept	1182 1193	dispositivo
-79	Action	1205 1217	diagnosticar
-80	Action	1219 1224	curar
-81	Action	1227 1233	tratar
-82	Concept	1238 1248	enfermedad
-83	Action	1256 1266	prevenirla
-86	Concept	1271 1278;1279 1285	Estados Unidos
-87	Concept	1290 1304;1305 1307;1308 1317;1318 1319;1320 1332	Administración de Alimentos y Medicamentos
-200	Concept	1340 1347;1348 1354	Estados Unidos
-88	Concept	1356 1359	FDA
-89	Action	1392 1399	aprobar
-91	Predicate	1400 1409	cualquier
-90	Concept	1410 1421	medicamento
-92	Predicate	1422 1427	antes
-93	Action	1444 1450	vender
-94	Predicate	1459 1462	con
-96	Predicate	1465 1468	sin
-95	Concept	1469 1475;1476 1482	receta médica
-97	Action	1484 1489	Jugar
-98	Concept	1496 1500	agua
-99	Concept	1512 1517	nadar
-100	Concept	1519 1526	navegar
-101	Concept	1529 1535	bucear
-102	Concept	1547 1556	divertido
-71	Action	1558 1563	Tomar
-103	Concept	1564 1571;1572 1574;1575 1584	medidas de seguridad
-105	Action	1600 1608	prevenir
-106	Concept	1609 1617	lesiones
-107	Concept	1620 1626	ahogos
-109	Action	1628 1637	Practicar
-110	Concept	1638 1646	deportes
-111	Concept	1657 1666	divertido
-112	Concept	1688 1695	cuidado
-113	Concept	1714 1723	peligroso
-114	Action	1728 1733	tiene
-115	Concept	1741 1747	lesión
-116	Concept	1748 1754	previa
-117	Action	1766 1774	práctica
-72	Concept	1781 1788	deporte
-119	Action	1803 1814	recuperarse
-120	Concept	1815 1828	completamente
-121	Predicate	1829 1834	antes
-122	Action	1838 1846	comenzar
-73	Concept	1850 1855	nuevo
-118	Action	1872 1879	proteja
-124	Predicate	1883 1888	parte
-74	Concept	1893 1899	cuerpo
-125	Concept	1900 1909	lesionada
-127	Concept	1917 1928	dispositivo
-128	Concept	1929 1938	acojinado
-129	Concept	1943 1950;1951 1961	aparato ortopédico
-130	Concept	1964 1970	equipo
-75	Concept	1971 1979	especial
-126	Concept	1985 1992;1993 2001	ensayos clínicos
-131	Concept	2006 2014;2015 2017;2018 2031	estudios de investigación
-133	Action	2036 2043	prueban
-132	Action	2064 2073	aplicarse
-134	Concept	2078 2093;2094 2101	descubrimientos médicos
-135	Concept	2108 2117	pacientes
-137	Concept	2124 2131	estudio
-138	Action	2132 2140	responde
-139	Concept	2141 2150;2151 2162	preguntas científicas
-141	Action	2173 2182	encontrar
-76	Concept	2183 2190	mejores
-143	Concept	2191 2197	formas
-144	Action	2201 2209	prevenir
-145	Action	2211 2219	examinar
-146	Action	2221 2233	diagnosticar
-147	Action	2236 2242	tratar
-148	Concept	2247 2257	enfermedad
-142	Action	2267 2276	someterse
-149	Concept	2283 2290	cirugía
-150	Concept	2295 2301	médico
-151	Action	2305 2313	aplicará
-152	Concept	2317 2328	medicamento
-153	Concept	2337 2346	anestesia
-154	Concept	2352 2363	anestésicos
-155	Action	2364 2374	disminuyen
-156	Action	2377 2383	evitan
-157	Action	2388 2394	sienta
-158	Concept	2395 2400	dolor
-160	Action	2422 2429	recibir
-161	Concept	2433 2441	sedativo
-162	Concept	2442 2446	leve
-159	Action	2459 2465	relaje
-163	Concept	2470 2478	sedación
-164	Action	2494 2499	usada
-165	Concept	2504 2513	anestesia
-104	Predicate	2518 2522	tipo
-85	Concept	2526 2535	anestesia
-167	Concept	2543 2549	médico
-168	Action	2550 2556	decida
-169	Action	2557 2565	utilizar
-172	Action	2566 2575	dependerá
-170	Concept	2586 2594	factores
-173	Concept	2600 2609	cirujanos
-174	Action	2617 2626	remodelar
-175	Concept	2630 2640	apariencia
-176	Predicate	2652 2658	partes
-108	Concept	2663 2669	cuerpo
-177	Concept	2683 2690;2691 2700	cirugía cosmética
-178	Concept	2706 2714	personas
-179	Predicate	2715 2718	con
-180	Concept	2719 2731;2732 2745	enfermedades respiratorias
-182	Action	2753 2760	recibir
-183	Concept	2761 2775;2776 2784	rehabilitación pulmonar
-185	Action	2796 2804	respirar
-186	Concept	2805 2810	mejor
-187	Action	2813 2820	mejorar
-188	Concept	2824 2831;2832 2834;2835 2839	calidad de vida
-189	Concept	2841 2850	Monitores
-190	Concept	2852 2856;2857 2869	vías intravenosas
-191	Concept	2871 2877;2878 2880;2881 2893	sondas de alimentación
-192	Concept	2895 2904	catéteres
-193	Concept	2906 2918	ventiladores
-194	Concept	2927 2934	equipos
-195	Concept	2939 2946	comunes
-196	Concept	2954 2962;2963 2965;2966 2973;2974 2983	unidades de terapia intensiva
-184	Reference	2985 2990	Estos
-198	Concept	2991 2999	aparatos
-199	Action	3007 3015	mantener
-136	Action	3020 3024	vida
-201	Concept	3031 3038	persona
-202	Action	3053 3061	aumentan
-140	Predicate	3065 3071	riesgo
-203	Concept	3075 3086	infecciones
-208	Predicate	3088 3094	Muchos
-204	Concept	3095 3104	pacientes
-205	Concept	3108 3116;3117 3127	cuidados intensivos
-206	Action	3135 3146	recuperarse
-77	Predicate	3153 3160	algunos
-207	Action	3161 3167	mueren
-123	Action	3172 3180	decisión
-210	Action	3184 3195	interrumpir
-211	Concept	3199 3207	embarazo
-212	Concept	3215 3223	personal
-213	Predicate	3228 3233	nivel
-214	Concept	3234 3238	alto
-166	Concept	3242 3249	glucosa
-215	Concept	3261 3269	embarazo
-216	Concept	3276 3281	bueno
-217	Concept	3290 3294	bebé
-219	Concept	3299 3307;3308 3319	diabetes gestacional
-220	Concept	3326 3334	diabetes
-221	Action	3339 3346	aparece
-209	Concept	3351 3358;3359 3362	primera vez
-224	Concept	3374 3379	mujer
-225	Concept	3385 3395	embarazada
-226	Predicate	3400 3407	mayoría
-227	Concept	3415 3420	veces
-181	Reference	3422 3426	esta
-228	Concept	3427 3435	diabetes
-230	Action	3436 3446	desaparece
-231	Action	3459 3463	nace
-232	Concept	3467 3471	bebé
-233	Action	3482 3489	aumenta
-218	Predicate	3493 3499	riesgo
-234	Concept	3503 3511;3512 3516;3517 3518	diabetes tipo 2
-235	Concept	3519 3522;3523 3531	más adelante
-236	Predicate	3538 3545	mayoría
-237	Concept	3553 3560	mujeres
-242	Action	3568 3572	hace
-241	Concept	3576 3582	examen
-240	Action	3586 3595	detección
-239	Concept	3604 3612	diabetes
-238	Predicate	3619 3626;3627 3636	segundo trimestre
-229	Concept	3641 3649	embarazo
-243	Concept	3655 3662	mujeres
-244	Predicate	3674 3679	mayor
-245	Concept	3680 3686	riesgo
-246	Action	3698 3708	examinadas
-247	Concept	3709 3714	antes
-248	Concept	3719 3723	acné
-249	Concept	3731 3741	enfermedad
-250	Concept	3742 3747	común
-288	Concept	3754 3758	piel
-251	Action	3763 3770	provoca
-252	Concept	3771 3781	espinillas
-253	Concept	3783 3789	granos
-254	Concept	3796 3806	espinillas
-255	Action	3810 3816	forman
-256	Concept	3828 3837;3838 3845	folículos pilosos
-257	Predicate	3864 3870	debajo
-258	Concept	3877 3881	piel
-259	Action	3885 3890	tapan
-260	Predicate	3895 3902	mayoría
-261	Concept	3910 3920	espinillas
-262	Action	3921 3929	aparecen
-263	Concept	3936 3942	rostro
-264	Concept	3947 3953	cuello
-265	Concept	3958 3965	espalda
-266	Concept	3970 3975	pecho
-267	Concept	3982 3989	hombros
-268	Predicate	3991 4000	Cualquier
-269	Concept	4001 4008	persona
-270	Action	4015 4020	tener
-271	Concept	4021 4025	acné
-274	Concept	4035 4040	común
-272	Concept	4048 4060	adolescentes
-273	Concept	4067 4074;4075 4082	adultos jóvenes
-280	Concept	4177 4185;4186 4198	cistitis intersticial
-281	Concept	4206 4215	condición
-282	Concept	4226 4235	molestias
-283	Concept	4238 4243	dolor
-284	Concept	4250 4256	vejiga
-275	Action	4263 4272	necesidad
-285	Action	4276 4282	orinar
-286	Concept	4283 4292	frecuente
-287	Concept	4295 4307	urgentemente
-292	Concept	4377 4382;4383 4392	cuero cabelludo
-293	Action	4408 4415	afectar
-171	Predicate	4422 4428	partes
-294	Concept	4433 4439	cuerpo
-295	Concept	4450 4458	párpados
-296	Concept	4464 4470	axilas
-297	Concept	4475 4480	ingle
-298	Concept	4487 4493	orejas
-299	Concept	4498 4502	piel
-300	Concept	4509 4515	órgano
-301	Predicate	4516 4519	más
-302	Concept	4520 4526	grande
-303	Concept	4531 4537	cuerpo
-304	Action	4539 4544	cubre
-305	Action	4547 4554	protege
-306	Concept	4558 4564	cuerpo
-307	Concept	4570 4581	endoscopios
-308	Concept	4593 4599	cámara
-309	Concept	4600 4608	diminuta
-310	Action	4609 4614	unida
-311	Concept	4620 4624	tubo
-312	Concept	4625 4630	largo
-313	Concept	4633 4640	delgado
+78	Concept	1081 1087;1088 1094	equipo médico
+84	Concept	1108 1119	dispositivo
+79	Action	1131 1143	diagnosticar
+80	Action	1145 1150	curar
+81	Action	1153 1159	tratar
+82	Concept	1164 1174	enfermedad
+83	Action	1182 1192	prevenirla
+86	Concept	1197 1204;1205 1211	Estados Unidos
+87	Concept	1216 1230;1231 1233;1234 1243;1244 1245;1246 1258	Administración de Alimentos y Medicamentos
+200	Concept	1266 1273;1274 1280	Estados Unidos
+88	Concept	1282 1285	FDA
+89	Action	1318 1325	aprobar
+91	Predicate	1326 1335	cualquier
+90	Concept	1336 1347	medicamento
+92	Predicate	1348 1353	antes
+93	Action	1370 1376	vender
+94	Predicate	1385 1388	con
+96	Predicate	1391 1394	sin
+95	Concept	1395 1401;1402 1408	receta médica
+97	Action	1410 1415	Jugar
+98	Concept	1422 1426	agua
+99	Concept	1438 1443	nadar
+100	Concept	1445 1452	navegar
+101	Concept	1455 1461	bucear
+102	Concept	1473 1482	divertido
+71	Action	1484 1489	Tomar
+103	Concept	1490 1497;1498 1500;1501 1510	medidas de seguridad
+105	Action	1526 1534	prevenir
+106	Concept	1535 1543	lesiones
+107	Concept	1546 1552	ahogos
+109	Action	1554 1563	Practicar
+110	Concept	1564 1572	deportes
+111	Concept	1583 1592	divertido
+112	Concept	1614 1621	cuidado
+113	Concept	1640 1649	peligroso
+114	Action	1654 1659	tiene
+115	Concept	1667 1673	lesión
+116	Concept	1674 1680	previa
+117	Action	1692 1700	práctica
+72	Concept	1707 1714	deporte
+119	Action	1729 1740	recuperarse
+120	Concept	1741 1754	completamente
+121	Predicate	1755 1760	antes
+122	Action	1764 1772	comenzar
+73	Concept	1776 1781	nuevo
+118	Action	1798 1805	proteja
+124	Predicate	1809 1814	parte
+74	Concept	1819 1825	cuerpo
+125	Concept	1826 1835	lesionada
+127	Concept	1843 1854	dispositivo
+128	Concept	1855 1864	acojinado
+129	Concept	1869 1876;1877 1887	aparato ortopédico
+130	Concept	1890 1896	equipo
+75	Concept	1897 1905	especial
+126	Concept	1911 1918;1919 1927	ensayos clínicos
+131	Concept	1932 1940;1941 1943;1944 1957	estudios de investigación
+133	Action	1962 1969	prueban
+132	Action	1990 1999	aplicarse
+134	Concept	2004 2019;2020 2027	descubrimientos médicos
+135	Concept	2034 2043	pacientes
+137	Concept	2050 2057	estudio
+138	Action	2058 2066	responde
+139	Concept	2067 2076;2077 2088	preguntas científicas
+141	Action	2099 2108	encontrar
+76	Concept	2109 2116	mejores
+143	Concept	2117 2123	formas
+144	Action	2127 2135	prevenir
+145	Action	2137 2145	examinar
+146	Action	2147 2159	diagnosticar
+147	Action	2162 2168	tratar
+148	Concept	2173 2183	enfermedad
+142	Action	2193 2202	someterse
+149	Concept	2209 2216	cirugía
+150	Concept	2221 2227	médico
+151	Action	2231 2239	aplicará
+152	Concept	2243 2254	medicamento
+153	Concept	2263 2272	anestesia
+154	Concept	2278 2289	anestésicos
+155	Action	2290 2300	disminuyen
+156	Action	2303 2309	evitan
+157	Action	2314 2320	sienta
+158	Concept	2321 2326	dolor
+160	Action	2348 2355	recibir
+161	Concept	2359 2367	sedativo
+162	Concept	2368 2372	leve
+159	Action	2385 2391	relaje
+163	Concept	2396 2404	sedación
+164	Action	2420 2425	usada
+165	Concept	2430 2439	anestesia
+104	Predicate	2444 2448	tipo
+85	Concept	2452 2461	anestesia
+167	Concept	2469 2475	médico
+168	Action	2476 2482	decida
+169	Action	2483 2491	utilizar
+172	Action	2492 2501	dependerá
+170	Concept	2512 2520	factores
+173	Concept	2526 2535	cirujanos
+174	Action	2543 2552	remodelar
+175	Concept	2556 2566	apariencia
+176	Predicate	2578 2584	partes
+108	Concept	2589 2595	cuerpo
+177	Concept	2609 2616;2617 2626	cirugía cosmética
+178	Concept	2632 2640	personas
+179	Predicate	2641 2644	con
+180	Concept	2645 2657;2658 2671	enfermedades respiratorias
+182	Action	2679 2686	recibir
+183	Concept	2687 2701;2702 2710	rehabilitación pulmonar
+185	Action	2722 2730	respirar
+186	Concept	2731 2736	mejor
+187	Action	2739 2746	mejorar
+188	Concept	2750 2757;2758 2760;2761 2765	calidad de vida
+189	Concept	2767 2776	Monitores
+190	Concept	2778 2782;2783 2795	vías intravenosas
+191	Concept	2797 2803;2804 2806;2807 2819	sondas de alimentación
+192	Concept	2821 2830	catéteres
+193	Concept	2832 2844	ventiladores
+194	Concept	2853 2860	equipos
+195	Concept	2865 2872	comunes
+196	Concept	2880 2888;2889 2891;2892 2899;2900 2909	unidades de terapia intensiva
+184	Reference	2911 2916	Estos
+198	Concept	2917 2925	aparatos
+199	Action	2933 2941	mantener
+136	Action	2946 2950	vida
+201	Concept	2957 2964	persona
+202	Action	2979 2987	aumentan
+140	Predicate	2991 2997	riesgo
+203	Concept	3001 3012	infecciones
+208	Predicate	3014 3020	Muchos
+204	Concept	3021 3030	pacientes
+205	Concept	3034 3042;3043 3053	cuidados intensivos
+206	Action	3061 3072	recuperarse
+77	Predicate	3079 3086	algunos
+207	Action	3087 3093	mueren
+123	Action	3098 3106	decisión
+210	Action	3110 3121	interrumpir
+211	Concept	3125 3133	embarazo
+212	Concept	3141 3149	personal
+213	Predicate	3154 3159	nivel
+214	Concept	3160 3164	alto
+166	Concept	3168 3175	glucosa
+215	Concept	3187 3195	embarazo
+216	Concept	3202 3207	bueno
+217	Concept	3216 3220	bebé
+219	Concept	3225 3233;3234 3245	diabetes gestacional
+220	Concept	3252 3260	diabetes
+221	Action	3265 3272	aparece
+209	Concept	3277 3284;3285 3288	primera vez
+224	Concept	3300 3305	mujer
+225	Concept	3311 3321	embarazada
+226	Predicate	3326 3333	mayoría
+227	Concept	3341 3346	veces
+181	Reference	3348 3352	esta
+228	Concept	3353 3361	diabetes
+230	Action	3362 3372	desaparece
+231	Action	3385 3389	nace
+232	Concept	3393 3397	bebé
+233	Action	3408 3415	aumenta
+218	Predicate	3419 3425	riesgo
+234	Concept	3429 3437;3438 3442;3443 3444	diabetes tipo 2
+235	Concept	3445 3448;3449 3457	más adelante
+236	Predicate	3464 3471	mayoría
+237	Concept	3479 3486	mujeres
+242	Action	3494 3498	hace
+241	Concept	3502 3508	examen
+240	Action	3512 3521	detección
+239	Concept	3530 3538	diabetes
+238	Predicate	3545 3552;3553 3562	segundo trimestre
+229	Concept	3567 3575	embarazo
+243	Concept	3581 3588	mujeres
+244	Predicate	3600 3605	mayor
+245	Concept	3606 3612	riesgo
+246	Action	3624 3634	examinadas
+247	Concept	3635 3640	antes
+248	Concept	3645 3649	acné
+249	Concept	3657 3667	enfermedad
+250	Concept	3668 3673	común
+288	Concept	3680 3684	piel
+251	Action	3689 3696	provoca
+252	Concept	3697 3707	espinillas
+253	Concept	3709 3715	granos
+254	Concept	3722 3732	espinillas
+255	Action	3736 3742	forman
+256	Concept	3754 3763;3764 3771	folículos pilosos
+257	Predicate	3790 3796	debajo
+258	Concept	3803 3807	piel
+259	Action	3811 3816	tapan
+260	Predicate	3821 3828	mayoría
+261	Concept	3836 3846	espinillas
+262	Action	3847 3855	aparecen
+263	Concept	3862 3868	rostro
+264	Concept	3873 3879	cuello
+265	Concept	3884 3891	espalda
+266	Concept	3896 3901	pecho
+267	Concept	3908 3915	hombros
+268	Predicate	3917 3926	Cualquier
+269	Concept	3927 3934	persona
+270	Action	3941 3946	tener
+271	Concept	3947 3951	acné
+274	Concept	3961 3966	común
+272	Concept	3974 3986	adolescentes
+273	Concept	3993 4000;4001 4008	adultos jóvenes
+280	Concept	4013 4021;4022 4034	cistitis intersticial
+281	Concept	4042 4051	condición
+282	Concept	4062 4071	molestias
+283	Concept	4074 4079	dolor
+284	Concept	4086 4092	vejiga
+275	Action	4099 4108	necesidad
+285	Action	4112 4118	orinar
+286	Concept	4119 4128	frecuente
+287	Concept	4131 4143	urgentemente
+292	Concept	4156 4161;4162 4171	cuero cabelludo
+293	Action	4187 4194	afectar
+171	Predicate	4201 4207	partes
+294	Concept	4212 4218	cuerpo
+295	Concept	4229 4237	párpados
+296	Concept	4243 4249	axilas
+297	Concept	4254 4259	ingle
+298	Concept	4266 4272	orejas
+299	Concept	4277 4281	piel
+300	Concept	4288 4294	órgano
+301	Predicate	4295 4298	más
+302	Concept	4299 4305	grande
+303	Concept	4310 4316	cuerpo
+304	Action	4318 4323	cubre
+305	Action	4326 4333	protege
+306	Concept	4337 4343	cuerpo
+307	Concept	4349 4360	endoscopios
+308	Concept	4372 4378	cámara
+309	Concept	4379 4387	diminuta
+310	Action	4388 4393	unida
+311	Concept	4399 4403	tubo
+312	Concept	4404 4409	largo
+313	Concept	4412 4419	delgado

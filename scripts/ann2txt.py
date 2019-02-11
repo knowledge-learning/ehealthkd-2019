@@ -5,11 +5,11 @@ from pathlib import Path
 from utils import Collection
 
 
-def main(finput):
+def main(finput, foutput):
     collection = Collection()
     collection.load_ann(finput)
-    collection.dump(finput)
+    collection.dump(foutput)
 
 
 if __name__ == "__main__":
-    main(Path(sys.argv[1]))
+    main(Path(sys.argv[1]), Path(sys.argv[2]))

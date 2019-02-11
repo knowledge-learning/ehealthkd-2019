@@ -116,12 +116,18 @@ class Collection:
         return len(self.sentences)
 
     def dump(self, finput):
+        input_file = finput.open('w')
         output_a_file = (finput.parent / ('output_a_' + finput.name[6:])).open('w')
         output_b_file = (finput.parent / ('output_b_' + finput.name[6:])).open('w')
 
         shift = 0
 
         for sentence in self.sentences:
+            if not sentence.keyphrases and not sentence.relations:
+                continue
+
+            input_file.write("{}\n".format(sentence.text))
+
             for keyphrase in sentence.keyphrases:
                 output_a_file.write("{0}\t{1}\t{2}\t{3}\n".format(
                     keyphrase.id,
