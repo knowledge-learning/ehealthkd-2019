@@ -13,15 +13,6 @@ target	14	15
 in-place	16	17
 in-context	16	12
 target	314	13
-target	19	18
-target	20	22
-target	23	26
-target	26	27
-in-context	26	24
-in-context	27	28
-target	29	31
-target	31	32
-subject	31	30
 in-place	34	25
 arg	8	35
 in-place	8	36
