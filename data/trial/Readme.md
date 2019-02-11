@@ -1,6 +1,6 @@
 # Trial data for eHealth-KD 2019
 
-This folder contains the file `input_trial.txt` and corresponding gold output files which consist in a collection of 45 sentences from the eHealth-KD corpus. This data is available as a preview of the eHealth-KD challenge annotation schema.
+This folder contains the file `input_trial.txt` and corresponding gold output files which consist in a collection of 45 sentences from the eHealth-KD corpus. This data is available as a preview of the eHealth-KD challenge annotation schema. These sentences are real samples from the corpus, and have been manually annotated with the same methodology as the rest of the corpus.
 
 To obtain the data, you can either manually download each file separately:
 
