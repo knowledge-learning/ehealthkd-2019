@@ -115,7 +115,7 @@ class Collection:
     def __len__(self):
         return len(self.sentences)
 
-    def dump(self, finput):
+    def dump(self, finput, skip_empty_sentences=True):
         input_file = finput.open('w')
         output_a_file = (finput.parent / ('output_a_' + finput.name[6:])).open('w')
         output_b_file = (finput.parent / ('output_b_' + finput.name[6:])).open('w')
@@ -123,7 +123,7 @@ class Collection:
         shift = 0
 
         for sentence in self.sentences:
-            if not sentence.keyphrases and not sentence.relations:
+            if not sentence.keyphrases and not sentence.relations and skip_empty_sentences:
                 continue
 
             input_file.write("{}\n".format(sentence.text))
