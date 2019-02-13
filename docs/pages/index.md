@@ -53,11 +53,33 @@ All the data will be made available to participants in due time. This includes t
 | **17 Jun 2019** | Author notifications                                                | (_to be announced..._) |
 | **24 Jun 2019** | Camera ready submissions                                            | (_to be announced..._) |
 
+## Participating instructions
+The competition is managed and run in the Codalab Competitions platform (**link coming soon**). For participation, please register on the platform and follow the instructions detailed there. The following pages provide a detailed description of the problem to be solved and the evaluation. In Codalab you will find details about how to submit a solution, as well as all relevant links.
+
+Click here to enter the competition (**link coming soon**).
+
+To download the relevant data, please visit: (**link coming soon**).
+
+## Publication instructions
+The following instructions are subject to change to adapt to the official IberLEF 2019 requirements.
+
+Send your paper to our Program Comitee at chairs_eHealth-KD@googlegroups.com before June 3rd, 2019.
+
+The Organization Committee of eHealth-KD encourages participants to submit a description paper of their systems. Submitted papers will be reviewed by a scientific committee, and only accepted papers will be published at CEUR. The proceedings of eHealth-KD will be jointly published with the proceedings of all tasks of IberLEF 2019. The submitted papers will be peer-reviewed by a Program Commitee which is composed by all the participants and the Organization Commitee.
+
+The manuscripts must satisfy the following rules:
+
+Up to 6 pages plus references formatted according to the [SEPLN template](http://www.sepln.org/home-2/revista/instrucciones-autor/).
+* Articles can be written in English or Spanish. The title, abstract and keywords must be written in both languages.
+* The document format must be Word or Latex, but the submission must be in PDF format.
+* Instead of describing the task and/or the corpus, you should focus on the description of your experiments and the analysis of your results, and include a citation to the Overview paper. Indications for this citation will be provided in due time.
+* Depending on the final number of participants and the time allocated for the workshop, all or a selected group of papers will be presented and discussed in the Workshop session.
+
 ## Organization committee
 
 | Name                     | Email                                                 | Institution                   |
 |--------------------------|-------------------------------------------------------|-------------------------------|
-| Yoan Gutiérrez Vázquez   | [ygutierrez@dlsi.ua.es](mailto:ygutierrez@dlsi.ua.es) | University of Alicante, Spain |
+| Yoan Gutiérrez Vázquez (contact person)   | [ygutierrez@dlsi.ua.es](mailto:ygutierrez@dlsi.ua.es) | University of Alicante, Spain |
 | Suilan Estévez Velarde   | [sestevez@matcom.uh.cu](mailto:sestevez@matcom.uh.cu) | University of Havana, Cuba    |
 | Alejandro Piad Morffis   | [apiad@matcom.uh.cu](mailto:apiad@matcom.uh.cu)       | University of Havana, Cuba    |
 | Yudivián Almeida Cruz    | [yudy@matcom.uh.cu](mailto:yudy@matcom.uh.cu)         | University of Havana, Cuba    |
