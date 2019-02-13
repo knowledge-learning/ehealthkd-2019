@@ -53,7 +53,7 @@ All the data will be made available to participants in due time. This includes t
 | **17 Jun 2019** | Author notifications                                                | (_to be announced..._) |
 | **24 Jun 2019** | Camera ready submissions                                            | (_to be announced..._) |
 
-## Participating instructions
+## Instructions for participation
 The competition is managed and run in the Codalab Competitions platform (**link coming soon**). For participation, please register on the platform and follow the instructions detailed there. The following pages provide a detailed description of the problem to be solved and the evaluation. In Codalab you will find details about how to submit a solution, as well as all relevant links.
 
 Click here to enter the competition (**link coming soon**).
