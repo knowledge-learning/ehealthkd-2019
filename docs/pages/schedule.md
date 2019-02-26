@@ -13,7 +13,7 @@ The following schedule will be updated accordingly.
 
 |Date|Event|Link|
 |---|---|---|
-| **11 Feb 2018** | Trial data ready                                                    | [Trial data in Github](https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial) |
+| **11 Feb 2019** | Trial data ready                                                    | [Trial data in Github](https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial) |
 | **01 Apr 2019** | Training and development data ready                                 | (_to be announced..._) |
 | **29 Apr 2019** | **Registration deadline** <br> (due by 23:59 GMT -12:00)            | (_to be announced..._) |
 | **30 Apr 2019** | **Evaluation start** <br> Test data released                        | (_to be announced..._) |
