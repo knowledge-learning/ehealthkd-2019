@@ -110,7 +110,7 @@ class Collection:
         self.sentences = sentences or []
 
     def clone(self):
-        return Dataset([s.clone() for s in self.sentences])
+        return Collection([s.clone() for s in self.sentences])
 
     def __len__(self):
         return len(self.sentences)
