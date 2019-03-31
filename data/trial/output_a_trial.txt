@@ -1,292 +1,292 @@
-1	Action	0 8	Conducir
-3	Concept	30 41	condiciones
-2	Concept	56 65	peligroso
-4	Predicate	82 85	más
-5	Concept	92 97	mitad
-197	Action	111 118	choques
-6	Concept	122 127	autos
-7	Concept	133 142	empleados
-222	Action	156 163	cuidado
-9	Concept	170 175	salud
-10	Action	182 191	expuestos
-11	Concept	201 208;209 218	riesgos laborales
-12	Action	223 231	necesita
-314	Action	232 238	hablar
-13	Concept	243 251	teléfono
-14	Action	254 260	enviar
-15	Concept	264 271;272 274;275 280	mensaje de texto
-16	Action	282 291	deténgase
-17	Concept	295 302;303 306;307 313	costado del camino
-34	Concept	331 338	trabajo
-25	Concept	346 353	granjas
-8	Predicate	368 371	más
-35	Concept	372 382	peligrosos
-36	Concept	386 393;394 400	Estados Unidos
-37	Concept	406 414	lesiones
-38	Concept	422 429	granjas
-39	Concept	438 445	comunes
-40	Concept	450 457;458 464	trabajo físico
-41	Concept	471 481	accidentes
-42	Concept	496 504	lesiones
-43	Predicate	509 516	mayoría
-44	Concept	524 534	accidentes
-45	Action	535 545	involucran
-46	Action	549 552	uso
-47	Concept	556 566	maquinaria
-48	Concept	572 580	adecuada
-49	Action	581 591	inspección
-50	Action	594 607	mantenimiento
-51	Concept	615 623	máquinas
-52	Action	630 636	ayudar
-53	Action	639 647	prevenir
-54	Concept	652 662	accidentes
-55	Action	667 670	uso
-56	Concept	674 681;682 684;685 694	guantes de seguridad
-57	Concept	696 701;702 713	gafas protectoras
-58	Concept	722 729;730 732;733 743	equipos de protección
-59	Action	759 766	reducir
-60	Concept	771 781	accidentes
-61	Concept	786 795	imposible
-62	Action	796 804	eliminar
-63	Predicate	805 810	todos
-64	Concept	815 823	peligros
-33	Concept	830 834	vida
-66	Action	851 860	disminuir
-65	Concept	866 871	niños
-67	Concept	872 880	pequeños
-70	Action	881 887	corren
-68	Concept	888 895	riesgos
-69	Concept	896 906	especiales
-78	Concept	911 917;918 924	equipo médico
-84	Concept	938 949	dispositivo
-79	Action	961 973	diagnosticar
-80	Action	975 980	curar
-81	Action	983 989	tratar
-82	Concept	994 1004	enfermedad
-83	Action	1012 1022	prevenirla
-86	Concept	1027 1034;1035 1041	Estados Unidos
-87	Concept	1046 1060;1061 1063;1064 1073;1074 1075;1076 1088	Administración de Alimentos y Medicamentos
-200	Concept	1096 1103;1104 1110	Estados Unidos
-88	Concept	1112 1115	FDA
-89	Action	1148 1155	aprobar
-91	Predicate	1156 1165	cualquier
-90	Concept	1166 1177	medicamento
-92	Predicate	1178 1183	antes
-93	Action	1200 1206	vender
-94	Predicate	1215 1218	con
-96	Predicate	1221 1224	sin
-95	Concept	1225 1231;1232 1238	receta médica
-97	Action	1240 1245	Jugar
-98	Concept	1252 1256	agua
-99	Concept	1268 1273	nadar
-100	Concept	1275 1282	navegar
-101	Concept	1285 1291	bucear
-102	Concept	1303 1312	divertido
-71	Action	1314 1319	Tomar
-103	Concept	1320 1327;1328 1330;1331 1340	medidas de seguridad
-105	Action	1356 1364	prevenir
-106	Concept	1365 1373	lesiones
-107	Concept	1376 1382	ahogos
-109	Action	1384 1393	Practicar
-110	Concept	1394 1402	deportes
-111	Concept	1413 1422	divertido
-112	Concept	1444 1451	cuidado
-113	Concept	1470 1479	peligroso
-114	Action	1484 1489	tiene
-115	Concept	1497 1503	lesión
-116	Concept	1504 1510	previa
-117	Action	1522 1530	práctica
-72	Concept	1537 1544	deporte
-119	Action	1559 1570	recuperarse
-120	Concept	1571 1584	completamente
-121	Predicate	1585 1590	antes
-122	Action	1594 1602	comenzar
-73	Concept	1606 1611	nuevo
-118	Action	1628 1635	proteja
-124	Predicate	1639 1644	parte
-74	Concept	1649 1655	cuerpo
-125	Concept	1656 1665	lesionada
-127	Concept	1673 1684	dispositivo
-128	Concept	1685 1694	acojinado
-129	Concept	1699 1706;1707 1717	aparato ortopédico
-130	Concept	1720 1726	equipo
-75	Concept	1727 1735	especial
-126	Concept	1741 1748;1749 1757	ensayos clínicos
-131	Concept	1762 1770;1771 1773;1774 1787	estudios de investigación
-133	Action	1792 1799	prueban
-132	Action	1820 1829	aplicarse
-134	Concept	1834 1849;1850 1857	descubrimientos médicos
-135	Concept	1864 1873	pacientes
-137	Concept	1880 1887	estudio
-138	Action	1888 1896	responde
-139	Concept	1897 1906;1907 1918	preguntas científicas
-141	Action	1929 1938	encontrar
-76	Concept	1939 1946	mejores
-143	Concept	1947 1953	formas
-144	Action	1957 1965	prevenir
-145	Action	1967 1975	examinar
-146	Action	1977 1989	diagnosticar
-147	Action	1992 1998	tratar
-148	Concept	2003 2013	enfermedad
-142	Action	2023 2032	someterse
-149	Concept	2039 2046	cirugía
-150	Concept	2051 2057	médico
-151	Action	2061 2069	aplicará
-152	Concept	2073 2084	medicamento
-153	Concept	2093 2102	anestesia
-154	Concept	2108 2119	anestésicos
-155	Action	2120 2130	disminuyen
-156	Action	2133 2139	evitan
-157	Action	2144 2150	sienta
-158	Concept	2151 2156	dolor
-160	Action	2178 2185	recibir
-161	Concept	2189 2197	sedativo
-162	Concept	2198 2202	leve
-159	Action	2215 2221	relaje
-163	Concept	2226 2234	sedación
-164	Action	2250 2255	usada
-165	Concept	2260 2269	anestesia
-104	Predicate	2274 2278	tipo
-85	Concept	2282 2291	anestesia
-167	Concept	2299 2305	médico
-168	Action	2306 2312	decida
-169	Action	2313 2321	utilizar
-172	Action	2322 2331	dependerá
-170	Concept	2342 2350	factores
-173	Concept	2356 2365	cirujanos
-174	Action	2373 2382	remodelar
-175	Concept	2386 2396	apariencia
-176	Predicate	2408 2414	partes
-108	Concept	2419 2425	cuerpo
-177	Concept	2439 2446;2447 2456	cirugía cosmética
-178	Concept	2462 2470	personas
-179	Predicate	2471 2474	con
-180	Concept	2475 2487;2488 2501	enfermedades respiratorias
-182	Action	2509 2516	recibir
-183	Concept	2517 2531;2532 2540	rehabilitación pulmonar
-185	Action	2552 2560	respirar
-186	Concept	2561 2566	mejor
-187	Action	2569 2576	mejorar
-188	Concept	2580 2587;2588 2590;2591 2595	calidad de vida
-189	Concept	2597 2606	Monitores
-190	Concept	2608 2612;2613 2625	vías intravenosas
-191	Concept	2627 2633;2634 2636;2637 2649	sondas de alimentación
-192	Concept	2651 2660	catéteres
-193	Concept	2662 2674	ventiladores
-194	Concept	2683 2690	equipos
-195	Concept	2695 2702	comunes
-196	Concept	2710 2718;2719 2721;2722 2729;2730 2739	unidades de terapia intensiva
-184	Reference	2741 2746	Estos
-198	Concept	2747 2755	aparatos
-199	Action	2763 2771	mantener
-136	Action	2776 2780	vida
-201	Concept	2787 2794	persona
-202	Action	2809 2817	aumentan
-140	Predicate	2821 2827	riesgo
-203	Concept	2831 2842	infecciones
-208	Predicate	2844 2850	Muchos
-204	Concept	2851 2860	pacientes
-205	Concept	2864 2872;2873 2883	cuidados intensivos
-206	Action	2891 2902	recuperarse
-77	Predicate	2909 2916	algunos
-207	Action	2917 2923	mueren
-123	Action	2928 2936	decisión
-210	Action	2940 2951	interrumpir
-211	Concept	2955 2963	embarazo
-212	Concept	2971 2979	personal
-213	Predicate	2984 2989	nivel
-214	Concept	2990 2994	alto
-166	Concept	2998 3005	glucosa
-215	Concept	3017 3025	embarazo
-216	Concept	3032 3037	bueno
-217	Concept	3046 3050	bebé
-219	Concept	3055 3063;3064 3075	diabetes gestacional
-220	Concept	3082 3090	diabetes
-221	Action	3095 3102	aparece
-209	Concept	3107 3114;3115 3118	primera vez
-224	Concept	3130 3135	mujer
-225	Concept	3141 3151	embarazada
-226	Predicate	3156 3163	mayoría
-227	Concept	3171 3176	veces
-181	Reference	3178 3182	esta
-228	Concept	3183 3191	diabetes
-230	Action	3192 3202	desaparece
-231	Action	3215 3219	nace
-232	Concept	3223 3227	bebé
-233	Action	3238 3245	aumenta
-218	Predicate	3249 3255	riesgo
-234	Concept	3259 3267;3268 3272;3273 3274	diabetes tipo 2
-235	Concept	3275 3278;3279 3287	más adelante
-236	Predicate	3294 3301	mayoría
-237	Concept	3309 3316	mujeres
-242	Action	3324 3328	hace
-241	Concept	3332 3338	examen
-240	Action	3342 3351	detección
-239	Concept	3360 3368	diabetes
-238	Predicate	3375 3382;3383 3392	segundo trimestre
-229	Concept	3397 3405	embarazo
-243	Concept	3411 3418	mujeres
-244	Predicate	3430 3435	mayor
-245	Concept	3436 3442	riesgo
-246	Action	3454 3464	examinadas
-247	Concept	3465 3470	antes
-248	Concept	3475 3479	acné
-249	Concept	3487 3497	enfermedad
-250	Concept	3498 3503	común
-288	Concept	3510 3514	piel
-251	Action	3519 3526	provoca
-252	Concept	3527 3537	espinillas
-253	Concept	3539 3545	granos
-254	Concept	3552 3562	espinillas
-255	Action	3566 3572	forman
-256	Concept	3584 3593;3594 3601	folículos pilosos
-257	Predicate	3620 3626	debajo
-258	Concept	3633 3637	piel
-259	Action	3641 3646	tapan
-260	Predicate	3651 3658	mayoría
-261	Concept	3666 3676	espinillas
-262	Action	3677 3685	aparecen
-263	Concept	3692 3698	rostro
-264	Concept	3703 3709	cuello
-265	Concept	3714 3721	espalda
-266	Concept	3726 3731	pecho
-267	Concept	3738 3745	hombros
-268	Predicate	3747 3756	Cualquier
-269	Concept	3757 3764	persona
-270	Action	3771 3776	tener
-271	Concept	3777 3781	acné
-274	Concept	3791 3796	común
-272	Concept	3804 3816	adolescentes
-273	Concept	3823 3830;3831 3838	adultos jóvenes
-280	Concept	3843 3851;3852 3864	cistitis intersticial
-281	Concept	3872 3881	condición
-282	Concept	3892 3901	molestias
-283	Concept	3904 3909	dolor
-284	Concept	3916 3922	vejiga
-275	Action	3929 3938	necesidad
-285	Action	3942 3948	orinar
-286	Concept	3949 3958	frecuente
-287	Concept	3961 3973	urgentemente
-292	Concept	3986 3991;3992 4001	cuero cabelludo
-293	Action	4017 4024	afectar
-171	Predicate	4031 4037	partes
-294	Concept	4042 4048	cuerpo
-295	Concept	4059 4067	párpados
-296	Concept	4073 4079	axilas
-297	Concept	4084 4089	ingle
-298	Concept	4096 4102	orejas
-299	Concept	4107 4111	piel
-300	Concept	4118 4124	órgano
-301	Predicate	4125 4128	más
-302	Concept	4129 4135	grande
-303	Concept	4140 4146	cuerpo
-304	Action	4148 4153	cubre
-305	Action	4156 4163	protege
-306	Concept	4167 4173	cuerpo
-307	Concept	4179 4190	endoscopios
-308	Concept	4202 4208	cámara
-309	Concept	4209 4217	diminuta
-310	Action	4218 4223	unida
-311	Concept	4229 4233	tubo
-312	Concept	4234 4239	largo
-313	Concept	4242 4249	delgado
+1	0 8	Action	Conducir
+2	30 41	Concept	condiciones
+3	56 65	Concept	peligroso
+4	82 85	Predicate	más
+5	92 97	Concept	mitad
+6	111 118	Action	choques
+7	122 127	Concept	autos
+8	133 142	Concept	empleados
+9	156 163	Action	cuidado
+10	170 175	Concept	salud
+11	182 191	Action	expuestos
+12	201 208;209 218	Concept	riesgos laborales
+13	223 231	Action	necesita
+14	232 238	Action	hablar
+15	243 251	Concept	teléfono
+16	254 260	Action	enviar
+17	264 271;272 274;275 280	Concept	mensaje de texto
+18	282 291	Action	deténgase
+19	295 302;303 306;307 313	Concept	costado del camino
+20	331 338	Concept	trabajo
+21	346 353	Concept	granjas
+22	368 371	Predicate	más
+23	372 382	Concept	peligrosos
+24	386 393;394 400	Concept	Estados Unidos
+25	406 414	Concept	lesiones
+26	422 429	Concept	granjas
+27	438 445	Concept	comunes
+28	450 457;458 464	Concept	trabajo físico
+29	471 481	Concept	accidentes
+30	496 504	Concept	lesiones
+31	509 516	Predicate	mayoría
+32	524 534	Concept	accidentes
+33	535 545	Action	involucran
+34	549 552	Action	uso
+35	556 566	Concept	maquinaria
+36	572 580	Concept	adecuada
+37	581 591	Action	inspección
+38	594 607	Action	mantenimiento
+39	615 623	Concept	máquinas
+40	630 636	Action	ayudar
+41	639 647	Action	prevenir
+42	652 662	Concept	accidentes
+43	667 670	Action	uso
+44	674 681;682 684;685 694	Concept	guantes de seguridad
+45	696 701;702 713	Concept	gafas protectoras
+46	722 729;730 732;733 743	Concept	equipos de protección
+47	759 766	Action	reducir
+48	771 781	Concept	accidentes
+49	786 795	Concept	imposible
+50	796 804	Action	eliminar
+51	805 810	Predicate	todos
+52	815 823	Concept	peligros
+53	830 834	Concept	vida
+54	851 860	Action	disminuir
+55	866 871	Concept	niños
+56	872 880	Concept	pequeños
+57	881 887	Action	corren
+58	888 895	Concept	riesgos
+59	896 906	Concept	especiales
+60	911 917;918 924	Concept	equipo médico
+61	938 949	Concept	dispositivo
+62	961 973	Action	diagnosticar
+63	975 980	Action	curar
+64	983 989	Action	tratar
+65	994 1004	Concept	enfermedad
+66	1012 1022	Action	prevenirla
+67	1027 1034;1035 1041	Concept	Estados Unidos
+68	1046 1060;1061 1063;1064 1073;1074 1075;1076 1088	Concept	Administración de Alimentos y Medicamentos
+69	1096 1103;1104 1110	Concept	Estados Unidos
+70	1112 1115	Concept	FDA
+71	1148 1155	Action	aprobar
+72	1156 1165	Predicate	cualquier
+73	1166 1177	Concept	medicamento
+74	1178 1183	Predicate	antes
+75	1200 1206	Action	vender
+76	1215 1218	Predicate	con
+77	1221 1224	Predicate	sin
+78	1225 1231;1232 1238	Concept	receta médica
+79	1240 1245	Action	Jugar
+80	1252 1256	Concept	agua
+81	1268 1273	Concept	nadar
+82	1275 1282	Concept	navegar
+83	1285 1291	Concept	bucear
+84	1303 1312	Concept	divertido
+85	1314 1319	Action	Tomar
+86	1320 1327;1328 1330;1331 1340	Concept	medidas de seguridad
+87	1356 1364	Action	prevenir
+88	1365 1373	Concept	lesiones
+89	1376 1382	Concept	ahogos
+90	1384 1393	Action	Practicar
+91	1394 1402	Concept	deportes
+92	1413 1422	Concept	divertido
+93	1444 1451	Concept	cuidado
+94	1470 1479	Concept	peligroso
+95	1484 1489	Action	tiene
+96	1497 1503	Concept	lesión
+97	1504 1510	Concept	previa
+98	1522 1530	Action	práctica
+99	1537 1544	Concept	deporte
+100	1559 1570	Action	recuperarse
+101	1571 1584	Concept	completamente
+102	1585 1590	Predicate	antes
+103	1594 1602	Action	comenzar
+104	1606 1611	Concept	nuevo
+105	1628 1635	Action	proteja
+106	1639 1644	Predicate	parte
+107	1649 1655	Concept	cuerpo
+108	1656 1665	Concept	lesionada
+109	1673 1684	Concept	dispositivo
+110	1685 1694	Concept	acojinado
+111	1699 1706;1707 1717	Concept	aparato ortopédico
+112	1720 1726	Concept	equipo
+113	1727 1735	Concept	especial
+114	1741 1748;1749 1757	Concept	ensayos clínicos
+115	1762 1770;1771 1773;1774 1787	Concept	estudios de investigación
+116	1792 1799	Action	prueban
+117	1820 1829	Action	aplicarse
+118	1834 1849;1850 1857	Concept	descubrimientos médicos
+119	1864 1873	Concept	pacientes
+120	1880 1887	Concept	estudio
+121	1888 1896	Action	responde
+122	1897 1906;1907 1918	Concept	preguntas científicas
+123	1929 1938	Action	encontrar
+124	1939 1946	Concept	mejores
+125	1947 1953	Concept	formas
+126	1957 1965	Action	prevenir
+127	1967 1975	Action	examinar
+128	1977 1989	Action	diagnosticar
+129	1992 1998	Action	tratar
+130	2003 2013	Concept	enfermedad
+131	2023 2032	Action	someterse
+132	2039 2046	Concept	cirugía
+133	2051 2057	Concept	médico
+134	2061 2069	Action	aplicará
+135	2073 2084	Concept	medicamento
+136	2093 2102	Concept	anestesia
+137	2108 2119	Concept	anestésicos
+138	2120 2130	Action	disminuyen
+139	2133 2139	Action	evitan
+140	2144 2150	Action	sienta
+141	2151 2156	Concept	dolor
+142	2178 2185	Action	recibir
+143	2189 2197	Concept	sedativo
+144	2198 2202	Concept	leve
+145	2215 2221	Action	relaje
+146	2226 2234	Concept	sedación
+147	2250 2255	Action	usada
+148	2260 2269	Concept	anestesia
+149	2274 2278	Predicate	tipo
+150	2282 2291	Concept	anestesia
+151	2299 2305	Concept	médico
+152	2306 2312	Action	decida
+153	2313 2321	Action	utilizar
+154	2322 2331	Action	dependerá
+155	2342 2350	Concept	factores
+156	2356 2365	Concept	cirujanos
+157	2373 2382	Action	remodelar
+158	2386 2396	Concept	apariencia
+159	2408 2414	Predicate	partes
+160	2419 2425	Concept	cuerpo
+161	2439 2446;2447 2456	Concept	cirugía cosmética
+162	2462 2470	Concept	personas
+163	2471 2474	Predicate	con
+164	2475 2487;2488 2501	Concept	enfermedades respiratorias
+165	2509 2516	Action	recibir
+166	2517 2531;2532 2540	Concept	rehabilitación pulmonar
+167	2552 2560	Action	respirar
+168	2561 2566	Concept	mejor
+169	2569 2576	Action	mejorar
+170	2580 2587;2588 2590;2591 2595	Concept	calidad de vida
+171	2597 2606	Concept	Monitores
+172	2608 2612;2613 2625	Concept	vías intravenosas
+173	2627 2633;2634 2636;2637 2649	Concept	sondas de alimentación
+174	2651 2660	Concept	catéteres
+175	2662 2674	Concept	ventiladores
+176	2683 2690	Concept	equipos
+177	2695 2702	Concept	comunes
+178	2710 2718;2719 2721;2722 2729;2730 2739	Concept	unidades de terapia intensiva
+179	2741 2746	Reference	Estos
+180	2747 2755	Concept	aparatos
+181	2763 2771	Action	mantener
+182	2776 2780	Action	vida
+183	2787 2794	Concept	persona
+184	2809 2817	Action	aumentan
+185	2821 2827	Predicate	riesgo
+186	2831 2842	Concept	infecciones
+187	2844 2850	Predicate	Muchos
+188	2851 2860	Concept	pacientes
+189	2864 2872;2873 2883	Concept	cuidados intensivos
+190	2891 2902	Action	recuperarse
+191	2909 2916	Predicate	algunos
+192	2917 2923	Action	mueren
+193	2928 2936	Action	decisión
+194	2940 2951	Action	interrumpir
+195	2955 2963	Concept	embarazo
+196	2971 2979	Concept	personal
+197	2984 2989	Predicate	nivel
+198	2990 2994	Concept	alto
+199	2998 3005	Concept	glucosa
+200	3017 3025	Concept	embarazo
+201	3032 3037	Concept	bueno
+202	3046 3050	Concept	bebé
+203	3055 3063;3064 3075	Concept	diabetes gestacional
+204	3082 3090	Concept	diabetes
+205	3095 3102	Action	aparece
+206	3107 3114;3115 3118	Concept	primera vez
+207	3130 3135	Concept	mujer
+208	3141 3151	Concept	embarazada
+209	3156 3163	Predicate	mayoría
+210	3171 3176	Concept	veces
+211	3178 3182	Reference	esta
+212	3183 3191	Concept	diabetes
+213	3192 3202	Action	desaparece
+214	3215 3219	Action	nace
+215	3223 3227	Concept	bebé
+216	3238 3245	Action	aumenta
+217	3249 3255	Predicate	riesgo
+218	3259 3267;3268 3272;3273 3274	Concept	diabetes tipo 2
+219	3275 3278;3279 3287	Concept	más adelante
+220	3294 3301	Predicate	mayoría
+221	3309 3316	Concept	mujeres
+222	3324 3328	Action	hace
+223	3332 3338	Concept	examen
+224	3342 3351	Action	detección
+225	3360 3368	Concept	diabetes
+226	3375 3382;3383 3392	Predicate	segundo trimestre
+227	3397 3405	Concept	embarazo
+228	3411 3418	Concept	mujeres
+229	3430 3435	Predicate	mayor
+230	3436 3442	Concept	riesgo
+231	3454 3464	Action	examinadas
+232	3465 3470	Concept	antes
+233	3475 3479	Concept	acné
+234	3487 3497	Concept	enfermedad
+235	3498 3503	Concept	común
+236	3510 3514	Concept	piel
+237	3519 3526	Action	provoca
+238	3527 3537	Concept	espinillas
+239	3539 3545	Concept	granos
+240	3552 3562	Concept	espinillas
+241	3566 3572	Action	forman
+242	3584 3593;3594 3601	Concept	folículos pilosos
+243	3620 3626	Predicate	debajo
+244	3633 3637	Concept	piel
+245	3641 3646	Action	tapan
+246	3651 3658	Predicate	mayoría
+247	3666 3676	Concept	espinillas
+248	3677 3685	Action	aparecen
+249	3692 3698	Concept	rostro
+250	3703 3709	Concept	cuello
+251	3714 3721	Concept	espalda
+252	3726 3731	Concept	pecho
+253	3738 3745	Concept	hombros
+254	3747 3756	Predicate	Cualquier
+255	3757 3764	Concept	persona
+256	3771 3776	Action	tener
+257	3777 3781	Concept	acné
+258	3791 3796	Concept	común
+259	3804 3816	Concept	adolescentes
+260	3823 3830;3831 3838	Concept	adultos jóvenes
+261	3843 3851;3852 3864	Concept	cistitis intersticial
+262	3872 3881	Concept	condición
+263	3892 3901	Concept	molestias
+264	3904 3909	Concept	dolor
+265	3916 3922	Concept	vejiga
+266	3929 3938	Action	necesidad
+267	3942 3948	Action	orinar
+268	3949 3958	Concept	frecuente
+269	3961 3973	Concept	urgentemente
+270	3986 3991;3992 4001	Concept	cuero cabelludo
+271	4017 4024	Action	afectar
+272	4031 4037	Predicate	partes
+273	4042 4048	Concept	cuerpo
+274	4059 4067	Concept	párpados
+275	4073 4079	Concept	axilas
+276	4084 4089	Concept	ingle
+277	4096 4102	Concept	orejas
+278	4107 4111	Concept	piel
+279	4118 4124	Concept	órgano
+280	4125 4128	Predicate	más
+281	4129 4135	Concept	grande
+282	4140 4146	Concept	cuerpo
+283	4148 4153	Action	cubre
+284	4156 4163	Action	protege
+285	4167 4173	Concept	cuerpo
+286	4179 4190	Concept	endoscopios
+287	4202 4208	Concept	cámara
+288	4209 4217	Concept	diminuta
+289	4218 4223	Action	unida
+290	4229 4233	Concept	tubo
+291	4234 4239	Concept	largo
+292	4242 4249	Concept	delgado
