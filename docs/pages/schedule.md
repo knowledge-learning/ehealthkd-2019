@@ -11,6 +11,8 @@ The following schedule will be updated accordingly.
 
  **11 Feb 2019**: The [trial data](https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial) is available for download.
 
+ **01 Apr 2019**: The training and development data is available. Please fill in this [Google Form](https://forms.gle/3KHAvo7e5MfxtnME9) to get it.
+
 |Date|Event|Link|
 |---|---|---|
 | **11 Feb 2019** | Trial data ready                                                    | [Trial data in Github](https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial) |
