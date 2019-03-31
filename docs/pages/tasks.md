@@ -82,3 +82,11 @@ The **LABEL** (i.e. column 1) is one of the previously defined, and the **ID**s 
 > **NOTE**: Column headers are optional, and only shown here for illustrative purposes.
 
 > **Recap:** Columns are separated by _one or more_ **TAB** characters.
+
+### Important: Note about negated concepts
+
+The eHealth-KD corpus considers negated actions, which are manually annotated in the corresponding Brat files (which will be released after the challenge is completed). However, for competition purposes, we are **not considering** the annotation of negation as part of the challenge.
+
+This means that, in the corpus, you will find sentences with negated concepts, such as: _"No existe un tratamiento que restablezca la función ovárica normal."_. In this and similar sentences, we **still expect** that your system recognizes _existe_ as **Action** and _tratamiento_ as **Target**, as though if the negation did not exist.
+
+In in doubt please contact the organizers at [ehealth-kd@googlegroups.com](mailto:ehealth-kd@googlegroups.com).

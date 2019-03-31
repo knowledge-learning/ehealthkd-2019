@@ -43,7 +43,7 @@ All the data will be made available to participants in due time. This includes t
 |Date|Event|Link|
 |---|---|---|
 | **11 Feb 2018** | Trial data ready                                                    | [Trial data in Github](https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial) |
-| **01 Apr 2019** | Training and development data ready                                 | (_to be announced..._) |
+| **01 Apr 2019** | Training and development data ready                                 | [Training and dev data](https://forms.gle/3KHAvo7e5MfxtnME9) |
 | **29 Apr 2019** | **Registration deadline** <br> (due by 23:59 GMT -12:00)            | (_to be announced..._) |
 | **30 Apr 2019** | **Evaluation start** <br> Test data released                        | (_to be announced..._) |
 | **06 May 2019** | **Evaluation end** <br> (due by 23:59 GMT -12:00)                   | (_to be announced..._) |
@@ -61,6 +61,7 @@ The competition is managed and run in the [Codalab Competitions platform](https:
 To download the relevant data, please visit: (**link coming soon**).
 
 ## Publication instructions
+
 The following instructions are subject to change to adapt to the official IberLEF 2019 requirements.
 
 Send your paper to our Program Comitee at [chairs_eHealth-KD@googlegroups.com](mailto:chairs_eHealth-KD@googlegroups.com) before June 3rd, 2019.
