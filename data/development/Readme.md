@@ -14,7 +14,7 @@ For actual training, 600 sentences are available in the [training set](../traini
 To obtain the data, you can either manually download each file separately:
 
 * [Development - raw text](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/development/input_develop.txt)
-* [Development - output for Subtask A](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/develop/output_a_development.txt)
+* [Development - output for Subtask A](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/development/output_a_develop.txt)
 * [Development - output for Subtask B](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/development/output_b_develop.txt)
 
 Or you can clone the repository:
