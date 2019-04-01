@@ -31,9 +31,11 @@ All data is available in the [Github repository](https://github.com/knowledge-le
 * [Trial - output for Subtask A](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/trial/output_a_trial.txt)
 * [Trial - output for Subtask B](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/trial/output_b_trial.txt)
 
-### Training and development
+### **Training and development**
 
-Training and development data is available after filling the following Google Form:
+The eHealth-KD Corpus is distributed free of charge under a Creative Commons Non-Commercial Share-Alike 4.0 License.
+
+To accept the distribution terms, please fill in the following form:
 > [https://forms.gle/3KHAvo7e5MfxtnME9](https://forms.gle/3KHAvo7e5MfxtnME9)
 
 The training set contains a total of 600 sentences manually annotated in [Brat](http://brat.nlplab.org/) and post-processed to match the input format.
