@@ -106,3 +106,4 @@ _*.ann
 _*.txt
 
 data/anns/*
+data.zip
