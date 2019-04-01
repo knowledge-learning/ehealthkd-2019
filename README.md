@@ -5,7 +5,21 @@ Please refer [to the website](https://knowledge-learning.github.io/ehealthkd-201
 
 In this repository we will release all training, validation and test data in due time, including evaluation scripts.
 
-## License
+## Licenses
+
+This project is licensed under a dual license. Please see details below.
+
+### Corpora
+
+> Copyright (c) 2019 Knowledge Learning Project
+>
+> The eHealth-KD Corpus is distributed free of charge under a Creative Commons Non-Commercial Share-Alike 4.0 License.
+>
+> To accept the distribution terms, please fill in the following form:
+> [https://forms.gle/3KHAvo7e5MfxtnME9](https://forms.gle/3KHAvo7e5MfxtnME9)
+>
+
+### Code, documentation and evaluation scripts
 
 > MIT License
 >
