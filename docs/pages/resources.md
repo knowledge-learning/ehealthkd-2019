@@ -19,8 +19,6 @@ These files contain several entries related to health and medicine topics and ha
 
 The corpus will be divided into three sections. Training and development sets will be published along with baseline implementations, for participants to train and fine-tune their systems. These files will consist of both plain text input and the expected outputs for both subtasks. Afterward, a small test set will be released, with plain text only, further divided into 3 sub-sets, one for each scenario. Participants are expected to submit the corresponding output files to Codalab.
 
-
-
 In no case, participants will be able to access the correct output files for the test set before the challenge ends. Afterward, the full corpus, including Brat-annotated files will be freely available under a suitable license for the research community.
 
 ### **Download links**:
@@ -32,6 +30,18 @@ All data is available in the [Github repository](https://github.com/knowledge-le
 * [Trial - raw input text](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/trial/input_trial.txt)
 * [Trial - output for Subtask A](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/trial/output_a_trial.txt)
 * [Trial - output for Subtask B](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/trial/output_b_trial.txt)
+
+### **Training and development**
+
+The eHealth-KD Corpus is distributed free of charge under a Creative Commons Non-Commercial Share-Alike 4.0 License.
+
+To accept the distribution terms, please fill in the following form:
+> [https://forms.gle/3KHAvo7e5MfxtnME9](https://forms.gle/3KHAvo7e5MfxtnME9)
+
+The training set contains a total of 600 sentences manually annotated in [Brat](http://brat.nlplab.org/) and post-processed to match the input format.
+These sentences are expected to be used for training machine learning systems.
+An additional 100 sentences are available in the development set.
+These additional sentences are expected to be used for evaluating machine learning systems and tune their hyperparameters.
 
 ## Evaluation scripts
 

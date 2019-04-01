@@ -106,7 +106,3 @@ _*.ann
 _*.txt
 
 data/anns/*
-
-data/training/*.txt
-data/development/*.txt
-

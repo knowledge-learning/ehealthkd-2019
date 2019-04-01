@@ -76,6 +76,21 @@ class Sentence:
         s.relations = [r.clone(s) for r in self.relations]
         return s
 
+    def fix_ids(self, start=1):
+        next_id = start
+
+        for k in self.keyphrases:
+            for r in self.relations:
+                if r.origin == k.id:
+                    r.origin = next_id
+                if r.destination == k.id:
+                    r.destination = next_id
+
+            k.id = next_id
+            next_id += 1
+
+        return next_id
+
     def overlapping_keyphrases(self):
         result = []
 
@@ -167,7 +182,15 @@ class Collection:
     def __len__(self):
         return len(self.sentences)
 
+    def fix_ids(self):
+        next_id = 1
+
+        for s in self.sentences:
+            next_id = s.fix_ids(next_id)
+
     def dump(self, finput, skip_empty_sentences=True):
+        self.fix_ids()
+
         input_file = finput.open('w')
         output_a_file = (finput.parent / ('output_a_' + finput.name[6:])).open('w')
         output_b_file = (finput.parent / ('output_b_' + finput.name[6:])).open('w')
@@ -183,8 +206,8 @@ class Collection:
             for keyphrase in sentence.keyphrases:
                 output_a_file.write("{0}\t{1}\t{2}\t{3}\n".format(
                     keyphrase.id,
-                    keyphrase.label,
                     ";".join("{} {}".format(start+shift, end+shift) for start,end in keyphrase.spans),
+                    keyphrase.label,
                     keyphrase.text
                 ))
 
@@ -198,23 +221,71 @@ class Collection:
             shift += len(sentence) + 1
 
 
-    def load_ann(self, finput, split_keyphrases=True):
-        ann_file = finput.parent / (finput.name[:-3] + 'ann')
-        text = finput.open().read()
-        sentences = [s for s in text.split('\n') if s]
+    def load(self, finput):
+        input_a_file = finput.parent / ('output_a_' + finput.name[6:])
+        input_b_file = finput.parent / ('output_b_' + finput.name[6:])
 
-        self._parse_ann(sentences, ann_file, split_keyphrases)
-
-        return len(sentences)
-
-    def _parse_ann(self, sentences, ann_file, split_keyphrases):
+        sentences = [s.strip() for s in finput.open().readlines() if s]
         sentences_length = [len(s) for s in sentences]
 
         for i in range(1,len(sentences_length)):
             sentences_length[i] += (sentences_length[i-1] + 1)
 
         sentences_obj = [Sentence(text) for text in sentences]
-        labels_by_id = {}
+        sentence_by_id = {}
+
+        for line in input_a_file.open().readlines():
+            lid, spans, label, _ = line.strip().split("\t")
+            lid = int(lid)
+
+            spans = [s.split() for s in spans.split(";")]
+            spans = [(int(start), int(end)) for start, end in spans]
+
+            # find the sentence where this annotation is
+            i = bisect.bisect(sentences_length, spans[0][0])
+            # correct the annotation spans
+            if i > 0:
+                spans = [(start - sentences_length[i-1] - 1,
+                          end - sentences_length[i-1] - 1)
+                          for start,end in spans]
+                spans.sort(key=lambda t:t[0])
+            # store the annotation in the corresponding sentence
+            the_sentence = sentences_obj[i]
+            keyphrase = Keyphrase(the_sentence, label, lid, spans)
+            the_sentence.keyphrases.append(keyphrase)
+
+            if len(keyphrase.spans) == 1:
+                keyphrase.split()
+
+            sentence_by_id[lid] = the_sentence
+
+        for line in input_b_file.open().readlines():
+            label, src, dst = line.strip().split("\t")
+            src, dst = int(src), int(dst)
+
+            the_sentence = sentence_by_id[src]
+            assert sentence_by_id[dst] == the_sentence
+
+            the_sentence.relations.append(Relation(the_sentence, src, dst, label.lower()))
+
+        self.sentences.extend(sentences_obj)
+
+    def load_ann(self, finput):
+        ann_file = finput.parent / (finput.name[:-3] + 'ann')
+        text = finput.open().read()
+        sentences = [s for s in text.split('\n') if s]
+
+        self._parse_ann(sentences, ann_file)
+
+        return len(sentences)
+
+    def _parse_ann(self, sentences, ann_file):
+        sentences_length = [len(s) for s in sentences]
+
+        for i in range(1,len(sentences_length)):
+            sentences_length[i] += (sentences_length[i-1] + 1)
+
+        sentences_obj = [Sentence(text) for text in sentences]
         sentence_by_id = {}
 
         entities = []
