@@ -171,6 +171,10 @@ class Sentence:
     def __repr__(self):
         return "Sentence(text=%r, keyphrases=%r, relations=%r)" % (self.text, self.keyphrases, self.relations)
 
+    @staticmethod
+    def load(finput):
+        return [Sentence(s.strip()) for s in finput.open().readlines() if s]
+
 
 class Collection:
     def __init__(self, sentences=None):
