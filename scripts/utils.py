@@ -225,17 +225,20 @@ class Collection:
             shift += len(sentence) + 1
 
 
-    def load(self, finput):
-        input_a_file = finput.parent / ('output_a_' + finput.name[6:])
-        input_b_file = finput.parent / ('output_b_' + finput.name[6:])
-
+    def load_input(self, finput):
         sentences = [s.strip() for s in finput.open().readlines() if s]
-        sentences_length = [len(s) for s in sentences]
+        sentences_obj = [Sentence(text) for text in sentences]
+        self.sentences.extend(sentences_obj)
 
+    def load_keyphrases(self, finput):
+        self.load_input(finput)
+
+        input_a_file = finput.parent / ('output_a_' + finput.name[6:])
+
+        sentences_length = [len(s.text) for s in self.sentences]
         for i in range(1,len(sentences_length)):
             sentences_length[i] += (sentences_length[i-1] + 1)
 
-        sentences_obj = [Sentence(text) for text in sentences]
         sentence_by_id = {}
 
         for line in input_a_file.open().readlines():
@@ -254,7 +257,7 @@ class Collection:
                           for start,end in spans]
                 spans.sort(key=lambda t:t[0])
             # store the annotation in the corresponding sentence
-            the_sentence = sentences_obj[i]
+            the_sentence = self.sentences[i]
             keyphrase = Keyphrase(the_sentence, label, lid, spans)
             the_sentence.keyphrases.append(keyphrase)
 
@@ -262,6 +265,14 @@ class Collection:
                 keyphrase.split()
 
             sentence_by_id[lid] = the_sentence
+
+        return sentence_by_id
+
+
+    def load(self, finput):
+        input_b_file = finput.parent / ('output_b_' + finput.name[6:])
+
+        sentence_by_id = self.load_keyphrases(finput)
 
         for line in input_b_file.open().readlines():
             label, src, dst = line.strip().split("\t")
@@ -272,7 +283,6 @@ class Collection:
 
             the_sentence.relations.append(Relation(the_sentence, src, dst, label.lower()))
 
-        self.sentences.extend(sentences_obj)
 
     def load_ann(self, finput):
         ann_file = finput.parent / (finput.name[:-3] + 'ann')
