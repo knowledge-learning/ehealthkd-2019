@@ -70,10 +70,10 @@ class Sentence:
         self.keyphrases = []
         self.relations = []
 
-    def clone(self):
+    def clone(self, shallow=False):
         s = Sentence(self.text)
-        s.keyphrases = [k.clone(s) for k in self.keyphrases]
-        s.relations = [r.clone(s) for r in self.relations]
+        s.keyphrases = [k if shallow else k.clone(s) for k in self.keyphrases]
+        s.relations = [r if shallow else r.clone(s) for r in self.relations]
         return s
 
     def fix_ids(self, start=1):
@@ -127,10 +127,12 @@ class Sentence:
                 self.keyphrases.remove(keyp)
 
 
-    def find_keyphrase(self, id=None, start=None, end=None):
+    def find_keyphrase(self, id=None, start=None, end=None, spans=None):
         if id is not None:
             return self._find_keyphrase_by_id(id)
-        return self._find_keyphrase_by_spans(start, end)
+        if spans is None:
+            spans = [(start, end)]
+        return self._find_keyphrase_by_spans(spans)
 
     def find_relations(self, orig, dest):
         results = []
@@ -155,9 +157,9 @@ class Sentence:
 
         return None
 
-    def _find_keyphrase_by_spans(self, start, end):
+    def _find_keyphrase_by_spans(self, spans):
         for k in self.keyphrases:
-            if k.start == start and k.end == end:
+            if k.spans == spans:
                 return k
 
         return None
