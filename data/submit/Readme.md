@@ -8,4 +8,5 @@
 >
 
 This folder is meant to be used for organizing your submissions to [Codalab](https://competitions.codalab.org/competitions/21781).
-The three sub-folders correspond to the three evaluation scenarios, as explained in the [Evaluations section](../../docs/pages/evaluation.md).
+The three sub-folders correspond to the three evaluation scenarios, as explained in the [Evaluation section](https://knowledge-learning.github.io/ehealthkd-2019/evaluation).
+A detailed explanation of the submission process is available in the [Submission section](https://knowledge-learning.github.io/ehealthkd-2019/submission).

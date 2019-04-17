@@ -47,13 +47,19 @@ These additional sentences are expected to be used for evaluating machine learni
 
 Evaluation scripts will be provided so that participants can test offline their systems with respect to the same metrics used in the challenge. Since participants will not have access to the test gold annotations, their offline performance will need to be evaluated in the development set. This metric will not be exactly the same as the one obtained in the test set, but it should serve for participants to compare different strategies and perform hyper-parameter tunning.
 
-### **Download links**: (**to be announced...**)
+### **Download links**: 
+
+The evaluation is available in the [Github repository](https://github.com/knowledge-learning/ehealthkd-2019) of the project, in the file `script/score.py`.
+A detailed explanation is available in the [Submission section](/submission).
 
 ## Baselines
 
-A set of simple baselines will be released along with the corpus. The baselines source code will be freely available as well. The baselines performance on the development and the test set will be published.
+A simple baseline will be released along with the corpus. The baseline source code will be freely available as well. The baselines performance on the development and the test set will be published.
 
-### **Download links**: (**to be announced...**)
+### **Download links**: 
+
+The evaluation is available in the [Github repository](https://github.com/knowledge-learning/ehealthkd-2019) of the project, in the file `script/baseline.py`.
+A detailed explanation is available in the [Submission section](/submission).
 
 # Additional resources
 
