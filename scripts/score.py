@@ -148,7 +148,7 @@ def map_keyphrase(keyphrase, data):
         pass
     return None
 
-def compute_metrics(data, skipA, skipB):
+def compute_metrics(data, skipA=False, skipB=False):
     correct = 0
     partial = 0
     incorrect = 0

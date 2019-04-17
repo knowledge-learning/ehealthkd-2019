@@ -212,7 +212,7 @@ In Codalab, go to the [Participate](https://competitions.codalab.org/competition
 In the submission page (below) please fill in the following information:
 
 * Team name.
-Method name: a short, memorable name for the technique you are * presenting.
+Method name: a short, memorable name for the technique you are presenting.
 * Method description: refers to the type of techniques used. Please write a summary (~200 words) of the techniques, algorithms or approaches used. Also specify if you use external sources (other corpora, knowledge bases, etc.). 
 Finally, attach one or more of the following tags regarding techniques and/or resources used in your approach. These tags will help us better understand which approaches are more popular or perform better in this task in the future.
 
