@@ -144,7 +144,7 @@ $ python3 scripts/baseline.py --skip-A data/training/input_training.txt data/dev
 
 > **(!!!)** When submitting to subtask B, please make sure to **copy the `output_a_scenario3.txt`** file _from the gold annotations_. This is the same as the `output_a_develop.txt` file in this case. This file will not be taken into consideration when evaluating this scenario but is necessary for the evaluation script when it parses the results. The baseline implementation already takes care of this detail.
 
-> **(!!!):** When submitting to subtask B, make sure to **reuse the keyphrase ID** provided in the `output_a_develop.txt` (or corresponding TEST file) from the gold annotations. The baseline implementation already takes care of this detail.
+> **(!!!)** When submitting to subtask B, make sure to **reuse the keyphrase ID** provided in the `output_a_develop.txt` (or corresponding TEST file) from the gold annotations. The baseline implementation already takes care of this detail.
 
 You can evaluate just scenario 2 with the evaluation script by passing `--skip-A`:
 
@@ -190,7 +190,7 @@ total 36
 -rw-r--r-- 1 user user   764 abr 17 19:46 output_b_scenario3.txt
 ```
 
-> **(!!!):** Please double-check the files for all three scenarios, including the empty `output_b_scenario2.txt` and the copied `output_a_scenario3.txt`. If you do not plan to participate in any given scenario, kindly reuse the baseline output then, to avoid the evaluation script from raising errors about missing files.
+> **(!!!)** Please double-check the files for all three scenarios, including the empty `output_b_scenario2.txt` and the copied `output_a_scenario3.txt`. If you do not plan to participate in any given scenario, kindly reuse the baseline output then, to avoid the evaluation script from raising errors about missing files.
 
 ## Submitting your results to Codalab
 
@@ -201,7 +201,7 @@ $ cd data/submit
 $ zip -r submit.zip *
 ```
 
-> **(!!!):** Make sure you zip **the content** of the `submit` folder, and not the `submit` _itself_. When in doubt, `cd` into `data/submit` and run `zip` there. The idea is that the root of your `submit.zip` file should directly contain the three folders `scenario1-main`, etc., and **not** a `submit` folder. 
+> **(!!!)** Make sure you zip **the content** of the `submit` folder, and not the `submit` _itself_. When in doubt, `cd` into `data/submit` and run `zip` there. The idea is that the root of your `submit.zip` file should directly contain the three folders `scenario1-main`, etc., and **not** a `submit` folder. 
 
 Go to the [Codalab competition page](https://competitions.codalab.org/competitions/21781) and register if you have not done so already.
 
