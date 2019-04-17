@@ -168,11 +168,11 @@ def compute_metrics(data, skipA=False, skipB=False):
         spurious += len(data[SPURIOUS_B])
 
     recall_num = correct + 0.5 * partial
-    recall_den = correct + partial + incorrect + spurious
+    recall_den = correct + partial + incorrect + missing
     recall = recall_num / recall_den if recall_den > 0 else 0
 
     precision_num = correct + 0.5 * partial
-    precision_den = correct + partial + incorrect + missing
+    precision_den = correct + partial + incorrect + spurious
     precision = precision_num / precision_den if precision_den > 0 else 0
 
     f1_num = 2 * recall * precision

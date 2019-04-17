@@ -75,8 +75,8 @@ correct_B: 32
 spurious_B: 66
 missing_B: 391
 --------------------
-recall: 0.5036
-precision: 0.404
+recall: 0.404
+precision: 0.5036
 f1: 0.4484
 ```
 
@@ -105,8 +105,8 @@ Relation(from='producen', to='correctamente', label='in-context')
 Relation(from='trastorno', to='niño', label='target')
 Relation(from='trastorno', to='genético', label='in-context')
 --------------------
-recall: 0.5036
-precision: 0.404
+recall: 0.404
+precision: 0.5036
 f1: 0.4484
 ```
 
@@ -125,14 +125,13 @@ You can evaluate just scenario 2 with the evaluation script by passing `--skip-B
 ```bash
 $ python3 scripts/score.py --skip-B data/development/input_develop.txt data/submit/scenario2-taskA/input_scenario2.txt 
 
-correct_A: 366
 incorrect_A: 42
 partial_A: 33
 spurious_A: 284
 missing_A: 162
 --------------------
-recall: 0.5276
-precision: 0.6343
+recall: 0.6343
+precision: 0.5276
 f1: 0.5761
 ```
 
@@ -155,8 +154,8 @@ correct_B: 36
 spurious_B: 14
 missing_B: 387
 --------------------
-recall: 0.72
-precision: 0.08511
+recall: 0.08511
+precision: 0.72
 f1: 0.1522
 ```
 
