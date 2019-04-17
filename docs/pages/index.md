@@ -27,7 +27,10 @@ To simplify the evaluation process, two subtasks are presented:
 
 ## Submissions and evaluation
 
-The challenge will be graded in Codalab. [Details about submissions are provided here](evaluation).
+The challenge will be graded in Codalab.
+
+* [Submission instructions are provided here](submission)
+* [The evaluation metrics are explained here](evaluation)
 
 There are three evaluation scenarios:
 1. [A main scenario covering both tasks](evaluation#main-evaluation-scenario-1)

@@ -16,13 +16,13 @@ MISSING_B = 'missing_B'
 
 def report(data, verbose):
     for key, value in data.items():
-        print(f'{key}: {len(value)}')
+        print('{}: {}'.format(key, len(value)))
 
     if verbose:
         for key, value in data.items():
-            print(f'\n==================={key.upper().center(14)}===================\n')
+            print('\n==================={}===================\n'.format(key.upper().center(14)))
             if isinstance(value, dict):
-                print('\n'.join(f'{x} --> {y}' for x,y in value.items()))
+                print('\n'.join('{} --> {}'.format(x,y) for x,y in value.items()))
             else:
                 print('\n'.join(str(x) for x in value))
 
