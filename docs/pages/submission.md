@@ -123,7 +123,7 @@ $ python3 scripts/baseline.py --skip-B data/training/input_training.txt data/dev
 You can evaluate just scenario 2 with the evaluation script by passing `--skip-B`:
 
 ```bash
-ython3 scripts/score.py --skip-B data/development/input_develop.txt data/submit/scenario2-taskA/input_scenario2.txt 
+$ python3 scripts/score.py --skip-B data/development/input_develop.txt data/submit/scenario2-taskA/input_scenario2.txt 
 
 correct_A: 366
 incorrect_A: 42
