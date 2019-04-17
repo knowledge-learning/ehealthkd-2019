@@ -14,9 +14,9 @@ This challenge proposes a main evaluation scenario (Scenario 1) where both subta
 
 This scenario evaluates all of the subtasks together as a pipeline. The input consists only of a plain text, and the expected output will be the two output files for Subtask A and B, as described before. The measures will be precision, recall and F1 as follows:
 
-$$Rec_{AB} = \frac{C_A + C_B + \frac{1}{2} P_A}{C_A + I_A + C_B + P_A + S_A + S_B} $$
+$$Rec_{AB} = \frac{C_A + C_B + \frac{1}{2} P_A}{C_A + I_A + C_B + P_A + M_A + M_B} $$
 
-$$Prec_{AB} = \frac{C_A + C_B + \frac{1}{2} P_A}{C_A + I_A + C_B + P_A + M_A + M_B} $$
+$$Prec_{AB} = \frac{C_A + C_B + \frac{1}{2} P_A}{C_A + I_A + C_B + P_A + S_A + S_B} $$
 
 $$F_{1AB} = 2 \cdot \frac{Prec_{AB} \cdot Rec_{AB}}{Prec_{AB} + Rec_{AB}} $$
 
@@ -36,9 +36,9 @@ This scenario only evaluates Subtask A. The input is a plain text with several s
 
 From these definitions, we compute precision, recall, and a standard F1 measure as follows:
 
-$$Rec_{A} = \frac{C_A + \frac{1}{2} P_A}{C_A + I_A + P_A + S_A} $$
+$$Rec_{A} = \frac{C_A + \frac{1}{2} P_A}{C_A + I_A + P_A + M_A} $$
 
-$$Prec_{A} = \frac{C_A + \frac{1}{2} P_A}{C_A + I_A + P_A + M_A} $$
+$$Prec_{A} = \frac{C_A + \frac{1}{2} P_A}{C_A + I_A + P_A + S_A} $$
 
 $$F_{1A} = 2 \cdot \frac{Prec_{A} \cdot Rec_{A}}{Prec_{A} + Rec_{A}} $$
 
@@ -56,9 +56,9 @@ This scenario only evaluates Subtask B. The input is plain text and the correct 
 
 We define standard precision, recall and F1 metrics as follows:
 
-$$Rec_{B} = \frac{C_B}{C_B + S_B} $$
+$$Rec_{B} = \frac{C_B}{C_B + M_B} $$
 
-$$Prec_{B} = \frac{C_B}{C_B + M_B} $$
+$$Prec_{B} = \frac{C_B}{C_B + S_B} $$
 
 $$F_{1B} = 2 \cdot \frac{Prec_{B} \cdot Rec_{B}}{Prec_{B} + Rec_{B}} $$
 
