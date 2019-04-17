@@ -87,7 +87,7 @@ You can pass `--verbose` if you want to see detailed information about which key
 ```bash
 $ python3 scripts/score.py --verbose data/development/input_develop.txt data/submit/scenario1-main/input_scenario1.txt 
 
-===================  CORRECT_A   ===================
+===================  PARTIAL_A  ===================
 
 Keyphrase(text='defecto', label='Concept', id=32) --> Keyphrase(text='defecto de nacimiento', label='Concept', id=30)
 Keyphrase(text='aborto', label='Concept', id=39) --> Keyphrase(text='aborto espontáneo', label='Concept', id=31)
