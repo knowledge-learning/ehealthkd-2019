@@ -107,3 +107,4 @@ _*.txt
 
 data/anns/*
 *.zip
+data/codalab/*
