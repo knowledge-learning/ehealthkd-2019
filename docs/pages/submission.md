@@ -37,14 +37,14 @@ Run the baseline implementation for the main scenario. The baseline implementati
 
 In this case we will train with the `training` set (600 sentences) and evaluate on the `development` set (100 sentences) using the same sentences for the 3 evaluation scenarios. However, in the final TEST phase you will train with both training and development and evaluate on the corresponding test sets (different for each scenario).
 
+Here is a baseline execution example:
 ```bash
 $ cd ehealthkd-2019
 # Inside the root folder ehealthkd-2019
 $ python3 scripts/baseline.py data/training/input_training.txt data/development/input_develop.txt data/submit/scenario1-main/input_scenario1.txt
 ```
 
-Go to `data/submit/scenario1-main` and check the corresponding files were generated:
-
+Then, you can go to `data/submit/scenario1-main` and check the corresponding files were generated:
 ```bash
 $ ls -l data/submit/scenario1-main
 -rw-r--r-- 1 user user  8756 abr 17 19:01 input_scenario1.txt
@@ -82,7 +82,7 @@ f1: 0.4484
 
 > **NOTE:** The exact numbers you see with the baseline may vary, as the evaluation script and/or the baseline implementation can suffer changes as we discover bugs or mistakes. These numbers are for illustrative purposes only. The actual scores are the ones published in Codalab.
 
-You can pass `--verbose` if you want to see detailed information about which keyphrases and relations were correct, missing, etc.
+Additionally, you can pass `--verbose` if you want to see detailed information about which keyphrases and relations were correct, missing, etc.
 
 ```bash
 $ python3 scripts/score.py --verbose data/development/input_develop.txt data/submit/scenario1-main/input_scenario1.txt 
