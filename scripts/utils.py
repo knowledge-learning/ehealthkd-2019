@@ -198,8 +198,8 @@ class Collection:
         self.fix_ids()
 
         input_file = finput.open('w')
-        output_a_file = (finput.parent / ('output_a_' + finput.name[6:])).open('w')
-        output_b_file = (finput.parent / ('output_b_' + finput.name[6:])).open('w')
+        output_a_file = (finput.parent / ('output_a_' + finput.name.split("_")[1])).open('w')
+        output_b_file = (finput.parent / ('output_b_' + finput.name.split("_")[1])).open('w')
 
         shift = 0
 
@@ -235,7 +235,7 @@ class Collection:
     def load_keyphrases(self, finput):
         self.load_input(finput)
 
-        input_a_file = finput.parent / ('output_a_' + finput.name[6:])
+        input_a_file = finput.parent / ('output_a_' + finput.name.split("_")[1])
 
         sentences_length = [len(s.text) for s in self.sentences]
         for i in range(1,len(sentences_length)):
@@ -272,7 +272,7 @@ class Collection:
 
 
     def load(self, finput):
-        input_b_file = finput.parent / ('output_b_' + finput.name[6:])
+        input_b_file = finput.parent / ('output_b_' + finput.name.split("_")[1])
 
         sentence_by_id = self.load_keyphrases(finput)
 
