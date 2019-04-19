@@ -68,18 +68,18 @@ The evaluation script outputs the total number of correct, incorrect, partial, m
 ```bash
 $ python3 scripts/score.py data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
 
-correct_A: 366
+correct_A: 368
 incorrect_A: 42
-partial_A: 33
-spurious_A: 284
+partial_A: 32
+spurious_A: 267
 missing_A: 162
-correct_B: 32
-spurious_B: 66
-missing_B: 391
+correct_B: 43
+spurious_B: 96
+missing_B: 508
 --------------------
-recall: 0.404
-precision: 0.5036
-f1: 0.4484
+recall: 0.3697
+precision: 0.5035
+f1: 0.4264
 ```
 
 > **NOTE:** The exact numbers you see with the baseline may vary, as the evaluation script and/or the baseline implementation can suffer changes as we discover bugs or mistakes. These numbers are for illustrative purposes only. The actual scores are the ones published in Codalab.
@@ -107,9 +107,9 @@ Relation(from='producen', to='correctamente', label='in-context')
 Relation(from='trastorno', to='niño', label='target')
 Relation(from='trastorno', to='genético', label='in-context')
 --------------------
-recall: 0.404
-precision: 0.5036
-f1: 0.4484
+recall: 0.3697
+precision: 0.5035
+f1: 0.4264
 ```
 
 ### Evaluating the optional scenarios
@@ -129,14 +129,15 @@ You can evaluate just scenario 2 with the evaluation script by passing `--skip-B
 ```bash
 $ python3 scripts/score.py --skip-B data/development/input_develop.txt data/submit/scenario2-taskA/output_scenario2.txt
 
+correct_A: 368
 incorrect_A: 42
-partial_A: 33
-spurious_A: 284
+partial_A: 32
+spurious_A: 283
 missing_A: 162
 --------------------
-recall: 0.6343
-precision: 0.5276
-f1: 0.5761
+recall: 0.6358
+precision: 0.5297
+f1: 0.5779
 ```
 
 For subtask B, the output folder is `submit/scenario3-taskB` and the dev file is `output_scenario3.txt`. Pass `--skip-A` to the baseline script to skip the output for subtask B. Again, we will be reusing the `development` set in this case, but in the TEST phase there will be an additional 100 sentences just for this scenario.
@@ -154,13 +155,13 @@ You can evaluate just scenario 2 with the evaluation script by passing `--skip-A
 ```bash
 $ python3 scripts/score.py --skip-A data/development/input_develop.txt data/submit/scenario3-taskB/output_scenario3.txt
 
-correct_B: 36
-spurious_B: 14
-missing_B: 387
+correct_B: 49
+spurious_B: 33
+missing_B: 502
 --------------------
-recall: 0.08511
-precision: 0.72
-f1: 0.1522
+recall: 0.08893
+precision: 0.5976
+f1: 0.1548
 ```
 
 If you have succesfully generated the output files for all the scenarios, you should have the following structure in the `data/submit` folder:
