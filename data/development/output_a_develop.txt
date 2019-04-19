@@ -165,7 +165,7 @@
 165	2303 2310	Concept	pruebas
 166	2315 2323	Concept	imágenes
 167	2329 2336	Concept	biopsia
-168	2341 2348	Predicate	pruebas
+168	2341 2348	Action	pruebas
 169	2355 2362	Action	función
 170	2370 2378	Concept	pulmones
 171	2384 2396	Action	diagnosticar
@@ -341,263 +341,264 @@
 341	4851 4859	Action	comenzar
 342	4867 4875	Concept	pulmones
 343	4884 4888	Concept	piel
-344	4890 4894	Predicate	Para
-345	4898 4906;4907 4909;4910 4912;4913 4917;4918 4922	Concept	problema de la boca seca
-346	4933 4941	Action	masticar
-347	4942 4946;4947 4949;4950 4956	Concept	goma de mascar
-348	4961 4967	Concept	azúcar
-349	4970 4976	Action	chupar
-350	4980 4988	Concept	caramelo
-351	4993 4999	Concept	azúcar
-352	5002 5007	Action	tomar
-353	5008 5016	Concept	pequeños
-354	5017 5023	Action	sorbos
-355	5027 5031	Concept	agua
-356	5043 5046	Concept	día
-357	5051 5058	Concept	malaria
-358	5066 5076	Concept	importante
-359	5077 5082	Action	causa
-360	5086 5092	Action	muerte
-361	5096 5100	Predicate	todo
-362	5104 5109	Concept	mundo
-363	5121 5134	Concept	prácticamente
-364	5135 5145	Action	erradicada
-365	5153 5160;5161 5167	Concept	Estados Unidos
-366	5172 5183	Concept	tratamiento
-367	5198 5205	Concept	cirugía
-368	5208 5215;5216 5218;5219 5228	Concept	terapia de radiación
-369	5233 5239;5240 5242;5243 5248	Concept	cáncer de riñón
-370	5252 5257	Action	forma
-371	5264 5272	Concept	membrana
-372	5277 5284	Action	recubre
-373	5289 5294	Concept	tubos
-374	5295 5304	Concept	diminutos
-375	5315 5321	Predicate	dentro
-376	5329 5336	Concept	riñones
-377	5344 5357	Concept	endometriosis
-378	5362 5366	Predicate	tipo
-379	5370 5376	Concept	tejido
-380	5381 5388	Action	recubre
-381	5392 5397	Concept	útero
-382	5398 5403	Action	crece
-383	5404 5409	Predicate	fuera
-384	5413 5417	Reference	éste
-385	5423 5430	Concept	mujeres
-386	5431 5442	Concept	embarazadas
-387	5458 5469	Action	desarrollar
-388	5470 5478	Concept	diabetes
-389	5488 5496;5497 5508	Concept	diabetes gestacional
-390	5510 5517	Action	Existen
-391	5518 5521	Concept	dos
-392	5522 5527	Predicate	tipos
-393	5531 5539;5540 5550	Concept	derrames cerebrales
-394	5556 5563	Concept	tumores
-395	5575 5583	Concept	benignos
-396	5586 5594	Concept	malignos
-397	5596 5603	Predicate	Algunas
-398	5604 5613;5614 5617	Concept	medicinas OTC
-399	5618 5625	Action	alivian
-400	5629 5634	Concept	dolor
-401	5640 5647	Concept	picazón
-402	5649 5657	Action	Utilizar
-403	5658 5663	Concept	niños
-404	5667 5678	Concept	pornografía
-405	5690 5695;5696 5702	Action	abuso sexual
-406	5714 5721	Concept	menores
-407	5726 5732	Action	acceso
-408	5733 5741	Concept	limitado
-409	5747 5755;5756 5758;5759 5764	Concept	atención de salud
-410	5771 5779	Action	empeorar
-411	5784 5789	Reference	cosas
-412	5801 5805	Concept	área
-413	5809 5816	Action	infecta
-414	5821 5828;5829 5840	Concept	sistema inmunitario
-415	5841 5848	Action	intenta
-416	5849 5857	Action	combatir
-417	5861 5870	Concept	infección
-418	5879 5886;5887 5893	Concept	Estados Unidos
-419	5898 5901	Concept	CMT
-420	5902 5908	Action	afecta
-421	5909 5924	Concept	aproximadamente
-422	5927 5928;5929 5931;5937 5942	Predicate	1 de 2.500
-423	5943 5951	Concept	personas
-424	5953 5960	Predicate	Algunas
-425	5961 5969	Concept	personas
-426	5981 5990	Concept	hepatitis
-427	5994 6003	Action	presentan
-428	6004 6012	Concept	síntomas
-429	6018 6026	Action	exámenes
-430	6033 6041	Concept	tiroides
-431	6051 6059	Action	análisis
-432	6063 6069	Concept	sangre
-433	6072 6079	Action	pruebas
-434	6083 6089	Concept	imagen
-435	6094 6104	Predicate	enfermedad
-436	6111 6116;6117 6122	Concept	gripe aviar
-437	6126 6134	Concept	personas
-438	6151 6155	Concept	leve
-439	6158 6163	Concept	grave
-440	6168 6175	Predicate	mayoría
-441	6183 6188	Concept	niños
-442	6189 6200	Concept	maltratados
-443	6201 6207	Action	sufren
-444	6208 6211	Predicate	más
-445	6212 6217	Action	daños
-446	6218 6229	Concept	emocionales
-447	6234 6241	Concept	físicos
-448	6243 6247	Reference	Esto
-449	6256 6263	Action	reducir
-450	6267 6272	Concept	dolor
-451	6277 6288	Concept	tratamiento
-452	6289 6297	Concept	habitual
-453	6305 6317	Concept	antibióticos
-454	6322 6331	Action	infección
-455	6339 6344	Concept	común
-456	6348 6353	Concept	niños
-457	6355 6362	Predicate	Algunos
-458	6363 6375	Concept	medicamentos
-459	6384 6394	Concept	colesterol
-460	6415 6424	Concept	estatinas
-461	6433 6439	Action	elevar
-462	6443 6448	Predicate	nivel
-463	6452 6462;6463 6468	Concept	colesterol bueno
-464	6470 6473	Concept	HDL
-465	6486 6493	Action	reducir
-466	6497 6507;6508 6512	Concept	colesterol malo
-467	6514 6517	Concept	LDL
-468	6524 6536;6537 6548	Concept	enfermedades infecciosas
-469	6553 6559	Action	surgen
-470	6583 6588	Concept	mundo
-471	6596 6602	Action	llegar
-472	6610 6614	Concept	país
-473	6619 6625	Concept	rápido
-474	6630 6642;6643 6653	Concept	osteogénesis imperfecta
-475	6682 6687	Concept	genes
-476	6695 6704	Action	funcionan
-477	6705 6709	Concept	bien
-478	6714 6724;6725 6730;6731 6738	Concept	enfermedad renal crónica
-479	6749 6757	Action	empeorar
-480	6758 6761;6762 6764;6765 6771	Concept	con el tiempo
-481	6777 6785	Concept	anteojos
-482	6786 6794	Action	protegen
-483	6798 6803	Concept	vista
-484	6809 6817	Action	corrigen
-485	6828 6836	Concept	diabetes
-486	6841 6847	Concept	cuerpo
-487	6857 6865	Action	producir
-488	6868 6876	Action	utilizar
-489	6880 6888	Concept	insulina
-490	6889 6902	Concept	adecuadamente
-491	6923 6930	Concept	mujeres
-492	6934 6943	Action	descubran
-493	6948 6951	Reference	los
-494	6952 6958	Action	tienen
-495	6965 6974	Action	someterse
-496	6980 6986;6987 6994	Concept	examen pélvico
-497	7000 7007;7008 7017	Concept	células nerviosas
-498	7036 7044	Concept	neuronas
-499	7046 7052	Action	envían
-500	7053 7061	Concept	mensajes
-501	7066 7075	Action	controlan
-502	7076 7080	Reference	esos
-503	7081 7089	Concept	músculos
-504	7091 7098	Concept	Comidas
-505	7099 7107	Concept	sensatas
-506	7110 7122	Concept	equilibradas
-507	7132 7137	Predicate	mejor
-508	7138 7144	Concept	opción
-509	7153 7158	Concept	madre
-510	7164 7168	Concept	hijo
-511	7173 7184	Concept	tratamiento
-512	7193 7204	Concept	supervisión
-513	7206 7213	Concept	terapia
-514	7214 7225	Concept	psicológica
-515	7227 7240	Concept	asesoramiento
-516	7241 7252	Concept	nutricional
-517	7271 7280	Concept	medicinas
-518	7286 7296	Concept	pesticidas
-519	7313 7321	Action	librarse
-520	7325 7330	Reference	ellas
-521	7335 7340	Action	abuso
-522	7341 7347	Concept	sexual
-523	7351 7358	Concept	menores
-524	7375 7383	Action	maltrato
-525	7387 7392	Concept	menor
-526	7398 7404	Concept	buenas
-527	7405 7414	Concept	prácticas
-528	7418 7425	Concept	higiene
-529	7438 7445	Action	lavarse
-530	7450 7455	Concept	manos
-531	7456 7469	Concept	correctamente
-532	7478 7484	Action	evitar
-533	7485 7496	Concept	infecciones
-534	7509 7523;7524 7532	Concept	rehabilitación pulmonar
-535	7534 7539	Concept	usted
-536	7543 7552	Action	entrenará
-537	7564 7573;7574 7580	Concept	ejercicio físico
-538	7583 7591	Action	aprender
-539	7592 7600	Concept	técnicas
-540	7604 7615	Concept	respiración
-541	7620 7627	Concept	difícil
-542	7628 7640	Action	diagnosticar
-543	7644 7650;7651 7653;7654 7662	Concept	cáncer de estómago
-544	7670 7678	Predicate	primeras
-545	7679 7685	Concept	etapas
-546	7693 7701;7702 7713;7714 7721	Concept	leucemia linfocítica crónica
-547	7738 7748	Concept	linfocitos
-548	7761 7769;7770 7777	Concept	glóbulos blancos
-549	7782 7784	Reference	se
-550	7785 7792	Action	agranda
-551	7817 7826	Concept	problemas
-552	7834 7843	Concept	ejercicio
-553	7845 7851	Action	perder
-554	7852 7856	Concept	peso
-555	7858 7864	Action	elevar
-556	7869 7876	Concept	piernas
-557	7880 7889	Action	descansar
-558	7895 7904	Action	cruzarlas
-559	7908 7916	Action	sentarse
-560	7923 7929	Action	ayudar
-561	7932 7938	Action	evitar
-562	7947 7954	Concept	várices
-563	7955 7963	Action	empeoren
-564	7969 7979;7980 7982;7983 7992	Concept	mamografía de detección
-565	8007 8016	Concept	mamograma
-566	8021 8023	Reference	la
-567	8024 8031	Action	examina
-568	8046 8054	Concept	síntomas
-569	8060 8066	Concept	madres
-570	8074 8082	Action	infectar
-571	8089 8094	Concept	bebés
-572	8106 8111	Concept	parto
-573	8116 8121	Concept	linfa
-574	8128 8135	Concept	líquido
-575	8149 8157;8158 8165	Concept	glóbulos blancos
-576	8167 8174	Concept	células
-577	8179 8188	Action	defienden
-578	8200 8208	Concept	gérmenes
-579	8223 8230	Concept	pruebas
-580	8237 8242;8243 8249	Concept	tacto rectal
-581	8251 8258	Predicate	Algunos
-582	8259 8264	Concept	niños
-583	8265 8270	Action	viven
-584	8275 8283	Concept	familias
-585	8284 8294	Concept	sustitutas
-586	8296 8305	Concept	adoptivas
-587	8308 8317	Concept	políticas
-588	8322 8329;8330 8335	Concept	cavidad nasal
-589	8342 8347	Concept	túnel
-590	8364 8370	Predicate	detrás
-591	8377 8382	Concept	nariz
-592	8404 8408	Concept	aire
-593	8420 8426	Action	camino
-594	8436 8444	Concept	garganta
-595	8458 8465	Action	respira
-596	8474 8479	Concept	genes
-597	8483 8491	Action	producen
-598	8496 8505	Concept	proteínas
-599	8506 8515	Concept	correctas
-600	8530 8543	Concept	correctamente
-601	8548 8552	Concept	niño
-602	8568 8577	Action	trastorno
-603	8578 8586	Concept	genético
+344	4898 4906	Action	problema
+345	4913 4917	Concept	boca
+346	4918 4922	Concept	seca
+347	4933 4941	Action	masticar
+348	4942 4946;4947 4949;4950 4956	Concept	goma de mascar
+349	4961 4967	Concept	azúcar
+350	4970 4976	Action	chupar
+351	4980 4988	Concept	caramelo
+352	4993 4999	Concept	azúcar
+353	5002 5007	Action	tomar
+354	5008 5016	Concept	pequeños
+355	5017 5023	Action	sorbos
+356	5027 5031	Concept	agua
+357	5043 5046	Concept	día
+358	5051 5058	Concept	malaria
+359	5066 5076	Concept	importante
+360	5077 5082	Action	causa
+361	5086 5092	Action	muerte
+362	5096 5100	Predicate	todo
+363	5104 5109	Concept	mundo
+364	5121 5134	Concept	prácticamente
+365	5135 5145	Action	erradicada
+366	5153 5160;5161 5167	Concept	Estados Unidos
+367	5172 5183	Concept	tratamiento
+368	5198 5205	Concept	cirugía
+369	5208 5215;5216 5218;5219 5228	Concept	terapia de radiación
+370	5233 5239;5240 5242;5243 5248	Concept	cáncer de riñón
+371	5252 5257	Action	forma
+372	5264 5272	Concept	membrana
+373	5277 5284	Action	recubre
+374	5289 5294	Concept	tubos
+375	5295 5304	Concept	diminutos
+376	5315 5321	Predicate	dentro
+377	5329 5336	Concept	riñones
+378	5344 5357	Concept	endometriosis
+379	5362 5366	Predicate	tipo
+380	5370 5376	Concept	tejido
+381	5381 5388	Action	recubre
+382	5392 5397	Concept	útero
+383	5398 5403	Action	crece
+384	5404 5409	Predicate	fuera
+385	5413 5417	Reference	éste
+386	5423 5430	Concept	mujeres
+387	5431 5442	Concept	embarazadas
+388	5458 5469	Action	desarrollar
+389	5470 5478	Concept	diabetes
+390	5488 5496;5497 5508	Concept	diabetes gestacional
+391	5510 5517	Action	Existen
+392	5518 5521	Concept	dos
+393	5522 5527	Predicate	tipos
+394	5531 5539;5540 5550	Concept	derrames cerebrales
+395	5556 5563	Concept	tumores
+396	5575 5583	Concept	benignos
+397	5586 5594	Concept	malignos
+398	5596 5603	Predicate	Algunas
+399	5604 5613;5614 5617	Concept	medicinas OTC
+400	5618 5625	Action	alivian
+401	5629 5634	Concept	dolor
+402	5640 5647	Concept	picazón
+403	5649 5657	Action	Utilizar
+404	5658 5663	Concept	niños
+405	5667 5678	Concept	pornografía
+406	5690 5695;5696 5702	Action	abuso sexual
+407	5714 5721	Concept	menores
+408	5726 5732	Action	acceso
+409	5733 5741	Concept	limitado
+410	5747 5755;5756 5758;5759 5764	Concept	atención de salud
+411	5771 5779	Action	empeorar
+412	5784 5789	Reference	cosas
+413	5801 5805	Concept	área
+414	5809 5816	Action	infecta
+415	5821 5828;5829 5840	Concept	sistema inmunitario
+416	5841 5848	Action	intenta
+417	5849 5857	Action	combatir
+418	5861 5870	Concept	infección
+419	5879 5886;5887 5893	Concept	Estados Unidos
+420	5898 5901	Concept	CMT
+421	5902 5908	Action	afecta
+422	5909 5924	Concept	aproximadamente
+423	5927 5928;5929 5931;5937 5942	Predicate	1 de 2.500
+424	5943 5951	Concept	personas
+425	5953 5960	Predicate	Algunas
+426	5961 5969	Concept	personas
+427	5981 5990	Concept	hepatitis
+428	5994 6003	Action	presentan
+429	6004 6012	Concept	síntomas
+430	6018 6026	Action	exámenes
+431	6033 6041	Concept	tiroides
+432	6051 6059	Action	análisis
+433	6063 6069	Concept	sangre
+434	6072 6079	Action	pruebas
+435	6083 6089	Concept	imagen
+436	6094 6104	Predicate	enfermedad
+437	6111 6116;6117 6122	Concept	gripe aviar
+438	6126 6134	Concept	personas
+439	6151 6155	Concept	leve
+440	6158 6163	Concept	grave
+441	6168 6175	Predicate	mayoría
+442	6183 6188	Concept	niños
+443	6189 6200	Concept	maltratados
+444	6201 6207	Action	sufren
+445	6208 6211	Predicate	más
+446	6212 6217	Action	daños
+447	6218 6229	Concept	emocionales
+448	6234 6241	Concept	físicos
+449	6243 6247	Reference	Esto
+450	6256 6263	Action	reducir
+451	6267 6272	Concept	dolor
+452	6277 6288	Concept	tratamiento
+453	6289 6297	Concept	habitual
+454	6305 6317	Concept	antibióticos
+455	6322 6331	Action	infección
+456	6339 6344	Concept	común
+457	6348 6353	Concept	niños
+458	6355 6362	Predicate	Algunos
+459	6363 6375	Concept	medicamentos
+460	6384 6394	Concept	colesterol
+461	6415 6424	Concept	estatinas
+462	6433 6439	Action	elevar
+463	6443 6448	Predicate	nivel
+464	6452 6462;6463 6468	Concept	colesterol bueno
+465	6470 6473	Concept	HDL
+466	6486 6493	Action	reducir
+467	6497 6507;6508 6512	Concept	colesterol malo
+468	6514 6517	Concept	LDL
+469	6524 6536;6537 6548	Concept	enfermedades infecciosas
+470	6553 6559	Action	surgen
+471	6583 6588	Concept	mundo
+472	6596 6602	Action	llegar
+473	6610 6614	Concept	país
+474	6619 6625	Concept	rápido
+475	6630 6642;6643 6653	Concept	osteogénesis imperfecta
+476	6682 6687	Concept	genes
+477	6695 6704	Action	funcionan
+478	6705 6709	Concept	bien
+479	6714 6724;6725 6730;6731 6738	Concept	enfermedad renal crónica
+480	6749 6757	Action	empeorar
+481	6758 6761;6762 6764;6765 6771	Concept	con el tiempo
+482	6777 6785	Concept	anteojos
+483	6786 6794	Action	protegen
+484	6798 6803	Concept	vista
+485	6809 6817	Action	corrigen
+486	6828 6836	Concept	diabetes
+487	6841 6847	Concept	cuerpo
+488	6857 6865	Action	producir
+489	6868 6876	Action	utilizar
+490	6880 6888	Concept	insulina
+491	6889 6902	Concept	adecuadamente
+492	6923 6930	Concept	mujeres
+493	6934 6943	Action	descubran
+494	6948 6951	Reference	los
+495	6952 6958	Action	tienen
+496	6965 6974	Action	someterse
+497	6980 6986;6987 6994	Concept	examen pélvico
+498	7000 7007;7008 7017	Concept	células nerviosas
+499	7036 7044	Concept	neuronas
+500	7046 7052	Action	envían
+501	7053 7061	Concept	mensajes
+502	7066 7075	Action	controlan
+503	7076 7080	Reference	esos
+504	7081 7089	Concept	músculos
+505	7091 7098	Concept	Comidas
+506	7099 7107	Concept	sensatas
+507	7110 7122	Concept	equilibradas
+508	7132 7137	Predicate	mejor
+509	7138 7144	Concept	opción
+510	7153 7158	Concept	madre
+511	7164 7168	Concept	hijo
+512	7173 7184	Concept	tratamiento
+513	7193 7204	Concept	supervisión
+514	7206 7213	Concept	terapia
+515	7214 7225	Concept	psicológica
+516	7227 7240	Concept	asesoramiento
+517	7241 7252	Concept	nutricional
+518	7271 7280	Concept	medicinas
+519	7286 7296	Concept	pesticidas
+520	7313 7321	Action	librarse
+521	7325 7330	Reference	ellas
+522	7335 7340	Action	abuso
+523	7341 7347	Concept	sexual
+524	7351 7358	Concept	menores
+525	7375 7383	Action	maltrato
+526	7387 7392	Concept	menor
+527	7398 7404	Concept	buenas
+528	7405 7414	Predicate	prácticas
+529	7418 7425	Concept	higiene
+530	7438 7445	Action	lavarse
+531	7450 7455	Concept	manos
+532	7456 7469	Concept	correctamente
+533	7478 7484	Action	evitar
+534	7485 7496	Concept	infecciones
+535	7509 7523;7524 7532	Concept	rehabilitación pulmonar
+536	7534 7539	Concept	usted
+537	7543 7552	Action	entrenará
+538	7564 7573;7574 7580	Concept	ejercicio físico
+539	7583 7591	Action	aprender
+540	7592 7600	Concept	técnicas
+541	7604 7615	Concept	respiración
+542	7620 7627	Concept	difícil
+543	7628 7640	Action	diagnosticar
+544	7644 7650;7651 7653;7654 7662	Concept	cáncer de estómago
+545	7670 7678	Predicate	primeras
+546	7679 7685	Concept	etapas
+547	7693 7701;7702 7713;7714 7721	Concept	leucemia linfocítica crónica
+548	7738 7748	Concept	linfocitos
+549	7761 7769;7770 7777	Concept	glóbulos blancos
+550	7782 7784	Reference	se
+551	7785 7792	Action	agranda
+552	7817 7826	Concept	problemas
+553	7834 7843	Concept	ejercicio
+554	7845 7851	Action	perder
+555	7852 7856	Concept	peso
+556	7858 7864	Action	elevar
+557	7869 7876	Concept	piernas
+558	7880 7889	Action	descansar
+559	7895 7904	Action	cruzarlas
+560	7908 7916	Action	sentarse
+561	7923 7929	Action	ayudar
+562	7932 7938	Action	evitar
+563	7947 7954	Concept	várices
+564	7955 7963	Action	empeoren
+565	7969 7979;7980 7982;7983 7992	Concept	mamografía de detección
+566	8007 8016	Concept	mamograma
+567	8021 8023	Reference	la
+568	8024 8031	Action	examina
+569	8046 8054	Concept	síntomas
+570	8060 8066	Concept	madres
+571	8074 8082	Action	infectar
+572	8089 8094	Concept	bebés
+573	8106 8111	Concept	parto
+574	8116 8121	Concept	linfa
+575	8128 8135	Concept	líquido
+576	8149 8157;8158 8165	Concept	glóbulos blancos
+577	8167 8174	Concept	células
+578	8179 8188	Action	defienden
+579	8200 8208	Concept	gérmenes
+580	8223 8230	Concept	pruebas
+581	8237 8242;8243 8249	Concept	tacto rectal
+582	8251 8258	Predicate	Algunos
+583	8259 8264	Concept	niños
+584	8265 8270	Action	viven
+585	8275 8283	Concept	familias
+586	8284 8294	Concept	sustitutas
+587	8296 8305	Concept	adoptivas
+588	8308 8317	Concept	políticas
+589	8322 8329;8330 8335	Concept	cavidad nasal
+590	8342 8347	Concept	túnel
+591	8364 8370	Predicate	detrás
+592	8377 8382	Concept	nariz
+593	8404 8408	Concept	aire
+594	8420 8426	Action	camino
+595	8436 8444	Concept	garganta
+596	8458 8465	Action	respira
+597	8474 8479	Concept	genes
+598	8483 8491	Action	producen
+599	8496 8505	Concept	proteínas
+600	8506 8515	Concept	correctas
+601	8530 8543	Concept	correctamente
+602	8548 8552	Concept	niño
+603	8568 8577	Action	trastorno
+604	8578 8586	Concept	genético

@@ -365,6 +365,33 @@ class Collection:
                 # and store it
                 the_sentence.relations.append(Relation(the_sentence, src_id, dst_id, rel_label.lower()))
 
+        for relation_line in relations:
+            _, content = relation_line.strip().split("\t")
+            content = content.split()
+            typ, content = content[0], content[1:]
+
+            if typ == 'same-as':
+                src_id = content[0]
+                src_id = event_mapping.get(src_id, int(src_id[1:]))
+                the_sentence = sentence_by_id[src_id]
+
+                for dst_id in content[1:]:
+                    dst_id = event_mapping.get(dst_id, int(dst_id[1:]))
+
+                    assert the_sentence == sentence_by_id[dst_id]
+                    the_sentence.relations.append(Relation(the_sentence, src_id, dst_id, typ.lower()))
+
+            else:
+                src_id = content[0].split(":")[1]
+                src_id = event_mapping.get(src_id, int(src_id[1:]))
+                the_sentence = sentence_by_id[src_id]
+
+                dst_id = content[1].split(":")[1]
+                dst_id = event_mapping.get(dst_id, int(dst_id[1:]))
+
+                assert the_sentence == sentence_by_id[dst_id]
+                the_sentence.relations.append(Relation(the_sentence, src_id, dst_id, typ.lower()))
+
         for s in sentences_obj:
             s.sort()
 
