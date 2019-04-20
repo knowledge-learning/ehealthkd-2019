@@ -2,7 +2,7 @@ import argparse
 from collections import OrderedDict
 from pathlib import Path
 
-from utils import Collection
+from utils import Collection, DisjointSet
 
 CORRECT_A = 'correct_A'
 INCORRECT_A = 'incorrect_A'
@@ -13,6 +13,8 @@ MISSING_A = 'missing_A'
 CORRECT_B = 'correct_B'
 SPURIOUS_B = 'spurious_B'
 MISSING_B = 'missing_B'
+
+SAME_AS = 'same-as'
 
 def report(data, verbose):
     for key, value in data.items():
@@ -108,6 +110,28 @@ def match_relations(gold, submit, data):
         gold_sent = gold_sent.clone(shallow=True)
         submit_sent = submit_sent.clone(shallow=True)
 
+        equivalence = DisjointSet(*gold_sent.keyphrases)
+
+        # build equivalence classes
+        for relation in gold_sent.relations:
+            if relation.label != SAME_AS:
+                continue
+
+            origin = relation.from_phrase
+            destination = relation.to_phrase
+
+            equivalence.merge([origin, destination])
+
+        # update gold relations
+        for relation in gold_sent.relations:
+            origin = relation.from_phrase
+            origin = equivalence[origin].representative.value
+            relation.origin = origin.id
+
+            destination = relation.to_phrase
+            destination = equivalence[destination].representative.value
+            relation.destination = destination.id
+
         # correct
         for relation in submit_sent.relations[:]:
             origin = relation.from_phrase
@@ -119,7 +143,13 @@ def match_relations(gold, submit, data):
             if origin is None or destination is None:
                 continue
 
+            origin = equivalence[origin].representative.value
+            destination = equivalence[destination].representative.value
+
             match = gold_sent.find_relation(origin.id, destination.id, relation.label)
+            if match is None and relation.label == SAME_AS:
+                match = gold_sent.find_relation(destination.id, origin.id, relation.label)
+
             if match:
                 correct[relation] = match
                 gold_sent.relations.remove(match)
