@@ -73,13 +73,13 @@ incorrect_A: 42
 partial_A: 32
 spurious_A: 267
 missing_A: 162
-correct_B: 43
-spurious_B: 96
-missing_B: 508
+correct_B: 44
+spurious_B: 95
+missing_B: 507
 --------------------
-recall: 0.3697
-precision: 0.5035
-f1: 0.4264
+recall: 0.3706
+precision: 0.5047
+f1: 0.4274
 ```
 
 > **NOTE:** The exact numbers you see with the baseline may vary, as the evaluation script and/or the baseline implementation can suffer changes as we discover bugs or mistakes. These numbers are for illustrative purposes only. The actual scores are the ones published in Codalab.
@@ -89,23 +89,25 @@ Additionally, you can pass `--verbose` if you want to see detailed information a
 ```bash
 $ python3 -m scripts.score --verbose data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
 
-===================  PARTIAL_A  ===================
+===================  MISSING_A   ===================
 
-Keyphrase(text='defecto', label='Concept', id=32) --> Keyphrase(text='defecto de nacimiento', label='Concept', id=30)
-Keyphrase(text='aborto', label='Concept', id=39) --> Keyphrase(text='aborto espontáneo', label='Concept', id=31)
-Keyphrase(text='menos', label='Predicate', id=66) --> Keyphrase(text='al menos', label='Predicate', id=61)
+Keyphrase(text='enfrentar', label='Action', id=3)
+Keyphrase(text='tubos', label='Concept', id=7)
+Keyphrase(text='filtran', label='Action', id=10)
+Keyphrase(text='limpian', label='Action', id=11)
+Keyphrase(text='eliminando', label='Action', id=13)
 
 ... LOTS OF OUTPUT
 
 ===================  MISSING_B  ===================
 
-Relation(from='producen', to='proteínas', label='target')
-Relation(from='proteínas', to='correctas', label='in-context')
 Relation(from='producen', to='genes', label='subject')
 Relation(from='producen', to='proteínas', label='target')
 Relation(from='producen', to='correctamente', label='in-context')
 Relation(from='trastorno', to='niño', label='target')
 Relation(from='trastorno', to='genético', label='in-context')
+Relation(from='producen', to='trastorno', label='causes')
+Relation(from='producen', to='trastorno', label='causes')
 --------------------
 recall: 0.3697
 precision: 0.5035
@@ -155,13 +157,13 @@ You can evaluate just scenario 2 with the evaluation script by passing `--skip-A
 ```bash
 $ python3 -m scripts.score --skip-A data/development/input_develop.txt data/submit/scenario3-taskB/output_scenario3.txt
 
-correct_B: 49
-spurious_B: 33
-missing_B: 502
+correct_B: 50
+spurious_B: 32
+missing_B: 501
 --------------------
-recall: 0.08893
-precision: 0.5976
-f1: 0.1548
+recall: 0.09074
+precision: 0.6098
+f1: 0.158
 ```
 
 If you have succesfully generated the output files for all the scenarios, you should have the following structure in the `data/submit` folder:
