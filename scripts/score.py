@@ -122,16 +122,6 @@ def match_relations(gold, submit, data):
 
             equivalence.merge([origin, destination])
 
-        # update gold relations
-        for relation in gold_sent.relations:
-            origin = relation.from_phrase
-            origin = equivalence[origin].representative.value
-            relation.origin = origin.id
-
-            destination = relation.to_phrase
-            destination = equivalence[destination].representative.value
-            relation.destination = destination.id
-
         # correct
         for relation in submit_sent.relations[:]:
             origin = relation.from_phrase
@@ -143,12 +133,17 @@ def match_relations(gold, submit, data):
             if origin is None or destination is None:
                 continue
 
-            origin = equivalence[origin].representative.value
-            destination = equivalence[destination].representative.value
-
             match = gold_sent.find_relation(origin.id, destination.id, relation.label)
             if match is None and relation.label == SAME_AS:
                 match = gold_sent.find_relation(destination.id, origin.id, relation.label)
+
+            if match is None:
+                origin = equivalence[origin].representative.value
+                destination = equivalence[destination].representative.value
+
+                match = find_relation(origin, destination, relation.label, gold_sent.relations, equivalence)
+                if match is None and relation.label == SAME_AS:
+                    match = find_relation(destination, origin, relation.label, gold_sent.relations, equivalence)
 
             if match:
                 correct[relation] = match
@@ -216,6 +211,19 @@ def compute_metrics(data, skipA=False, skipB=False):
         'f1': f1
     }
 
+def find_relation(origin, destination, label, target_relations, target_equivalence):
+    for relation in target_relations:
+        if relation.label != label:
+            continue
+        target_origin = relation.from_phrase
+        target_origin = target_equivalence[target_origin].representative.value
+
+        target_destination = relation.to_phrase
+        target_destination = target_equivalence[target_destination].representative.value
+
+        if target_origin == origin and target_destination == destination:
+            return relation
+    return None
 
 def main(gold_input, submit_input, skip_A, skip_B, verbose):
     gold = Collection()
