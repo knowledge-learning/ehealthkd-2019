@@ -1,0 +1,4 @@
+1	0 1	Concept	A
+2	18 19	Concept	B
+3	26 27	Concept	C
+4	37 38	Concept	D
