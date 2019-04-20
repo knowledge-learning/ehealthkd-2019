@@ -2,7 +2,7 @@ import argparse
 from collections import OrderedDict
 from pathlib import Path
 
-from utils import Collection, DisjointSet
+from .utils import Collection, DisjointSet
 
 CORRECT_A = 'correct_A'
 INCORRECT_A = 'incorrect_A'
@@ -28,7 +28,7 @@ def report(data, verbose):
             else:
                 print('\n'.join(str(x) for x in value))
 
-def subtaskA(gold, submit, verbose):
+def subtaskA(gold, submit, verbose=False):
     return match_keyphrases(gold, submit)
 
 def match_keyphrases(gold, submit):
@@ -94,7 +94,7 @@ def partial_match(keyphrase1, keyphrase2):
     match |= any(start <= x < end for start, end in keyphrase2.spans for x,_ in keyphrase1.spans)
     return match
 
-def subtaskB(gold, submit, data, verbose):
+def subtaskB(gold, submit, data, verbose=False):
     return match_relations(gold, submit, data)
 
 def match_relations(gold, submit, data):
@@ -239,7 +239,7 @@ def main(gold_input, submit_input, skip_A, skip_B, verbose):
     print("-"*20)
 
     metrics = compute_metrics(data, skip_A, skip_B)
-    
+
     for key,value in metrics.items():
         print("{0}: {1:0.4}".format(key, value))
 

@@ -2,8 +2,8 @@
 
 import sys
 from pathlib import Path
-from utils import Collection
 import random
+from .utils import Collection
 
 
 def main(anns_path: Path, training_path, develop_path):

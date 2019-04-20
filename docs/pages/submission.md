@@ -41,7 +41,7 @@ Here is a baseline execution example:
 ```bash
 $ cd ehealthkd-2019
 # Inside the root folder ehealthkd-2019
-$ python3 scripts/baseline.py data/training/input_training.txt data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
+$ python3 -m scripts.baseline data/training/input_training.txt data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
 ```
 
 Then, you can go to `data/submit/scenario1-main` and check the corresponding files were generated:
@@ -66,7 +66,7 @@ Now you can run the evaluation script offline just to check your results. The ev
 The evaluation script outputs the total number of correct, incorrect, partial, missing and spurious matches for each subtask, and the final score as defined in the [Evaluation section](/evaluation).
 
 ```bash
-$ python3 scripts/score.py data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
+$ python3 -m scripts.score data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
 
 correct_A: 368
 incorrect_A: 42
@@ -87,7 +87,7 @@ f1: 0.4264
 Additionally, you can pass `--verbose` if you want to see detailed information about which keyphrases and relations were correct, missing, etc.
 
 ```bash
-$ python3 scripts/score.py --verbose data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
+$ python3 -m scripts.score --verbose data/development/input_develop.txt data/submit/scenario1-main/output_scenario1.txt
 
 ===================  PARTIAL_A  ===================
 
@@ -119,7 +119,7 @@ You can also (optionally) perform just subtask A or subtask B, writing the resul
 For subtask A, the output folder is `submit/scenario2-taskA` and the dev file is `output_scenario2.txt`. Pass `--skip-B` to the baseline script to skip the output for subtask B. Again, we will be reusing the `development` set in this case, but in the TEST phase there will be an additional 100 sentences just for this scenario.
 
 ```bash
-$ python3 scripts/baseline.py --skip-B data/training/input_training.txt data/development/input_develop.txt data/submit/scenario2-taskA/output_scenario2.txt
+$ python3 -m scripts.baseline --skip-B data/training/input_training.txt data/development/input_develop.txt data/submit/scenario2-taskA/output_scenario2.txt
 ```
 
 > **(!!!)** When submitting to subtask A, please make sure to write an **empty `output_b_scenario2.txt`** file. This file will not be taken into consideration when evaluating this scenario but is necessary for the evluation script when it parses the results. The baseline implementation already takes care of this detail.
@@ -127,23 +127,23 @@ $ python3 scripts/baseline.py --skip-B data/training/input_training.txt data/dev
 You can evaluate just scenario 2 with the evaluation script by passing `--skip-B`:
 
 ```bash
-$ python3 scripts/score.py --skip-B data/development/input_develop.txt data/submit/scenario2-taskA/output_scenario2.txt
+$ python3 -m scripts.score --skip-B data/development/input_develop.txt data/submit/scenario2-taskA/output_scenario2.txt
 
 correct_A: 368
 incorrect_A: 42
 partial_A: 32
-spurious_A: 283
+spurious_A: 267
 missing_A: 162
 --------------------
 recall: 0.6358
-precision: 0.5297
-f1: 0.5779
+precision: 0.5416
+f1: 0.5849
 ```
 
 For subtask B, the output folder is `submit/scenario3-taskB` and the dev file is `output_scenario3.txt`. Pass `--skip-A` to the baseline script to skip the output for subtask B. Again, we will be reusing the `development` set in this case, but in the TEST phase there will be an additional 100 sentences just for this scenario.
 
 ```bash
-$ python3 scripts/baseline.py --skip-A data/training/input_training.txt data/development/input_develop.txt data/submit/scenario3-taskB/output_scenario3.txt
+$ python3 -m scripts.baseline --skip-A data/training/input_training.txt data/development/input_develop.txt data/submit/scenario3-taskB/output_scenario3.txt
 ```
 
 > **(!!!)** When submitting to subtask B, please make sure to **copy the `output_a_scenario3.txt`** file _from the gold annotations_. This is the same as the `output_a_develop.txt` file in this case. This file will not be taken into consideration when evaluating this scenario but is necessary for the evaluation script when it parses the results. The baseline implementation already takes care of this detail.
@@ -153,7 +153,7 @@ $ python3 scripts/baseline.py --skip-A data/training/input_training.txt data/dev
 You can evaluate just scenario 2 with the evaluation script by passing `--skip-A`:
 
 ```bash
-$ python3 scripts/score.py --skip-A data/development/input_develop.txt data/submit/scenario3-taskB/output_scenario3.txt
+$ python3 -m scripts.score --skip-A data/development/input_develop.txt data/submit/scenario3-taskB/output_scenario3.txt
 
 correct_B: 49
 spurious_B: 33

@@ -1,6 +1,7 @@
 # coding: utf8
 
 import bisect
+import re
 
 
 class Keyphrase:
@@ -359,6 +360,7 @@ class Collection:
 
             for p in parts[1:]:
                 rel_label, dst_id = p.split(":")
+                rel_label = result = ''.join([i for i in rel_label if not i.isdigit()])
                 dst_id = event_mapping.get(dst_id, int(dst_id[1:]))
 
                 assert the_sentence == sentence_by_id[dst_id]

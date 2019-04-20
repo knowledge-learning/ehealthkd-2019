@@ -1,9 +1,11 @@
+# coding: utf8
+
 import argparse
 import re
 import sys
 from pathlib import Path
 
-from utils import Collection, Keyphrase, Relation, Sentence
+from .utils import Collection, Keyphrase, Relation, Sentence
 
 
 def train(finput: Path):

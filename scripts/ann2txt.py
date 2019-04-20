@@ -2,7 +2,7 @@
 
 import sys
 from pathlib import Path
-from utils import Collection
+from .utils import Collection
 
 
 def main(finput, foutput):
