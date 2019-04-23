@@ -176,7 +176,7 @@ class Sentence:
 
     @staticmethod
     def load(finput):
-        return [Sentence(s.strip()) for s in finput.open().readlines() if s]
+        return [Sentence(s.strip()) for s in finput.open(encoding='utf8').readlines() if s]
 
 
 class Collection:
@@ -198,9 +198,9 @@ class Collection:
     def dump(self, finput, skip_empty_sentences=True):
         self.fix_ids()
 
-        input_file = finput.open('w')
-        output_a_file = (finput.parent / ('output_a_' + finput.name.split("_")[1])).open('w')
-        output_b_file = (finput.parent / ('output_b_' + finput.name.split("_")[1])).open('w')
+        input_file = finput.open('w', encoding='utf8')
+        output_a_file = (finput.parent / ('output_a_' + finput.name.split("_")[1])).open('w', encoding='utf8')
+        output_b_file = (finput.parent / ('output_b_' + finput.name.split("_")[1])).open('w', encoding='utf8')
 
         shift = 0
 
@@ -229,7 +229,7 @@ class Collection:
 
 
     def load_input(self, finput):
-        sentences = [s.strip() for s in finput.open().readlines() if s]
+        sentences = [s.strip() for s in finput.open(encoding='utf8').readlines() if s]
         sentences_obj = [Sentence(text) for text in sentences]
         self.sentences.extend(sentences_obj)
 
@@ -244,7 +244,7 @@ class Collection:
 
         sentence_by_id = {}
 
-        for line in input_a_file.open().readlines():
+        for line in input_a_file.open(encoding='utf8').readlines():
             lid, spans, label, _ = line.strip().split("\t")
             lid = int(lid)
 
@@ -277,7 +277,7 @@ class Collection:
 
         sentence_by_id = self.load_keyphrases(finput)
 
-        for line in input_b_file.open().readlines():
+        for line in input_b_file.open(encoding='utf8').readlines():
             label, src, dst = line.strip().split("\t")
             src, dst = int(src), int(dst)
 
@@ -289,7 +289,7 @@ class Collection:
 
     def load_ann(self, finput):
         ann_file = finput.parent / (finput.name[:-3] + 'ann')
-        text = finput.open().read()
+        text = finput.open(encoding='utf8').read()
         sentences = [s for s in text.split('\n') if s]
 
         self._parse_ann(sentences, ann_file)
@@ -309,7 +309,7 @@ class Collection:
         events = []
         relations = []
 
-        for line in ann_file.open():
+        for line in ann_file.open(encoding='utf8'):
             if line.startswith('T'):
                 entities.append(line)
             elif line.startswith('E'):
