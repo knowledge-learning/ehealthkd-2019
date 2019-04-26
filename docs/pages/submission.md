@@ -189,6 +189,40 @@ total 36
 -rw-rw-r-- 1 user user  8756 abr 18 16:51 output_scenario3.txt
 ```
 
+## Runing the baseline on the test set
+
+Once the test set input files are released, you will be able to test the baseline implementation on the test set as well. [Please read the details about the test set structure](resources#test-data).
+
+These are the necessary steps:
+
+Run the baseline on the test scenario 1 (this may take a couple minutes):
+
+```bash
+$ python3 -m scripts.baseline data/training/input_training.txt data/testing/scenario1-main/input_scenario1.txt data/submit/scenario1-main/output_scenario1.txt
+```
+
+Run the baseline on the test scenario 2, skipping subtask B:
+
+```bash
+$ python3 -m scripts.baseline --skip-B data/training/input_training.txt data/testing/scenario2-taskA/input_scenario2.txt data/submit/scenario2-taskA/output_scenario2.txt
+```
+
+> **(!!!)** Remember that for scenario 2 the file `output_b_scenario2.txt` **must exist** and **be empty**. The baseline already does this, but ensure your own implementation takes it into consideration.
+
+Run the baseline on the test scenario 3, skipping subtask A:
+
+```bash
+$ python3 -m scripts.baseline --skip-A data/training/input_training.txt data/testing/scenario3-taskB/input_scenario3.txt data/submit/scenario3-taskB/output_scenario3.txt
+```
+
+> **(!!!)** Remember that for scenario 3 the file `output_a_scenario3.txt` **must exist** and **be an exact copy** of the provided file `data/testing/scenario3-taskB/output_a_scenario3.txt`. The baseline already does this, but ensure your own implementation takes it into consideration.
+
+Once finished, you can submit your results to Codalab.
+
+Remember that for the duration of the challenge the results for the test set will be hidden and only shown after the competition ends.
+
+However, you will receive error notifications if your upload is invalid. You have up to **100** different submissions.
+
 ## Submitting your results to Codalab
 
 Once you have all the corresponding outputs, please bundle the content of the submit folder in a `.zip` file:
