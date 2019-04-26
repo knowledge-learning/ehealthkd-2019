@@ -108,3 +108,5 @@ _*.txt
 data/anns/*
 *.zip
 data/codalab/*
+scripts/build_training.py
+
