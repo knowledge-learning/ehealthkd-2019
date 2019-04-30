@@ -43,6 +43,10 @@ def match_keyphrases(gold, submit):
             print('[ERROR]: Wrong sentence!')
             continue
 
+        if not gold_sent.keyphrases and not gold_sent.relations:
+            print('[WARNING]: Skipping sentence...')
+            continue
+
         gold_sent = gold_sent.clone(shallow=True)
         submit_sent = submit_sent.clone(shallow=True)
 
@@ -105,6 +109,10 @@ def match_relations(gold, submit, data):
     for gold_sent, submit_sent in zip(gold.sentences, submit.sentences):
         if gold_sent.text != submit_sent.text:
             print('[ERROR]: Wrong sentence!')
+            continue
+
+        if not gold_sent.keyphrases and not gold_sent.relations:
+            print('[WARNING]: Skipping sentence...')
             continue
 
         gold_sent = gold_sent.clone(shallow=True)

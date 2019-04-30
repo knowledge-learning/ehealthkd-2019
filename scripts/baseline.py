@@ -68,7 +68,7 @@ def test(finput: Path, model, skip_A, skip_B):
 def main(training_input, testing_input, foutput, skip_A, skip_B):
     model = train(training_input)
     doc = test(testing_input, model, skip_A, skip_B)
-    doc.dump(foutput)
+    doc.dump(foutput, skip_empty_sentences=False)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
