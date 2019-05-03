@@ -101,7 +101,6 @@ target	109	110
 subject	112	111
 target	112	113
 in-place	113	114
-in-place	113	114
 domain	114	115
 domain	114	116
 in-context	118	117
@@ -163,10 +162,7 @@ subject	175	174
 target	178	174
 in-time	178	179
 subject	178	174
-target	175	174
-in-context	175	173
 in-time	175	177
-subject	175	174
 target	181	180
 target	183	182
 in-place	183	184
@@ -187,7 +183,6 @@ same-as	194	195
 domain	201	202
 subject	203	200
 target	203	204
-target	203	204
 arg	204	206
 subject	206	205
 target	206	205
@@ -198,7 +193,6 @@ arg	204	207
 is-a	200	201
 target	212	213
 subject	212	211
-target	212	213
 subject	212	210
 target	216	217
 target	218	219
@@ -229,7 +223,6 @@ in-time	242	244
 arg	244	245
 target	245	243
 in-context	245	246
-in-context	245	246
 same-as	239	241
 subject	248	249
 target	248	247
@@ -250,12 +243,9 @@ subject	269	267
 target	269	270
 subject	258	257
 target	258	259
-subject	258	257
 target	258	269
-subject	258	257
 target	258	260
 is-a	261	262
-entails	258	258
 entails	258	258
 in-place	272	271
 is-a	273	272
@@ -520,15 +510,10 @@ target	550	552
 arg	555	556
 domain	555	554
 arg	555	557
-domain	555	554
 target	553	549
 target	553	550
 in-time	553	554
 in-time	553	555
-in-time	553	555
-target	553	549
-target	553	550
-has-property	553	551
 has-property	553	551
 subject	562	561
 subject	562	560
@@ -558,10 +543,8 @@ domain	584	585
 arg	585	586
 target	589	590
 subject	589	588
-subject	582	581
 in-context	582	589
 in-time	582	587
-target	582	583
 in-place	591	593
 domain	591	592
 in-context	594	595
@@ -712,8 +695,6 @@ in-place	745	746
 in-place	745	748
 in-place	745	747
 causes	743	745
-causes	743	745
-causes	743	745
 in-time	753	750
 target	753	751
 target	753	752
@@ -739,8 +720,6 @@ arg	773	774
 target	776	775
 target	776	778
 in-context	778	777
-target	779	780
-target	779	780
 target	779	780
 arg	780	781
 target	781	782
@@ -990,8 +969,6 @@ target	1053	1054
 in-place	1054	1056
 in-place	1054	1057
 has-property	1054	1055
-has-property	1054	1055
-has-property	1054	1058
 has-property	1054	1058
 in-context	1065	1066
 causes	1067	1065
@@ -1111,7 +1088,6 @@ subject	1187	1185
 target	1187	1188
 in-context	1187	1184
 arg	1184	1187
-target	1187	1188
 subject	1187	1186
 in-context	1189	1190
 subject	1192	1189
@@ -1155,7 +1131,6 @@ in-place	1224	1225
 target	1226	1224
 subject	1226	1227
 domain	1227	1228
-target	1226	1224
 subject	1226	1229
 subject	1226	1230
 subject	1226	1231
@@ -1183,11 +1158,9 @@ in-context	1246	1248
 in-time	1249	1250
 target	1249	1245
 arg	1250	1253
-arg	1250	1253
 domain	1253	1251
 arg	1253	1254
 domain	1253	1252
-arg	1253	1254
 target	1256	1257
 subject	1256	1255
 subject	1258	1263
@@ -1213,9 +1186,7 @@ same-as	1267	1270
 target	1274	1275
 target	1278	1279
 in-context	1278	1276
-target	1278	1279
 in-context	1278	1277
-entails	1274	1278
 entails	1274	1278
 in-context	1280	1281
 domain	1282	1283
@@ -1241,11 +1212,7 @@ entails	1300	1302
 entails	1300	1303
 entails	1300	1304
 target	1306	1307
-target	1306	1307
-target	1306	1307
-target	1306	1307
 subject	1306	1305
-target	1306	1307
 arg	1307	1308
 target	1312	1313
 target	1312	1314
@@ -1319,15 +1286,12 @@ is-a	1374	1375
 in-context	1381	1382
 in-context	1384	1383
 arg	1384	1385
-arg	1384	1385
 target	1385	1386
 subject	1385	1381
 target	1385	1387
-subject	1385	1381
 subject	1388	1381
 target	1388	1389
 has-property	1381	1384
-causes	1388	1385
 causes	1388	1385
 in-context	1390	1392
 is-a	1394	1393
@@ -1411,10 +1375,7 @@ subject	1478	1476
 target	1478	1479
 in-context	1478	1474
 arg	1480	1481
-subject	1478	1476
-target	1478	1479
 in-time	1478	1480
-in-context	1478	1474
 in-context	1474	1475
 domain	1482	1483
 arg	1485	1486
@@ -1501,7 +1462,6 @@ is-a	1570	1563
 domain	1571	1572
 in-context	1573	1575
 in-context	1573	1574
-part-of	1573	1571
 part-of	1573	1571
 target	1577	1576
 domain	1578	1580
@@ -1599,7 +1559,6 @@ in-time	1678	1679
 in-time	1678	1681
 arg	1681	1682
 arg	1679	1680
-causes	1677	1678
 causes	1677	1678
 target	1684	1689
 target	1685	1689
@@ -1749,13 +1708,8 @@ is-a	1836	1833
 in-context	1839	1840
 arg	1842	1843
 in-place	1843	1844
-in-place	1843	1844
 arg	1844	1845
 arg	1844	1846
-arg	1842	1843
-arg	1842	1843
-target	1841	1842
-target	1841	1842
 target	1841	1842
 subject	1841	1839
 subject	1841	1838
@@ -1795,7 +1749,6 @@ is-a	1875	1876
 target	1885	1886
 in-time	1885	1888
 target	1886	1887
-target	1885	1886
 in-time	1885	1889
 target	1890	1891
 target	1892	1893
@@ -1822,8 +1775,6 @@ target	1915	1913
 in-place	1915	1916
 causes	1910	1914
 causes	1910	1915
-causes	1910	1915
-causes	1910	1914
 causes	1917	1919
 is-a	1919	1918
 subject	1921	1920
@@ -2078,8 +2029,6 @@ in-context	2193	2195
 in-context	2193	2197
 is-a	2192	2189
 is-a	2193	2189
-is-a	2193	2189
-is-a	2193	2189
 target	2199	2201
 in-time	2199	2203
 target	2200	2201
@@ -2200,7 +2149,6 @@ subject	2316	2313
 target	2317	2318
 target	2319	2320
 target	2321	2322
-target	2321	2322
 domain	2322	2323
 domain	2322	2324
 in-time	2325	2326
@@ -2267,8 +2215,6 @@ arg	2390	2391
 in-context	2393	2395
 target	2393	2394
 in-context	2393	2396
-target	2393	2394
-causes	2392	2393
 causes	2392	2393
 in-context	2397	2398
 in-context	2399	2400
@@ -2291,9 +2237,7 @@ target	2417	2419
 in-context	2419	2420
 subject	2421	2417
 target	2421	2423
-target	2421	2423
 subject	2422	2417
-target	2422	2423
 target	2422	2423
 arg	2423	2424
 target	2424	2426
@@ -2307,13 +2251,9 @@ is-a	2432	2428
 subject	2433	2434
 in-place	2434	2435
 subject	2438	2439
-subject	2433	2434
-subject	2433	2434
 in-place	2434	2436
 in-place	2434	2437
 has-property	2438	2440
-has-property	2433	2440
-has-property	2433	2440
 has-property	2433	2440
 target	2443	2444
 in-place	2443	2445
@@ -2347,7 +2287,6 @@ in-place	2475	2476
 target	2477	2478
 subject	2477	2473
 in-context	2478	2479
-target	2477	2478
 subject	2477	2474
 is-a	2473	2475
 is-a	2474	2475
@@ -2417,11 +2356,7 @@ subject	2554	2552
 target	2554	2555
 in-place	2554	2557
 in-context	2555	2556
-subject	2554	2552
-target	2554	2555
 in-place	2554	2559
-subject	2554	2552
-target	2554	2555
 in-place	2554	2558
 causes	2562	2560
 is-a	2560	2561
@@ -2444,7 +2379,6 @@ target	2581	2576
 same-as	2573	2574
 entails	2573	2580
 entails	2573	2581
-in-context	2585	2582
 in-context	2585	2582
 arg	2586	2587
 domain	2586	2588
@@ -2593,8 +2527,6 @@ in-place	2752	2753
 in-place	2752	2754
 in-place	2752	2755
 has-property	2751	2752
-has-property	2751	2752
-has-property	2751	2752
 target	2757	2756
 in-place	2757	2758
 target	2760	2759
@@ -2619,7 +2551,6 @@ target	2781	2782
 target	2781	2783
 domain	2782	2784
 domain	2783	2784
-subject	2781	2779
 target	2781	2785
 domain	2785	2786
 is-a	2779	2780
@@ -2643,8 +2574,6 @@ in-place	2806	2808
 in-place	2807	2808
 target	2809	2810
 subject	2809	2807
-target	2809	2810
-target	2809	2810
 subject	2809	2806
 in-place	2810	2811
 in-context	2811	2812
@@ -2829,14 +2758,11 @@ subject	3010	3009
 domain	3011	3012
 entails	3007	3010
 target	3016	3017
-target	3016	3017
 subject	3016	3013
 in-context	3017	3018
 target	3017	3020
 subject	3017	3020
 in-context	3017	3019
-target	3017	3020
-subject	3017	3020
 in-context	3013	3014
 arg	3013	3015
 target	3022	3021
@@ -2849,7 +2775,6 @@ target	3025	3027
 in-context	3031	3032
 in-context	3028	3029
 in-context	3028	3030
-has-property	3028	3031
 has-property	3028	3031
 subject	3035	3036
 target	3035	3034
@@ -2870,7 +2795,6 @@ in-context	3049	3051
 target	3052	3053
 in-context	3053	3054
 in-context	3055	3056
-causes	3049	3048
 causes	3049	3048
 causes	3052	3048
 causes	3055	3048
@@ -3014,7 +2938,6 @@ in-context	3209	3210
 in-context	3209	3211
 is-a	3206	3205
 is-a	3209	3205
-is-a	3209	3205
 is-a	3212	3205
 is-a	3213	3205
 subject	3216	3214
@@ -3075,8 +2998,6 @@ target	3278	3279
 target	3276	3278
 target	3276	3277
 subject	3276	3272
-target	3276	3278
-target	3276	3277
 subject	3276	3274
 part-of	3272	3273
 domain	3280	3281
@@ -3145,7 +3066,6 @@ target	3346	3347
 target	3347	3348
 in-context	3347	3349
 target	3350	3351
-target	3344	3345
 in-context	3344	3350
 in-place	3353	3354
 target	3356	3353
@@ -3286,11 +3206,7 @@ in-place	3496	3499
 in-place	3497	3499
 in-place	3498	3499
 subject	3490	3495
-in-place	3490	3489
 causes	3490	3492
-causes	3490	3496
-causes	3490	3497
-causes	3490	3498
 causes	3490	3496
 causes	3490	3497
 causes	3490	3498
@@ -3339,13 +3255,9 @@ target	3544	3543
 in-place	3544	3545
 arg	3545	3546
 arg	3548	3549
-target	3544	3543
 in-place	3544	3551
-target	3544	3543
 in-place	3544	3550
-target	3544	3543
 in-place	3544	3548
-target	3544	3543
 in-place	3544	3547
 part-of	3547	3545
 part-of	3550	3548
@@ -3368,14 +3280,11 @@ subject	3570	3569
 target	3571	3569
 target	3574	3575
 in-context	3574	3572
-target	3574	3575
 in-context	3574	3570
-target	3574	3575
 in-context	3574	3565
 target	3565	3566
 in-context	3578	3579
 in-place	3576	3578
-has-property	3576	3577
 has-property	3576	3577
 subject	3582	3581
 target	3582	3583
@@ -3511,7 +3420,6 @@ is-a	3723	3718
 target	3726	3727
 subject	3726	3724
 target	3726	3731
-target	3726	3727
 arg	3727	3728
 target	3728	3730
 target	3729	3730

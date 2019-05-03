@@ -2,6 +2,7 @@
 
 import bisect
 import re
+import collections
 
 
 class Keyphrase:
@@ -127,6 +128,21 @@ class Sentence:
             for keyp in rest:
                 self.keyphrases.remove(keyp)
 
+    def dup_relations(self):
+        dup_relations = collections.defaultdict(lambda: [])
+
+        for r in self.relations:
+            dup_relations[(r.label, r.origin, r.destination)].append(r)
+
+        return { k:v for k,v in dup_relations.items() if len(v) > 1}
+
+    def remove_dup_relations(self):
+        new_relations = {}
+
+        for r in self.relations:
+            new_relations[(r.label, r.origin, r.destination)] = r
+
+        self.relations = list(new_relations.values())
 
     def find_keyphrase(self, id=None, start=None, end=None, spans=None):
         if id is not None:
