@@ -225,6 +225,10 @@ However, you will receive error notifications if your upload is invalid. You hav
 
 ## Submitting your results to Codalab
 
+> The file [submit_baseline_dev.zip](https://github.com/knowledge-learning/ehealthkd-2019/blob/master/data/submit/submit_baseline_dev.zip) contains an example submission for the TRAINING phase.
+
+> The file [submit_baseline_test.zip](https://github.com/knowledge-learning/ehealthkd-2019/blob/master/data/submit/submit_baseline_test.zip) contains an example submission for the TEST phase.
+
 Once you have all the corresponding outputs, please bundle the content of the submit folder in a `.zip` file:
 
 ```bash
