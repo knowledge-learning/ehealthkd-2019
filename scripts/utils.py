@@ -27,13 +27,23 @@ class Keyphrase:
 
         spans.append(end)
         self.spans = [(spans[i],spans[i+1]) for i in range(0, len(spans), 2)]
+        self.spans.sort(lambda t: t[0])
 
     def clone(self, sentence):
         return Keyphrase(sentence, self.label, self.id, self.spans)
 
     @property
     def text(self):
-        return " ".join(self.sentence.text[s:e] for (s,e) in self.spans)
+        text = self.sentence.text[self.spans[0][0]:self.spans[0][1]]
+        last = self.spans[0][1]
+
+        for s,e in self.spans[1:]:
+            if s != last:
+                text += " "
+            last = e
+            text += self.sentence.text[s:e]
+
+        return text
 
     def __repr__(self):
         return "Keyphrase(text=%r, label=%r, id=%r)" % (self.text, self.label, self.id)
