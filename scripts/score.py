@@ -116,7 +116,10 @@ def match_relations(gold, submit, data):
             continue
 
         gold_sent = gold_sent.clone(shallow=True)
+        gold_sent.remove_dup_relations()
+
         submit_sent = submit_sent.clone(shallow=True)
+        submit_sent.remove_dup_relations()
 
         equivalence = DisjointSet(*gold_sent.keyphrases)
 

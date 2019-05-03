@@ -75,11 +75,11 @@ spurious_A: 267
 missing_A: 162
 correct_B: 44
 spurious_B: 95
-missing_B: 507
+missing_B: 493
 --------------------
-recall: 0.3706
+recall: 0.3751
 precision: 0.5047
-f1: 0.4274
+f1: 0.4304
 ```
 
 > **NOTE:** The exact numbers you see with the baseline may vary, as the evaluation script and/or the baseline implementation can suffer changes as we discover bugs or mistakes. These numbers are for illustrative purposes only. The actual scores are the ones published in Codalab.
@@ -109,9 +109,9 @@ Relation(from='trastorno', to='genético', label='in-context')
 Relation(from='producen', to='trastorno', label='causes')
 Relation(from='producen', to='trastorno', label='causes')
 --------------------
-recall: 0.3697
-precision: 0.5035
-f1: 0.4264
+recall: 0.3751
+precision: 0.5047
+f1: 0.4304
 ```
 
 ### Evaluating the optional scenarios
@@ -159,11 +159,11 @@ $ python3 -m scripts.score --skip-A data/development/input_develop.txt data/subm
 
 correct_B: 50
 spurious_B: 32
-missing_B: 501
+missing_B: 487
 --------------------
-recall: 0.09074
+recall: 0.09311
 precision: 0.6098
-f1: 0.158
+f1: 0.1616
 ```
 
 If you have succesfully generated the output files for all the scenarios, you should have the following structure in the `data/submit` folder:

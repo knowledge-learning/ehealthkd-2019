@@ -63,6 +63,8 @@ def test(finput: Path, model, skip_A, skip_B):
                     relation = Relation(sentence, origin.id, destination.id, label)
                     sentence.relations.append(relation)
 
+            sentence.remove_dup_relations()
+
     return doc
 
 def main(training_input, testing_input, foutput, skip_A, skip_B):
