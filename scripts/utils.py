@@ -27,7 +27,7 @@ class Keyphrase:
 
         spans.append(end)
         self.spans = [(spans[i],spans[i+1]) for i in range(0, len(spans), 2)]
-        self.spans.sort(lambda t: t[0])
+        self.spans.sort(key=lambda t: t[0])
 
     def clone(self, sentence):
         return Keyphrase(sentence, self.label, self.id, self.spans)
