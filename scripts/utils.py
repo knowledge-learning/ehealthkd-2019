@@ -301,7 +301,7 @@ class Collection:
             the_sentence = sentence_by_id[src]
 
             if the_sentence != sentence_by_id[dst]:
-                warnings.warn("Relation %s between %i and %i crosses sentence boundaries and has been ignored." % (label, src, dst))
+                warnings.warn("In file '%s' relation '%s' between %i and %i crosses sentence boundaries and has been ignored." % (finput, label, src, dst))
                 continue
 
             assert sentence_by_id[dst] == the_sentence

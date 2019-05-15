@@ -50,11 +50,14 @@ def evaluate_one(submit: Path, scenario1_gold, scenario2_gold, scenario3_gold):
                 scenario3=scenario3)
 
 
-def main(submits:Path, gold:Path, best=False, single=False, csv=False, pretty=False):
+def main(submits:Path, gold:Path, best=False, single=False, csv=False, pretty=False, final=False):
     users = collections.defaultdict(list)
 
     if csv and not best:
-        raise ValueError("Error: csv implies best")
+        raise ValueError("Error: --csv implies --best")
+
+    if final and (not csv or not best):
+        raise ValueError("Error: --final implies --csv and --best")
 
     scenario1_gold = Collection().load(gold / "scenario1-main" / "input_scenario1.txt")
     scenario2_gold = Collection().load(gold / "scenario2-taskA" / "input_scenario2.txt")
@@ -89,7 +92,21 @@ def main(submits:Path, gold:Path, best=False, single=False, csv=False, pretty=Fa
         df = pd.DataFrame(items)
         df = df.set_index('name').sort_index().transpose()
 
-        if pretty:
+        if final:
+            df1 = df.transpose()[['scenario1-f1', 'scenario1-precision', 'scenario1-recall']]
+            df1 = df1.sort_values('scenario1-f1', ascending=False).to_csv()
+
+            df2 = df.transpose()[['scenario2-f1', 'scenario2-precision', 'scenario2-recall']]
+            df2 = df2.sort_values('scenario2-f1', ascending=False).to_csv()
+
+            df3 = df.transpose()[['scenario3-f1', 'scenario3-precision', 'scenario3-recall']]
+            df3 = df3.sort_values('scenario3-f1', ascending=False).to_csv()
+
+            print(df1)
+            print(df2)
+            print(df3)
+
+        elif pretty:
             print(df.to_html())
         else:
             print(df.to_csv())
@@ -123,6 +140,7 @@ if __name__ == "__main__":
     parser.add_argument("--single", action='store_true', help="If passed, then submits points to a single participant folder with submission folders inside, otherwise submits points to a folder with many participants, each with submission folders inside.")
     parser.add_argument("--csv", action='store_true', help="If passed then results are formatted as a table, can only be used with --best. Otherwise, results are returned in JSON format.")
     parser.add_argument("--pretty", action='store_true', help="If passed results are pretty printed: indented in JSON or in HTML when using --csv.")
+    parser.add_argument("--final", action='store_true', help="If passed, results are formatted for final publication. Can only be passed with --csv and --best.")
     args = parser.parse_args()
-    main(Path(args.submits), Path(args.gold), args.best, args.single, args.csv, args.pretty)
+    main(Path(args.submits), Path(args.gold), args.best, args.single, args.csv, args.pretty, args.final)
 
