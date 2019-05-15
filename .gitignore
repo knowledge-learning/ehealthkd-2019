@@ -109,6 +109,5 @@ data/anns/*
 *.zip
 data/codalab/*
 !data/codalab/program
-scripts/build_corpus.py
 
 vscode/*

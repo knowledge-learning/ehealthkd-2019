@@ -308,6 +308,8 @@ class Collection:
 
             the_sentence.relations.append(Relation(the_sentence, src, dst, label.lower()))
 
+        return self
+
 
     def load_ann(self, finput):
         ann_file = finput.parent / (finput.name[:-3] + 'ann')
@@ -316,7 +318,7 @@ class Collection:
 
         self._parse_ann(sentences, ann_file)
 
-        return len(sentences)
+        return self
 
     def _parse_ann(self, sentences, ann_file):
         sentences_length = [len(s) for s in sentences]
