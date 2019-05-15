@@ -108,12 +108,7 @@ _*.txt
 data/anns/*
 *.zip
 data/codalab/*
+!data/codalab/program
 scripts/build_corpus.py
-
-data/testing/scenario1-main/output_a_scenario1.txt
-data/testing/scenario1-main/output_b_scenario1.txt
-data/testing/scenario2-taskA/output_a_scenario2.txt
-data/testing/scenario2-taskA/output_b_scenario2.txt
-data/testing/scenario3-taskB/output_b_scenario3.txt
 
 vscode/*
