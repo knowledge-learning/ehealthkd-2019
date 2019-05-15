@@ -87,10 +87,10 @@ def main(submits:Path, gold:Path, best=False, single=False, csv=False, pretty=Fa
             items.append(userdata)
 
         df = pd.DataFrame(items)
-        df = df.set_index('name').transpose()
+        df = df.set_index('name').sort_index().transpose()
 
         if pretty:
-            print(df)
+            print(df.to_html())
         else:
             print(df.to_csv())
 
