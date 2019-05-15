@@ -117,12 +117,12 @@ def filter_best(results):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser("evaltest")
-    parser.add_argument("submits")
-    parser.add_argument("gold")
-    parser.add_argument("--best", action='store_true')
-    parser.add_argument("--single", action='store_true')
-    parser.add_argument("--csv", action='store_true')
-    parser.add_argument("--pretty", action='store_true')
+    parser.add_argument("submits", help="Path to the submissions folder. This is the folder of all participants, or, if --single is passed, directly the folder of one participant. Each participant's folder contains subfolders with submissions.")
+    parser.add_argument("gold", help="Path to the gold folder, e.g. './data/testing.'")
+    parser.add_argument("--best", action='store_true', help="Report only the best submission per scenario, otherwise all submissions are reported.")
+    parser.add_argument("--single", action='store_true', help="If passed, then submits points to a single participant folder with submission folders inside, otherwise submits points to a folder with many participants, each with submission folders inside.")
+    parser.add_argument("--csv", action='store_true', help="If passed then results are formatted as a table, can only be used with --best. Otherwise, results are returned in JSON format.")
+    parser.add_argument("--pretty", action='store_true', help="If passed results are pretty printed: indented in JSON or in HTML when using --csv.")
     args = parser.parse_args()
     main(Path(args.submits), Path(args.gold), args.best, args.single, args.csv, args.pretty)
 
