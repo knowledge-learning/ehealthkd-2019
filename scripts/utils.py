@@ -3,6 +3,7 @@
 import bisect
 import re
 import collections
+import warnings
 
 
 class Keyphrase:
@@ -27,23 +28,13 @@ class Keyphrase:
 
         spans.append(end)
         self.spans = [(spans[i],spans[i+1]) for i in range(0, len(spans), 2)]
-        self.spans.sort(key=lambda t: t[0])
 
     def clone(self, sentence):
         return Keyphrase(sentence, self.label, self.id, self.spans)
 
     @property
     def text(self):
-        text = self.sentence.text[self.spans[0][0]:self.spans[0][1]]
-        last = self.spans[0][1]
-
-        for s,e in self.spans[1:]:
-            if s != last:
-                text += " "
-            last = e
-            text += self.sentence.text[s:e]
-
-        return text
+        return " ".join(self.sentence.text[s:e] for (s,e) in self.spans)
 
     def __repr__(self):
         return "Keyphrase(text=%r, label=%r, id=%r)" % (self.text, self.label, self.id)
@@ -308,6 +299,11 @@ class Collection:
             src, dst = int(src), int(dst)
 
             the_sentence = sentence_by_id[src]
+
+            if the_sentence != sentence_by_id[dst]:
+                warnings.warn("Relation %s between %i and %i crosses sentence boundaries and has been ignored." % (label, src, dst))
+                continue
+
             assert sentence_by_id[dst] == the_sentence
 
             the_sentence.relations.append(Relation(the_sentence, src, dst, label.lower()))

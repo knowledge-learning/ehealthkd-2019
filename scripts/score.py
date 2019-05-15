@@ -1,4 +1,7 @@
+# coding: utf8
+
 import argparse
+import warnings
 from collections import OrderedDict
 from pathlib import Path
 
@@ -40,11 +43,10 @@ def match_keyphrases(gold, submit):
 
     for gold_sent, submit_sent in zip(gold.sentences, submit.sentences):
         if gold_sent.text != submit_sent.text:
-            print('[ERROR]: Wrong sentence!')
+            warnings.warn("Wrong sentence: gold='%s' vs submit='%s'" % (gold_sent.text, submit_sent.text))
             continue
 
         if not gold_sent.keyphrases and not gold_sent.relations:
-            print('[WARNING]: Skipping sentence...')
             continue
 
         gold_sent = gold_sent.clone(shallow=True)
@@ -108,11 +110,10 @@ def match_relations(gold, submit, data):
 
     for gold_sent, submit_sent in zip(gold.sentences, submit.sentences):
         if gold_sent.text != submit_sent.text:
-            print('[ERROR]: Wrong sentence!')
+            warnings.warn("Wrong sentence: gold='%s' vs submit='%s'" % (gold_sent.text, submit_sent.text))
             continue
 
         if not gold_sent.keyphrases and not gold_sent.relations:
-            print('[WARNING]: Skipping sentence...')
             continue
 
         gold_sent = gold_sent.clone(shallow=True)
