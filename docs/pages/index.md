@@ -81,7 +81,7 @@ Up to 6 pages plus references formatted according to the [SEPLN template](http:/
 * Depending on the final number of participants and the time allocated for the workshop, all or a selected group of papers will be presented and discussed in the Workshop session.
 
 ### How referencing the overview description paper?
-For referencing the overview description paper the following bibtex is provided: [download the early bibtex]{ehealthkd19_overview.bib}
+For referencing the overview description paper the following bibtex is provided: [download the early bibtex](ehealthkd19_overview.bib)
 
 ## Organization committee
 
