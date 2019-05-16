@@ -80,6 +80,9 @@ Up to 6 pages plus references formatted according to the [SEPLN template](http:/
 * Instead of describing the task and/or the corpus, you should focus on the description of your experiments and the analysis of your results, and include a citation to the Overview paper. Indications for this citation will be provided in due time.
 * Depending on the final number of participants and the time allocated for the workshop, all or a selected group of papers will be presented and discussed in the Workshop session.
 
+### How referencing the overview description paper?
+For referencing the overview description paper the following bibtex is provided: [download the early bibtex]{ehealthkd19_overview.bib}
+
 ## Organization committee
 
 | Name                     | Email                                                 | Institution                   |
