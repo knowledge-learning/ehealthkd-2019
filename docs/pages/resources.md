@@ -45,12 +45,21 @@ These additional sentences are expected to be used for evaluating machine learni
 
 ### Test data
 
-For the test data is distributed, during the 2019 challenge only the necessary input files will be distributed. Once the challenge is completed, the full test set will be released. The input files are:
+Now that the challenge has finished the full test set is released. The input files are:
 
 * [Scenario 1 - raw input text](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario1-main/input_scenario1.txt)
 * [Scenario 2 - raw input text](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario2-taskA/input_scenario2.txt)
 * [Scenario 3 - raw input text](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario3-taskB/input_scenario3.txt)
 * [Scenario 3 - output from subtask A](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario3-taskB/output_a_scenario3.txt)
+
+The remaining gold files are:
+
+* [Scenario 1 - output from subtaskA](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario1-main/output_a_scenario1.txt)
+* [Scenario 1 - output from subtaskB](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario1-main/output_b_scenario1.txt)
+* [Scenario 2 - output from subtaskA](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario2-taskA/input_a_scenario2.txt)
+* [Scenario 2 - output from subtaskB](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario2-taskA/input_b_scenario2.txt)
+* [Scenario 3 - output from subtaskB](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/testing/scenario3-taskB/output_b_scenario3.txt)
+
 
 For scenario 1, a total of **8800 sentences** have been published. Of these, only 100 sentences will actually be evaluated, but you are required to submit the output _for the full set of 8800 sentences_, since the actual 100 sentences are randomly shuffled inside the 8800 set. This is done with the purpose to discourage participants from manually revising the test set and hand tunning their results. Furthermore, the remaining 8700 sentences annotated and submitted by participants will be published as an additional automatically labeled training set.
 
