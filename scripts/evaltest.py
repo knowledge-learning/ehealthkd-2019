@@ -112,7 +112,7 @@ def main(submits:Path, gold:Path, best=False, single=False, csv=False, pretty=Fa
             print(df.to_csv())
 
     else:
-        print(json.dumps(results, indent=2 if pretty else None))
+        print(json.dumps(results, sort_keys=True, indent=2 if pretty else None))
 
 
 def filter_best(results):
@@ -143,4 +143,3 @@ if __name__ == "__main__":
     parser.add_argument("--final", action='store_true', help="If passed, results are formatted for final publication. Can only be passed with --csv and --best.")
     args = parser.parse_args()
     main(Path(args.submits), Path(args.gold), args.best, args.single, args.csv, args.pretty, args.final)
-
