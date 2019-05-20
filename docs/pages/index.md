@@ -28,7 +28,7 @@ We also want to congratulate and thank all participants for their efforts in bui
 
 ### Scenario 1
 
-# | Name | F1 | Precision | Recall
+No. | Name | F1 | Precision | Recall
 --|--|--|--|--
 1 | talp | 0.6394 | 0.6506 | 0.6286
 2 | ncatala | 0.6218 | 0.7454 | 0.5334
@@ -44,7 +44,7 @@ We also want to congratulate and thank all participants for their efforts in bui
 
 ### Scenario 2
 
-# | Name | F1 | Precision | Recall
+No. | Name | F1 | Precision | Recall
 --|--|--|--|--
 1 | talp | 0.8203 | 0.8073 | 0.8336
 2 | abravo | 0.8167 | 0.7997 | 0.8344
@@ -60,7 +60,7 @@ We also want to congratulate and thank all participants for their efforts in bui
 
 ### Scenario 3
 
-# | Name | F1 | Precision | Recall
+No. | Name | F1 | Precision | Recall
 --|--|--|--|--
 1 | talp | 0.6269 | 0.6667 | 0.5915
 2 | lsi_uned | 0.5337 | 0.6235 | 0.4665
