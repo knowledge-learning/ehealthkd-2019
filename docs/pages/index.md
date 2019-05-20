@@ -166,7 +166,7 @@ For referencing the overview description paper the following bibtex is provided 
     booktitle= {Proceedings of the Iberian Languages
                 Evaluation Forum (IberLEF 2019)},
     publisher= {CEUR-WS.org},
-    series= {{CEUR} Workshop Proceedings},
+    series= {CEUR Workshop Proceedings},
     year= {2019}
 }
 ```
