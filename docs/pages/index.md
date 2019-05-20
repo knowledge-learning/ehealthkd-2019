@@ -26,6 +26,8 @@ We are pleased to inform that the official results for the 2019 challenge are al
 
 We also want to congratulate and thank all participants for their efforts in building very complex and interesting solutions to the eHealth-KD problem. Several solutions rank very close to the top score in all scenarios, which is an evidence of the high quality of all submissions.
 
+> **NOTE**: Official team names and systems will be updated as they become available. Fill in this form to update your info: https://forms.gle/GyVF7SYKzDJuCHT27
+
 ### Scenario 1
 
 No. | Team | F1 | Precision | Recall | System
