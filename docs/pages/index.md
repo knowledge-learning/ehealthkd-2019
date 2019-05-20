@@ -136,8 +136,38 @@ Up to 6 pages plus references formatted according to the [SEPLN template](http:/
 * Instead of describing the task and/or the corpus, you should focus on the description of your experiments and the analysis of your results, and include a citation to the Overview paper. Indications for this citation will be provided in due time.
 * Depending on the final number of participants and the time allocated for the workshop, all or a selected group of papers will be presented and discussed in the Workshop session.
 
-### How referencing the overview description paper?
-For referencing the overview description paper the following bibtex is provided: [download the early bibtex](ehealthkd19_overview.bib)
+### How to reference the overview description paper?
+
+For referencing the overview description paper the following bibtex is provided: [download the early bibtex here](ehealthkd19_overview.bib).
+
+```bibtex
+@article{ehealthkd19_overview,
+      author= {Alejandro Piad{-}Morffis,
+           Yoan Guti{\'{e}}rrez,
+           Juan P. Consuegra{-}Ayala,
+           Suilan Estevez{-}Velarde,
+           Yudivi{\'{a}}n Almeida{-}Cruz,
+           Rafael Mu{\~{n}}oz,
+           Andr{\'{e}}s Montoyo},
+     keywords= {eHealth,
+           Natural Language Processing,
+           Knowledge Discovery,
+           Spanish Language,
+           Entity Detection,
+           Relation Extraction,
+           Machine Learning,
+           Knowledge-Based Systems},
+    pages= {},
+    volume= {},
+    title= {Overview of the eHealth Knowledge Discovery
+            Challenge at IberLEF 2019},
+    booktitle= {Proceedings of the Iberian Languages
+                Evaluation Forum (IberLEF 2019)},
+    publisher= {CEUR-WS.org},
+    series= {{CEUR} Workshop Proceedings},
+    year= {2019}
+}
+```
 
 ## Organization committee
 
