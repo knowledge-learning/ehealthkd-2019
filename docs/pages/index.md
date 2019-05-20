@@ -138,7 +138,7 @@ Up to 6 pages plus references formatted according to the [SEPLN template](http:/
 
 ### How to reference the overview description paper?
 
-For referencing the overview description paper the following bibtex is provided: [download the early bibtex here](ehealthkd19_overview.bib).
+For referencing the overview description paper the following bibtex is provided [[download](https://raw.githubusercontent.com/knowledge-learning/ehealthkd-2019/master/data/ehealthkd19_overview.bib)]:
 
 ```bibtex
 @article{ehealthkd19_overview,
