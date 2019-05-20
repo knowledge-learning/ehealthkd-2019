@@ -18,6 +18,62 @@ Even though this challenge is oriented to the health domain, the structure of th
 
 This challenge can be of interest for experts in the field of natural language processing, specifically for those working on automatic knowledge extraction and discovery. It is not a requirement to have expertise in health texts processing for dealing with the eHealth-KD task, due to the general purpose of the semantic schema defined. Nevertheless, eHealth researchers could find interesting this challenge to evaluate their technologies that rely on health domain knowledge.
 
+## Official results of the eHealth-KD 2019 Challenge
+
+We are pleased to inform that the official results for the 2019 challenge are already available! The following table summarizes the results for each scenario, sorted by F1 score.
+
+#### Special congratulations to team **TALP** for achieving the highest F1 in all three scenarios!
+
+We also want to congratulate and thank all participants for their efforts in building very complex and interesting solutions to the eHealth-KD problem. Several solutions rank very close to the top score in all scenarios, which is an evidence of the high quality of all submissions.
+
+### Scenario 1
+
+# | Name | F1 | Precision | Recall
+--|--|--|--|--
+1 | talp | 0.6394 | 0.6506 | 0.6286
+2 | ncatala | 0.6218 | 0.7454 | 0.5334
+3 | abravo | 0.5816 | 0.7740 | 0.4658
+4 | lsi_uned | 0.5473 | 0.6561 | 0.4695
+5 | hulat-taskAB | 0.5413 | 0.7734 | 0.4163
+6 | uhmajakd | 0.5189 | 0.5644 | 0.4802
+7 | lsi2_uned | 0.4934 | 0.7397 | 0.3702
+8 | iakesg | 0.4869 | 0.6896 | 0.3763
+9 | _baseline_ | _0.4309_ | _0.5204_ | _0.3677_
+9 | jlcuad | 0.4309 | 0.5204 | 0.3677
+9 | vsp | 0.4289 | 0.4551 | 0.4056
+
+### Scenario 2
+
+# | Name | F1 | Precision | Recall
+--|--|--|--|--
+1 | talp | 0.8203 | 0.8073 | 0.8336
+2 | abravo | 0.8167 | 0.7997 | 0.8344
+3 | uhmajakd | 0.8156 | 0.7999 | 0.8320
+4 | jlcuad | 0.7903 | 0.7706 | 0.8111
+5 | ncatala | 0.7873 | 0.7986 | 0.7763
+6 | hulat-taskAB | 0.7758 | 0.7500 | 0.8034
+7 | lsi_uned | 0.7543 | 0.8069 | 0.7082
+8 | lsi2_uned | 0.7315 | 0.7817 | 0.6873
+9 | iakesg | 0.6825 | 0.6567 | 0.7105
+10 | _baseline_ | _0.5466_ | _0.5129_ | _0.5851_
+10 | vsp | 0.5466 | 0.5129 | 0.5851
+
+### Scenario 3
+
+# | Name | F1 | Precision | Recall
+--|--|--|--|--
+1 | talp | 0.6269 | 0.6667 | 0.5915
+2 | lsi_uned | 0.5337 | 0.6235 | 0.4665
+3 | vsp | 0.4933 | 0.5892 | 0.4243
+4 | ncatala | 0.4931 | 0.7133 | 0.3768
+5 | iakesg | 0.4356 | 0.5195 | 0.3750
+6 | uhmajakd | 0.4336 | 0.4306 | 0.4366
+7 | abravo | 0.2298 | 0.1705 | 0.3521
+8 | _baseline_ | _0.1231_ | _0.4878_ | _0.0704_
+8 | hulat-taskAB | 0.1231 | 0.4878 | 0.0704
+8 | jlcuad | 0.1231 | 0.4878 | 0.0704
+8 | lsi2_uned | 0.1231 | 0.4878 | 0.0704
+
 ## Description of the Subtasks
 
 To simplify the evaluation process, two subtasks are presented:
