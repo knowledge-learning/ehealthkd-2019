@@ -31,7 +31,7 @@ We also want to congratulate and thank all participants for their efforts in bui
 No. | Team | F1 | Precision | Recall | System
 --|--|--|--|--|--
 1 | talp | 0.6394 | 0.6506 | 0.6286
-2 | ncatala | 0.6218 | 0.7454 | 0.5334
+2 | coin_flipper | 0.6218 | 0.7454 | 0.5334 | Voting LSTMs
 3 | abravo | 0.5816 | 0.7740 | 0.4658
 4 | NLP_UNED | 0.5473 | 0.6561 | 0.4695 | DeepNER+ARE
 5 | hulat-taskAB | 0.5413 | 0.7734 | 0.4163
@@ -50,7 +50,7 @@ No. | Team | F1 | Precision | Recall | System
 2 | abravo | 0.8167 | 0.7997 | 0.8344
 3 | uhmajakd | 0.8156 | 0.7999 | 0.8320
 4 | jlcuad | 0.7903 | 0.7706 | 0.8111
-5 | ncatala | 0.7873 | 0.7986 | 0.7763
+5 | coin_flipper | 0.7873 | 0.7986 | 0.7763 | Voting LSTMs
 6 | hulat-taskAB | 0.7758 | 0.7500 | 0.8034
 7 | NLP_UNED | 0.7543 | 0.8069 | 0.7082 | DeepNER+ARE
 8 | lsi2_uned | 0.7315 | 0.7817 | 0.6873
@@ -65,7 +65,7 @@ No. | Team | F1 | Precision | Recall | System
 1 | talp | 0.6269 | 0.6667 | 0.5915
 2 | NLP_UNED | 0.5337 | 0.6235 | 0.4665 | DeepNER+ARE
 3 | vsp | 0.4933 | 0.5892 | 0.4243
-4 | ncatala | 0.4931 | 0.7133 | 0.3768
+4 | coin_flipper | 0.4931 | 0.7133 | 0.3768 | Voting LSTMs
 5 | iakesg | 0.4356 | 0.5195 | 0.3750
 6 | uhmajakd | 0.4336 | 0.4306 | 0.4366
 7 | abravo | 0.2298 | 0.1705 | 0.3521
