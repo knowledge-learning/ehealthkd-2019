@@ -74,6 +74,8 @@ No. | Name | F1 | Precision | Recall
 8 | jlcuad | 0.1231 | 0.4878 | 0.0704
 8 | lsi2_uned | 0.1231 | 0.4878 | 0.0704
 
+> Detailed submission statistics are available in [this spreadsheet](https://docs.google.com/spreadsheets/d/1tuE4IKshsolyswIk_Nj978EbNbfyt-RrrKxmKM5W0js/edit?usp=sharing).
+
 ## Description of the Subtasks
 
 To simplify the evaluation process, two subtasks are presented:
