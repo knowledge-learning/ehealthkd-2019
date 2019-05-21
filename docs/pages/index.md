@@ -37,7 +37,7 @@ No. | Team | F1 | Precision | Recall | System
 3 | abravo | 0.5816 | 0.7740 | 0.4658
 4 | NLP_UNED | 0.5473 | 0.6561 | 0.4695 | DeepNER+ARE
 5 | hulat-taskAB | 0.5413 | 0.7734 | 0.4163
-6 | uhmajakd | 0.5189 | 0.5644 | 0.4802
+6 | UH-MAJA-KD | 0.5189 | 0.5644 | 0.4802 | MeDeepCal
 7 | lsi2_uned | 0.4934 | 0.7397 | 0.3702
 8 | iakesg | 0.4869 | 0.6896 | 0.3763
 9 | _baseline_ | _0.4309_ | _0.5204_ | _0.3677_
@@ -50,7 +50,7 @@ No. | Team | F1 | Precision | Recall | System
 --|--|--|--|--|--
 1 | talp | 0.8203 | 0.8073 | 0.8336
 2 | abravo | 0.8167 | 0.7997 | 0.8344
-3 | uhmajakd | 0.8156 | 0.7999 | 0.8320
+3 | UH-MAJA-KD | 0.8156 | 0.7999 | 0.8320 | MeDeepCal
 4 | jlcuad | 0.7903 | 0.7706 | 0.8111
 5 | coin_flipper | 0.7873 | 0.7986 | 0.7763 | Voting LSTMs
 6 | hulat-taskAB | 0.7758 | 0.7500 | 0.8034
@@ -69,7 +69,7 @@ No. | Team | F1 | Precision | Recall | System
 3 | vsp | 0.4933 | 0.5892 | 0.4243
 4 | coin_flipper | 0.4931 | 0.7133 | 0.3768 | Voting LSTMs
 5 | iakesg | 0.4356 | 0.5195 | 0.3750
-6 | uhmajakd | 0.4336 | 0.4306 | 0.4366
+6 | UH-MAJA-KD | 0.4336 | 0.4306 | 0.4366 | MeDeepCal
 7 | abravo | 0.2298 | 0.1705 | 0.3521
 8 | _baseline_ | _0.1231_ | _0.4878_ | _0.0704_
 8 | hulat-taskAB | 0.1231 | 0.4878 | 0.0704
