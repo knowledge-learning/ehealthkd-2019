@@ -41,7 +41,7 @@ No. | Team | F1 | Precision | Recall | System
 7 | lsi2_uned | 0.4934 | 0.7397 | 0.3702
 8 | iakesg | 0.4869 | 0.6896 | 0.3763
 9 | _baseline_ | _0.4309_ | _0.5204_ | _0.3677_
-9 | jlcuad | 0.4309 | 0.5204 | 0.3677
+9 | Hulat-TaskA | 0.4309 | 0.5204 | 0.3677 | RNN-ICK
 9 | vsp | 0.4289 | 0.4551 | 0.4056
 
 ### Scenario 2
@@ -51,7 +51,7 @@ No. | Team | F1 | Precision | Recall | System
 1 | talp | 0.8203 | 0.8073 | 0.8336
 2 | abravo | 0.8167 | 0.7997 | 0.8344
 3 | UH-MAJA-KD | 0.8156 | 0.7999 | 0.8320 | MeDeepCal
-4 | jlcuad | 0.7903 | 0.7706 | 0.8111
+4 | Hulat-TaskA | 0.7903 | 0.7706 | 0.8111 | RNN-ICK
 5 | coin_flipper | 0.7873 | 0.7986 | 0.7763 | Voting LSTMs
 6 | hulat-taskAB | 0.7758 | 0.7500 | 0.8034
 7 | NLP_UNED | 0.7543 | 0.8069 | 0.7082 | DeepNER+ARE
@@ -73,7 +73,7 @@ No. | Team | F1 | Precision | Recall | System
 7 | abravo | 0.2298 | 0.1705 | 0.3521
 8 | _baseline_ | _0.1231_ | _0.4878_ | _0.0704_
 8 | hulat-taskAB | 0.1231 | 0.4878 | 0.0704
-8 | jlcuad | 0.1231 | 0.4878 | 0.0704
+8 | Hulat-TaskA | 0.1231 | 0.4878 | 0.0704 | RNN-ICK
 8 | lsi2_uned | 0.1231 | 0.4878 | 0.0704
 
 > Detailed submission statistics are available in [this spreadsheet](https://docs.google.com/spreadsheets/d/1tuE4IKshsolyswIk_Nj978EbNbfyt-RrrKxmKM5W0js/edit?usp=sharing).
