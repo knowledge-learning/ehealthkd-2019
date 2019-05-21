@@ -9,11 +9,9 @@ permalink: /schedule
 
 The following schedule will be updated accordingly.
 
- **11 Feb 2019**: The [trial data](https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial) is available for download.
-
- **01 Apr 2019**: The training and development data is available. Please fill in this [Google Form](https://forms.gle/3KHAvo7e5MfxtnME9) to get it.
- 
- **14 May 2019**: [Official results](https://knowledge-learning.github.io/ehealthkd-2019#official-results-of-the-ehealth-kd-2019-challenge) are ready. Check additional statistics [here](https://docs.google.com/spreadsheets/d/1tuE4IKshsolyswIk_Nj978EbNbfyt-RrrKxmKM5W0js/edit?usp=sharing).
+ - **11 Feb 2019**: The [trial data](https://github.com/knowledge-learning/ehealthkd-2019/tree/master/data/trial) is available for download.
+ - **01 Apr 2019**: The training and development data is available. Please fill in this [Google Form](https://forms.gle/3KHAvo7e5MfxtnME9) to get it.
+ - **20 May 2019**: [Official results](https://knowledge-learning.github.io/ehealthkd-2019#official-results-of-the-ehealth-kd-2019-challenge) are ready. Check additional statistics [here](https://docs.google.com/spreadsheets/d/1tuE4IKshsolyswIk_Nj978EbNbfyt-RrrKxmKM5W0js/edit?usp=sharing).
 
 |Date|Event|Link|
 |---|---|---|
