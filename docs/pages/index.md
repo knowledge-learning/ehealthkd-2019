@@ -32,7 +32,7 @@ We also want to congratulate and thank all participants for their efforts in bui
 
 No. | Team | F1 | Precision | Recall | System
 --|--|--|--|--|--
-1 | talp | 0.6394 | 0.6506 | 0.6286
+1 | TALP | 0.6394 | 0.6506 | 0.6286 | Joint-BERT-RCNN
 2 | coin_flipper | 0.6218 | 0.7454 | 0.5334 | Voting LSTMs
 3 | abravo | 0.5816 | 0.7740 | 0.4658
 4 | NLP_UNED | 0.5473 | 0.6561 | 0.4695 | DeepNER+ARE
@@ -48,7 +48,7 @@ No. | Team | F1 | Precision | Recall | System
 
 No. | Team | F1 | Precision | Recall | System
 --|--|--|--|--|--
-1 | talp | 0.8203 | 0.8073 | 0.8336
+1 | TALP | 0.8203 | 0.8073 | 0.8336 | Joint-BERT-RCNN
 2 | abravo | 0.8167 | 0.7997 | 0.8344
 3 | UH-MAJA-KD | 0.8156 | 0.7999 | 0.8320 | MeDeepCal
 4 | Hulat-TaskA | 0.7903 | 0.7706 | 0.8111 | RNN-ICK
@@ -64,7 +64,7 @@ No. | Team | F1 | Precision | Recall | System
 
 No. | Team | F1 | Precision | Recall | System
 --|--|--|--|--|--
-1 | talp | 0.6269 | 0.6667 | 0.5915
+1 | TALP | 0.6269 | 0.6667 | 0.5915 | Joint-BERT-RCNN
 2 | NLP_UNED | 0.5337 | 0.6235 | 0.4665 | DeepNER+ARE
 3 | VSP | 0.4933 | 0.5892 | 0.4243 | BiLSTM + Pos.
 4 | coin_flipper | 0.4931 | 0.7133 | 0.3768 | Voting LSTMs
@@ -177,12 +177,14 @@ For referencing the overview description paper the following bibtex is provided 
 
 | Name                     | Email                                                 | Institution                   |
 |--------------------------|-------------------------------------------------------|-------------------------------|
-| Yoan Gutiérrez Vázquez (contact person)   | [ygutierrez@dlsi.ua.es](mailto:ygutierrez@dlsi.ua.es) | University of Alicante, Spain |
+| Yoan Gutiérrez Vázquez*  | [ygutierrez@dlsi.ua.es](mailto:ygutierrez@dlsi.ua.es) | University of Alicante, Spain |
 | Suilan Estévez Velarde   | [sestevez@matcom.uh.cu](mailto:sestevez@matcom.uh.cu) | University of Havana, Cuba    |
 | Alejandro Piad Morffis   | [apiad@matcom.uh.cu](mailto:apiad@matcom.uh.cu)       | University of Havana, Cuba    |
 | Yudivián Almeida Cruz    | [yudy@matcom.uh.cu](mailto:yudy@matcom.uh.cu)         | University of Havana, Cuba    |
 | Andrés Montoyo Guijarro  | [montoyo@dlsi.ua.es](mailto:montoyo@dlsi.ua.es)       | University of Alicante, Spain |
 | Rafael Muñoz Guillena    | [rafael@dlsi.ua.es](mailto:rafael@dlsi.ua.es)         | University of Alicante, Spain |
+
+**(*) Contact person**
 
 ### Discussion group
 
