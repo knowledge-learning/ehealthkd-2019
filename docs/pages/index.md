@@ -134,7 +134,7 @@ The Organization Committee of eHealth-KD encourages participants to submit a des
 
 The manuscripts must satisfy the following rules:
 
-Up to 6 pages plus references formatted according to the [SEPLN template](http://www.sepln.org/home-2/revista/instrucciones-autor/).
+The minimum length of the regular paper should be 5 and up to 6 pages plus references formatted according to the [Springer template](https://www.springer.com/gp/livingreviews/latex-templates). The style that appears in the template by default (i.e. documentclass[smallextended]) must be used.
 * Articles can be written in English or Spanish. The title, abstract and keywords must be written in both languages.
 * The document format must be Word or Latex, but the submission must be in PDF format.
 * Instead of describing the task and/or the corpus, you should focus on the description of your experiments and the analysis of your results, and include a citation to the Overview paper. Indications for this citation will be provided in due time.
