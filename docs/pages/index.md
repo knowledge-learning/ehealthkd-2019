@@ -111,7 +111,7 @@ All the data will be made available to participants in due time. This includes t
 | **30 Apr 2019** | **Evaluation start** <br> Test data released                        | [Codalab form](https://competitions.codalab.org/competitions/21781#participate) |
 | **14 May 2019** | **Evaluation end** <br> (due by 23:59 UTC)                          | |
 | **20 May 2019** | Results posted                                                      | [Official results](https://docs.google.com/spreadsheets/d/1tuE4IKshsolyswIk_Nj978EbNbfyt-RrrKxmKM5W0js/edit?usp=sharing), [Codalab results](https://competitions.codalab.org/competitions/21781#results) |
-| **03 Jun 2019** | System description paper submissions <br> (due by 23:59 GMT -12:00) | [Publication instructions](https://knowledge-learning.github.io/ehealthkd-2019/) |
+| ~~**03 Jun 2019**~~  **06 Jun 2019** | System description paper submissions <br> (due by 23:59 UTC) | [Publication instructions](https://knowledge-learning.github.io/ehealthkd-2019/) |
 | **14 Jun 2019** | Paper reviews                                                       | (_to be announced..._) |
 | **17 Jun 2019** | Author notifications                                                | (_to be announced..._) |
 | **24 Jun 2019** | Camera ready submissions                                            | (_to be announced..._) |
@@ -134,8 +134,8 @@ The Organization Committee of eHealth-KD encourages participants to submit a des
 
 The manuscripts must satisfy the following rules:
 
-The minimum length of the regular paper should be 5 and up to 6 pages plus references formatted according to the [Springer template](https://www.springer.com/gp/livingreviews/latex-templates). The style that appears in the template by default (i.e. documentclass[smallextended]) must be used.
-* Articles can be written in English or Spanish. The title, abstract and keywords must be written in both languages.
+The minimum length of the regular paper should be 5 (mandatory minimum) and up to 10 pages plus references formatted according to the [Springer template](https://www.springer.com/gp/livingreviews/latex-templates). The style that appears in the template by default (i.e. documentclass[smallextended]) must be used.
+* Articles can be written in English. The title, abstract and keywords must be written in English.
 * The document format must be Word or Latex, but the submission must be in PDF format.
 * Instead of describing the task and/or the corpus, you should focus on the description of your experiments and the analysis of your results, and include a citation to the Overview paper. Indications for this citation will be provided in due time.
 * Depending on the final number of participants and the time allocated for the workshop, all or a selected group of papers will be presented and discussed in the Workshop session.
