@@ -36,7 +36,7 @@ No. | Team | F1 | Precision | Recall | System
 2 | coin_flipper | 0.6218 | 0.7454 | 0.5334 | Voting LSTMs
 3 | LASTUS-TALN (abravo) | 0.5816 | 0.7740 | 0.4658
 4 | NLP_UNED | 0.5473 | 0.6561 | 0.4695 | DeepNER+ARE
-5 | hulat-taskAB | 0.5413 | 0.7734 | 0.4163
+5 | Hulat-TaskAB | 0.5413 | 0.7734 | 0.4163
 6 | UH-MAJA-KD | 0.5189 | 0.5644 | 0.4802 | MeDeepCal
 7 | lsi2_uned | 0.4934 | 0.7397 | 0.3702
 8 | IxaMed | 0.4869 | 0.6896 | 0.3763
@@ -53,7 +53,7 @@ No. | Team | F1 | Precision | Recall | System
 3 | UH-MAJA-KD | 0.8156 | 0.7999 | 0.8320 | MeDeepCal
 4 | Hulat-TaskA | 0.7903 | 0.7706 | 0.8111 | RNN-ICK
 5 | coin_flipper | 0.7873 | 0.7986 | 0.7763 | Voting LSTMs
-6 | hulat-taskAB | 0.7758 | 0.7500 | 0.8034
+6 | Hulat-TaskAB | 0.7758 | 0.7500 | 0.8034
 7 | NLP_UNED | 0.7543 | 0.8069 | 0.7082 | DeepNER+ARE
 8 | lsi2_uned | 0.7315 | 0.7817 | 0.6873
 9 | IxaMed | 0.6825 | 0.6567 | 0.7105
@@ -72,7 +72,7 @@ No. | Team | F1 | Precision | Recall | System
 6 | UH-MAJA-KD | 0.4336 | 0.4306 | 0.4366 | MeDeepCal
 7 | LASTUS-TALN (abravo) | 0.2298 | 0.1705 | 0.3521
 8 | _baseline_ | _0.1231_ | _0.4878_ | _0.0704_ | _Baseline_
-8 | hulat-taskAB | 0.1231 | 0.4878 | 0.0704 | Baseline
+8 | Hulat-TaskAB | 0.1231 | 0.4878 | 0.0704 | Baseline
 8 | Hulat-TaskA | 0.1231 | 0.4878 | 0.0704 | Baseline
 8 | lsi2_uned | 0.1231 | 0.4878 | 0.0704 | Baseline
 
