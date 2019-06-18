@@ -36,7 +36,7 @@ The **TEXT** portion simply reproduces the full text of the key phrase. This por
 
 ## Subtask B: Detection of semantic relations
 
-Subtask B continues from the output of Subtask B, by linking the key phrases detected and labelled in each document. The purpose of this subtask is to recognize all relevant semantic relationships between the entities recognized. Eight of the thirteen semantic relations defined for this challenge can be identified in the following example:
+Subtask B continues from the output of Subtask A, by linking the key phrases detected and labelled in each document. The purpose of this subtask is to recognize all relevant semantic relationships between the entities recognized. Eight of the thirteen semantic relations defined for this challenge can be identified in the following example:
 
 ![](img/task_b.png)
 
@@ -89,4 +89,4 @@ The eHealth-KD corpus considers negated actions, which are manually annotated in
 
 This means that, in the corpus, you will find sentences with negated concepts, such as: _"No existe un tratamiento que restablezca la función ovárica normal."_. In this and similar sentences, we **still expect** that your system recognizes _existe_ as **Action** and _tratamiento_ as **Target**, as though if the negation did not exist.
 
-In in doubt please contact the organizers at [ehealth-kd@googlegroups.com](mailto:ehealth-kd@googlegroups.com).
+If in doubt please contact the organizers at [ehealth-kd@googlegroups.com](mailto:ehealth-kd@googlegroups.com).
