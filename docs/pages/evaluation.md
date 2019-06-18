@@ -65,3 +65,69 @@ $$F_{1B} = 2 \cdot \frac{Prec_{B} \cdot Rec_{B}}{Prec_{B} + Rec_{B}} $$
 > F1 will determine the ranking of Scenario 3.
 
 > **NOTE**: The Scenario 1 is more complex than solving each optional scenario separately, since errors in subtask A will necessary translate to errors in subtask B. For this reason it is considered the main evaluation metric. Additionally, this scenario also provides the possibility for integrated end-to-end solutions that solve both subtask simultaneously.
+
+## Running the final evaluation script
+
+Now that the challenge is finished, we have published the [official evaluation script](https://github.com/knowledge-learning/ehealthkd-2019/blob/master/scripts/evaltest.py) along with gold files for the test set. This script performs the full evaluation of all scenarios for all submissions and outputs a pretty-printed representation (either JSON or CSV) that you can use to verify your results or test different submissions.
+
+To use it, you need to place all your different submissions inside respective folders with descriptive names~(such as `using-cnn`, `using-crf`, etc.) and all of that inside the `submissions` folder. As an example, when you clone (or pull from) the eHealth-KD repository, you will find inside the `data/submission` folder another subfolder named `baseline` and inside it all three `scenario*` subfolders with the corresponding submissions files. Feel free to add alongside the `baseline` subfolder all your additional submissions.
+
+Then run the following line from the root of the project (i.e., not inside the `scripts` folder):
+
+```bash
+$ python -m scripts.evaltest data/submissions data/testing --single --pretty
+
+{
+  "submissions": [
+    {
+      "scenario1": {
+        "correct_A": 388,
+        "correct_B": 37,
+        "f1": 0.43091787439613516,
+        "incorrect_A": 32,
+        "missing_A": 175,
+        "missing_B": 539,
+        "partial_A": 42,
+        "precision": 0.5204200700116686,
+        "recall": 0.3676834295136026,
+        "spurious_A": 268,
+        "spurious_B": 90,
+        "submit": "baseline"
+      },
+      "scenario2": {
+        "correct_A": 355,
+        "correct_B": 0,
+        "f1": 0.5466377440347071,
+        "incorrect_A": 35,
+        "missing_A": 210,
+        "missing_B": 592,
+        "partial_A": 46,
+        "precision": 0.5128900949796472,
+        "recall": 0.5851393188854489,
+        "spurious_A": 301,
+        "spurious_B": 0,
+        "submit": "baseline"
+      },
+      "scenario3": {
+        "correct_A": 615,
+        "correct_B": 40,
+        "f1": 0.12307692307692308,
+        "incorrect_A": 0,
+        "missing_A": 0,
+        "missing_B": 528,
+        "partial_A": 0,
+        "precision": 0.4878048780487805,
+        "recall": 0.07042253521126761,
+        "spurious_A": 0,
+        "spurious_B": 42,
+        "submit": "baseline"
+      },
+      "submit": "baseline"
+    }
+  ]
+}
+```
+
+As output you will get all the submissions (subfolders inside `data/submissions`) evaluated on each scenario, with several detailed metrics, such as correct, incorrect, missing and spurious matches, as well as precision, recall and F1. Feel free to use these metrics in your system description paper as you see fit.
+
+Finally run `python -m scripts.evaltest -h` to see all options for the evaluation script, it also provides CSV output and it automatically generates a table with the best submission for each scenario.
