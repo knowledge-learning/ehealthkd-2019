@@ -146,12 +146,12 @@ For referencing the overview description paper the following bibtex is provided 
 
 ```bibtex
 @article{ehealthkd19_overview,
-      author= {Alejandro Piad{-}Morffis,
-           Yoan Guti{\'{e}}rrez,
-           Juan P. Consuegra{-}Ayala,
-           Suilan Estevez{-}Velarde,
-           Yudivi{\'{a}}n Almeida{-}Cruz,
-           Rafael Mu{\~{n}}oz,
+      author= {Alejandro Piad{-}Morffis AND
+           Yoan Guti{\'{e}}rrez AND
+           Juan P. Consuegra{-}Ayala AND
+           Suilan Estevez{-}Velarde AND
+           Yudivi{\'{a}}n Almeida{-}Cruz AND
+           Rafael Mu{\~{n}}oz AND
            Andr{\'{e}}s Montoyo},
      keywords= {eHealth,
            Natural Language Processing,
