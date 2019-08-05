@@ -78,6 +78,7 @@ No. | Team | F1 | Precision | Recall | System
 
 > Detailed submission statistics are available in [this spreadsheet](https://docs.google.com/spreadsheets/d/1tuE4IKshsolyswIk_Nj978EbNbfyt-RrrKxmKM5W0js/edit?usp=sharing).
 
+
 ## Description of the Subtasks
 
 To simplify the evaluation process, two subtasks are presented:
@@ -139,6 +140,9 @@ The minimum length of the regular paper should be 5 (mandatory minimum) and up t
 * The document format must be Word or Latex, but the submission must be in PDF format.
 * Instead of describing the task and/or the corpus, you should focus on the description of your experiments and the analysis of your results, and include a citation to the Overview paper. Indications for this citation will be provided in due time.
 * Depending on the final number of participants and the time allocated for the workshop, all or a selected group of papers will be presented and discussed in the Workshop session.
+
+### Publication list
+[Click here](http://ceur-ws.org/Vol-2421/) to access to the system description papers.
 
 ### How to reference the overview description paper?
 
