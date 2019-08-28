@@ -111,11 +111,11 @@ All the data will be made available to participants in due time. This includes t
 | **30 Apr 2019** | **Evaluation start** <br> Test data released                        | [Codalab form](https://competitions.codalab.org/competitions/21781#participate) |
 | **14 May 2019** | **Evaluation end** <br> (due by 23:59 UTC)                          | |
 | **20 May 2019** | Results posted                                                      | [Official results](https://docs.google.com/spreadsheets/d/1tuE4IKshsolyswIk_Nj978EbNbfyt-RrrKxmKM5W0js/edit?usp=sharing), [Codalab results](https://competitions.codalab.org/competitions/21781#results) |
-| ~~**03 Jun 2019**~~  **06 Jun 2019** | System description paper submissions <br> (due by 23:59 UTC) | [Publication instructions](https://knowledge-learning.github.io/ehealthkd-2019/) |
-| **14 Jun 2019** | Paper reviews                                                       | (_to be announced..._) |
-| **17 Jun 2019** | Author notifications                                                | (_to be announced..._) |
-| **24 Jun 2019** | Camera ready submissions                                            | (_to be announced..._) |
-
+| **06 Jun 2019** | System description paper submissions <br> (due by 23:59 UTC) | [Publication instructions](https://knowledge-learning.github.io/ehealthkd-2019/) |
+| **14 Jun 2019** | Paper reviews                                                       |  |
+| **17 Jun 2019** | Author notifications                                                |  |
+| **24 Jun 2019** | Camera ready submissions                                            |  |
+| **24 Sep 2019** | eHealth-KD Workshop @ IberLEF 2019                                            | [Program details](./program) |
 ## Instructions for participation
 
 The competition is managed and run in the [Codalab Competitions platform](https://competitions.codalab.org/competitions/21781). For participation, please register on the platform and follow the instructions detailed there. The following pages provide a detailed description of the problem to be solved and the evaluation. In Codalab you will find details about how to submit a solution, as well as all relevant links.
