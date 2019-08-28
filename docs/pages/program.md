@@ -16,7 +16,7 @@ For more details see the main program at [http://hitz.eus/sepln2019](http://hitz
 
 Title|Type|Time
 -----|----|----
-[Overview of the eHealth Knowledge Discovery Challenge at IberLEF 2019](http://ceur-ws.org/Vol-2421/eHealth-KD_overview.pdf)|Oral|8-10&nbsp;min
+[Overview of the eHealth Knowledge Discovery Challenge at IberLEF 2019](http://ceur-ws.org/Vol-2421/eHealth-KD_overview.pdf)|Oral|10&nbsp;min
 [TALP-UPC at eHealth-KD Challenge 2019: A Joint Model with Contextual Embeddings for Clinical Information Extraction](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_8.pdf)|Oral|8&nbsp;min
 [Coin_flipper at eHealth-KD Challenge 2019: Voting LSTMs for Key Phrases and Semantic Relation Identification Applied to Spanish eHealth Texts](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_1.pdf)|Oral|8&nbsp;min
 [LaSTUS-TALN at IberLEF 2019 eHealth-KD Challenge: Deep Learning Approaches to Information Extraction in Biomedical Texts](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_5.pdf)|Oral|8&nbsp;min
