@@ -29,3 +29,11 @@ IxaMed at eHealth-KD Challenge 2019: Using Different Paradigms to Solve Clinical
 Hulat-TaskA at eHealth-KD Challenge 2019: Sequence Key Phrases Recognition in the Spanish Clinical Narrative|Poster|60&nbsp;min 
 VSP at eHealth-KD Challenge 2019: Recurrent Neural Networks for Relation Classification in Spanish eHealth Documents|Poster|60&nbsp;min 
 *Discusion about the task*|Discusion|10&nbsp;min
+
+## Presentation setup
+
+Please give your presentation on a USB stick.
+
+## Poster size
+
+Posters should be no wider than **91 cm (36 in)** and no higher than **122 cm (48 in)**, in **vertical (portrait)** orientation. **A0 paper** (in vertical / portrait orientation) meets these requirements.
