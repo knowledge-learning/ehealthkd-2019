@@ -23,11 +23,11 @@ LaSTUS-TALN at IberLEF 2019 eHealth-KD Challenge: Deep Learning Approaches to In
 *General questions*|Discussion|10&nbsp;min
 NLP_UNED at eHealth-KD Challenge 2019: Deep Learning for Named Entity Recognition and Attentive Relation Extraction|Poster|60&nbsp;min
 Hulat-TaskAB at eHealth-KD Challenge 2019: Knowledge Recognition from Health Documents by BiLSTM-CRF|Poster|60&nbsp;min
-UH-MAJA-KD at eHealth-KD Challenge 2019: Deep Learning Models for Knowledge Discovery in Spanish eHealth Documents|Poster|60&nbsp;min
+UH-MAJA-KD at eHealth-KD Challenge 2019: Deep Learning Models for Knowledge Discovery in Spanish eHealth Documents|-|
 LSI2_UNED at eHealth-KD Challenge 2019: A Few-shot Learning Model for Knowledge Discovery from eHealth Documents|Poster|60&nbsp;min
-IxaMed at eHealth-KD Challenge 2019: Using Different Paradigms to Solve Clinical Relation Extraction|Poster|60&nbsp;min
+IxaMed at eHealth-KD Challenge 2019: Using Different Paradigms to Solve Clinical Relation Extraction|-|
 Hulat-TaskA at eHealth-KD Challenge 2019: Sequence Key Phrases Recognition in the Spanish Clinical Narrative|Poster|60&nbsp;min 
-VSP at eHealth-KD Challenge 2019: Recurrent Neural Networks for Relation Classification in Spanish eHealth Documents|Poster|60&nbsp;min 
+VSP at eHealth-KD Challenge 2019: Recurrent Neural Networks for Relation Classification in Spanish eHealth Documents|-|
 *Discusion about the task*|Discusion|10&nbsp;min
 
 ## Presentation setup
