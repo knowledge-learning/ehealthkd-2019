@@ -18,6 +18,10 @@ Even though this challenge is oriented to the health domain, the structure of th
 
 This challenge can be of interest for experts in the field of natural language processing, specifically for those working on automatic knowledge extraction and discovery. It is not a requirement to have expertise in health texts processing for dealing with the eHealth-KD task, due to the general purpose of the semantic schema defined. Nevertheless, eHealth researchers could find interesting this challenge to evaluate their technologies that rely on health domain knowledge.
 
+## Program details
+
+The official [Workshop Program](./program) details are already published. We hope to see you all at IberLEF 2019!
+
 ## Official results of the eHealth-KD 2019 Challenge
 
 We are pleased to inform that the official results for the 2019 challenge are already available! The following table summarizes the results for each scenario, sorted by F1 score.
