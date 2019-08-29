@@ -22,11 +22,11 @@ Title|Type|Time
 [LaSTUS-TALN at IberLEF 2019 eHealth-KD Challenge: Deep Learning Approaches to Information Extraction in Biomedical Texts](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_5.pdf)|Oral|8&nbsp;min
 [NLP_UNED at eHealth-KD Challenge 2019: Deep Learning for Named Entity Recognition and Attentive Relation Extraction](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_7.pdf)|Oral|8&nbsp;min
 *General questions*|Discussion|10&nbsp;min
-[Hulat-TaskAB at eHealth-KD Challenge 2019: Knowledge Recognition from Health Documents by BiLSTM-CRF](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_3.pdf)|Poster|60&nbsp;min
+[Hulat-TaskAB at eHealth-KD Challenge 2019: Knowledge Recognition from Health Documents by BiLSTM-CRF](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_3.pdf)|Poster|90&nbsp;min
 [UH-MAJA-KD at eHealth-KD Challenge 2019: Deep Learning Models for Knowledge Discovery in Spanish eHealth Documents](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_9.pdf)|-|
-[LSI2_UNED at eHealth-KD Challenge 2019: A Few-shot Learning Model for Knowledge Discovery from eHealth Documents](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_6.pdf)|Poster|60&nbsp;min
+[LSI2_UNED at eHealth-KD Challenge 2019: A Few-shot Learning Model for Knowledge Discovery from eHealth Documents](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_6.pdf)|Poster|90&nbsp;min
 [IxaMed at eHealth-KD Challenge 2019: Using Different Paradigms to Solve Clinical Relation Extraction](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_4.pdf)|-|
-[Hulat-TaskA at eHealth-KD Challenge 2019: Sequence Key Phrases Recognition in the Spanish Clinical Narrative](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_2.pdf)|Poster|60&nbsp;min 
+[Hulat-TaskA at eHealth-KD Challenge 2019: Sequence Key Phrases Recognition in the Spanish Clinical Narrative](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_2.pdf)|Poster|90&nbsp;min 
 [VSP at eHealth-KD Challenge 2019: Recurrent Neural Networks for Relation Classification in Spanish eHealth Documents](http://ceur-ws.org/Vol-2421/eHealth-KD_paper_10.pdf)|-|
 *Discusion about the task*|Discusion|8&nbsp;min
 
