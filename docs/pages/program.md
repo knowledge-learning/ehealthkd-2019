@@ -10,7 +10,7 @@ The IberLEF eHealth-KD oral session will be held on **September 24 (Tuesday 16:3
 
 Poster sessions will be held during the coffee break: **11:00 - 11:30** hours, and **15:30 - 16:30** hours.
 
-For more details see the main program at [http://hitz.eus/sepln2019](http://hitz.eus/sepln2019)
+For more details see the SEPLN program at [http://hitz.eus/sepln2019](http://hitz.eus/sepln2019)
 
 ## Program
 
