@@ -44,7 +44,10 @@ This project is licensed under a dual license. Please see details below.
 > SOFTWARE.
 
 
-### How to cite
+## How to cite
+
+Please cite this work with the following this preliminary BibTeX:
+```
 
 @inproceedings{DBLP:conf/sepln/Piad-MorffisGCE19,
   author    = {Alejandro Piad{-}Morffis and
@@ -66,3 +69,5 @@ This project is licensed under a dual license. Please see details below.
   biburl    = {https://dblp.org/rec/bib/conf/sepln/Piad-MorffisGCE19},
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
+
+```
