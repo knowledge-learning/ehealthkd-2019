@@ -46,7 +46,7 @@ This project is licensed under a dual license. Please see details below.
 
 ## How to cite
 
-Please cite this work with the following this preliminary BibTeX:
+Please cite this work with the following this BibTeX:
 ```
 
 @inproceedings{DBLP:conf/sepln/Piad-MorffisGCE19,
